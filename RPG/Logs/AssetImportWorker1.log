@@ -1,0 +1,264 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32689 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+O:/MSc AI/Project/RPG
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50739
+Successfully changed project path to: O:/MSc AI/Project/RPG
+O:/MSc AI/Project/RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 79.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path O:/MSc AI/Project/RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004288 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 71.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (494ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (377ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (75ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002181 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Domain Reload Profiling:
+	ReloadAssembly (793ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3646 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (156.0 KB). Loaded Objects now: 4114.
+Memory consumption went from 132.5 MB to 132.4 MB.
+Total: 3.341700 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.284800 ms MarkObjects: 2.631500 ms  DeleteObjects: 0.121800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18720.834228 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_02.prefab
+  artifactKey: Guid(525d19f14f3748b0b2fa10caecab6b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_02.prefab using Guid(525d19f14f3748b0b2fa10caecab6b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f8442e7d61538b8b3183d99c208eeb') in 0.155731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_05.prefab
+  artifactKey: Guid(6c430e2339b04d49a5ca113f066609b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_05.prefab using Guid(6c430e2339b04d49a5ca113f066609b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2547f0eaed944084c586ff29fdc28b96') in 0.024764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_05.prefab
+  artifactKey: Guid(ca65590ee38a4f878c549a1c596e4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_05.prefab using Guid(ca65590ee38a4f878c549a1c596e4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08563f9f7ad9a37c5d9453194a40b544') in 0.020818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_03.prefab
+  artifactKey: Guid(a693f8c2201b4b60b2569dad07d1945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_03.prefab using Guid(a693f8c2201b4b60b2569dad07d1945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7eeb8cfbc6296b4605949d7152cf20d') in 0.016739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_02.prefab
+  artifactKey: Guid(1d040883b4c941fa9ab5cfdcce009a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_02.prefab using Guid(1d040883b4c941fa9ab5cfdcce009a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c255f2ac19d46d8dfc84496167220355') in 0.016434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_01.prefab
+  artifactKey: Guid(a4cadd393c8c41bd8946346a453ee36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_01.prefab using Guid(a4cadd393c8c41bd8946346a453ee36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd60c6d69efb3324725bb8a4e4f903b') in 0.014610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Cup_01.prefab
+  artifactKey: Guid(11974f92aea44b97a97ff84cc6182945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Cup_01.prefab using Guid(11974f92aea44b97a97ff84cc6182945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe74881745aedecac180645e27ed3cb') in 0.037158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_02.prefab
+  artifactKey: Guid(a9c924e80c494a0187ef4b735a3c46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_02.prefab using Guid(a9c924e80c494a0187ef4b735a3c46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972e4bffc9b6c1dd393b9945265c27a8') in 0.015337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.439053 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Inkpot_01.prefab
+  artifactKey: Guid(747dab04a1084dd1805bd446e606e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Inkpot_01.prefab using Guid(747dab04a1084dd1805bd446e606e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b593db65466a306f41b97627b9ba9641') in 0.014769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040190 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_05.prefab
+  artifactKey: Guid(b29b15951e3f4f2f83b65c4b43aff9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_05.prefab using Guid(b29b15951e3f4f2f83b65c4b43aff9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62327e11cd1bfaec30993dc68576f6f') in 0.014045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_01.prefab
+  artifactKey: Guid(b5b903da71f948758cc8f65f59d30edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_01.prefab using Guid(b5b903da71f948758cc8f65f59d30edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbf3e4be1a085e8947f64c242809e71') in 0.017176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_03.prefab
+  artifactKey: Guid(702c6bea8ac34b64bc7b7584ede296ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_03.prefab using Guid(702c6bea8ac34b64bc7b7584ede296ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4eca5bfb3ebb87f90efd1d240e1d88') in 0.015853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_04.prefab
+  artifactKey: Guid(26cc087b299f42a4a1923da599fe03cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_04.prefab using Guid(26cc087b299f42a4a1923da599fe03cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964040ae8bcc6a842a5c26bd7f4b9df3') in 0.014265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Retort_Preset_01.prefab
+  artifactKey: Guid(1f97f333a6bf4fba95ee13cc9b3df973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Retort_Preset_01.prefab using Guid(1f97f333a6bf4fba95ee13cc9b3df973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f41fb2f3b5c94b8caf938ff763e901d') in 0.015308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Sandglass_01.prefab
+  artifactKey: Guid(d0e39f206f1e4ca082d2fd38f5475d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Sandglass_01.prefab using Guid(d0e39f206f1e4ca082d2fd38f5475d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc6c764a8338b59cdc0a9e804998d8f') in 0.015168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Scroll_01.prefab
+  artifactKey: Guid(b750cae05681454bba80ad81d7252818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Scroll_01.prefab using Guid(b750cae05681454bba80ad81d7252818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554a281b161a8851774aec2a57492895') in 0.016085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Stand_02.prefab
+  artifactKey: Guid(56d044af64e145bb9ab7eb6ed864ba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Stand_02.prefab using Guid(56d044af64e145bb9ab7eb6ed864ba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe7d5d676cbcd030fc6325420924fba') in 0.012984 seconds 

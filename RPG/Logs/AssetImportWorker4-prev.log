@@ -1,0 +1,663 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32689 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+O:/MSc AI/Project/RPG
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+57621
+Successfully changed project path to: O:/MSc AI/Project/RPG
+O:/MSc AI/Project/RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 91.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path O:/MSc AI/Project/RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005967 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 106.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.622 seconds
+Domain Reload Profiling:
+	ReloadAssembly (622ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002691 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Domain Reload Profiling:
+	ReloadAssembly (765ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3646 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (147.8 KB). Loaded Objects now: 4112.
+Memory consumption went from 132.0 MB to 131.9 MB.
+Total: 2.791900 ms (FindLiveObjects: 0.284200 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.303600 ms  DeleteObjects: 0.115000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10565.092447 seconds.
+  path: Assets/Medieval_house_lite/Fire/Fire_fireplace.prefab
+  artifactKey: Guid(f29c74575f188b2499008434ffc2355e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Fire/Fire_fireplace.prefab using Guid(f29c74575f188b2499008434ffc2355e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd4b1958e636f4cfd157ebf0d77cf47') in 0.147173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.465005 seconds.
+  path: Assets/Medieval_house_lite/Materials/FireSheet.mat
+  artifactKey: Guid(a9047639596e60d49a5fc7c0918be41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Materials/FireSheet.mat using Guid(a9047639596e60d49a5fc7c0918be41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5dc5b740f061971442611593718acf') in 0.031937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Medieval_house_lite/Materials/Medieval_house_house.mat
+  artifactKey: Guid(73a8b9fd464f3554b9e550587405bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Materials/Medieval_house_house.mat using Guid(73a8b9fd464f3554b9e550587405bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391999807b6e6a4d540aa17ad0b7b26c') in 0.295762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.338137 seconds.
+  path: Assets/Medieval_house_lite/Prefab/Medieval_house_lite 1.prefab
+  artifactKey: Guid(83ef47c2630c1d84598eb402832c0fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/Medieval_house_lite 1.prefab using Guid(83ef47c2630c1d84598eb402832c0fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e8989ee315b401b0b69cebfc0853ea') in 0.303655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.536784 seconds.
+  path: Assets/Medieval_house_lite/Prefab/Using.prefab
+  artifactKey: Guid(83ef47c2630c1d84598eb402832c0fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/Using.prefab using Guid(83ef47c2630c1d84598eb402832c0fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74093438e367c3672b820c63ecb8f116') in 0.051608 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003113 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Domain Reload Profiling:
+	ReloadAssembly (820ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (632ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (140.2 KB). Loaded Objects now: 4156.
+Memory consumption went from 135.1 MB to 135.0 MB.
+Total: 2.952900 ms (FindLiveObjects: 0.296200 ms CreateObjectMapping: 0.156400 ms MarkObjects: 2.378900 ms  DeleteObjects: 0.120700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 478.656000 seconds.
+  path: Assets/Medieval_house_lite/Prefab/OrginalHouse.prefab
+  artifactKey: Guid(4fc27acdecf7bca40a8c5edd41dd8b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/OrginalHouse.prefab using Guid(4fc27acdecf7bca40a8c5edd41dd8b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309a6bd3076b7e42761cc7e9d8f2a81d') in 0.103028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.555418 seconds.
+  path: Assets/Medieval_house_lite/Prefab/Medieval_house_lite.prefab
+  artifactKey: Guid(d78188a04ae94fb418ca4acc157a8c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/Medieval_house_lite.prefab using Guid(d78188a04ae94fb418ca4acc157a8c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7940f9031bdd147d3eb9e3fece168d') in 0.252877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval_house_lite/Prefab/Using.prefab
+  artifactKey: Guid(83ef47c2630c1d84598eb402832c0fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/Using.prefab using Guid(83ef47c2630c1d84598eb402832c0fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9855ac37ff6c99b25313fdec1919019') in 0.065842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 678.911454 seconds.
+  path: Assets/Medieval_house_lite/Prefab/SmallHouse.prefab
+  artifactKey: Guid(31a7c7033930201468dbe825e7e84adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/SmallHouse.prefab using Guid(31a7c7033930201468dbe825e7e84adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a90ed3246b06706c8bda1f724d04b9') in 0.052836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1099.086901 seconds.
+  path: Assets/Medieval_house_lite/Prefab/BiggerHouse.prefab
+  artifactKey: Guid(8e59223f5ec122a4e8137a7f6e7d4019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/BiggerHouse.prefab using Guid(8e59223f5ec122a4e8137a7f6e7d4019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea25b5d55cb7a9ae9778e46b8c1a4634') in 0.053705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.046379 seconds.
+  path: Assets/Medieval_house_lite/FBX/Medieval_house_lite.fbx
+  artifactKey: Guid(05d0dcbe2e37f7c4a9ba340de427e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/FBX/Medieval_house_lite.fbx using Guid(05d0dcbe2e37f7c4a9ba340de427e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bb900e7639162d03bd6ab651806c49') in 0.438595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.242336 seconds.
+  path: Assets/Medieval_house_lite/Materials/Medieval_house_house.mat
+  artifactKey: Guid(73a8b9fd464f3554b9e550587405bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Materials/Medieval_house_house.mat using Guid(73a8b9fd464f3554b9e550587405bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486658d7ae6224ba74c3802daf7d292d') in 0.044941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 267.731482 seconds.
+  path: Assets/Medieval_house_lite/Prefab/MediumHouse.prefab
+  artifactKey: Guid(78bf58cdf80221a4d9635b348c069a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/MediumHouse.prefab using Guid(78bf58cdf80221a4d9635b348c069a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c0e4afc5b47856b8383c3f9a89ad61') in 0.053620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.941344 seconds.
+  path: Assets/Medieval_house_lite/Prefab/MediumHouse.prefab
+  artifactKey: Guid(78bf58cdf80221a4d9635b348c069a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/MediumHouse.prefab using Guid(78bf58cdf80221a4d9635b348c069a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e174e8c09d5b1ff2c0c9524b423e7ec') in 0.052439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.531330 seconds.
+  path: Assets/Medieval_house_lite/Prefab/MediumHouse.prefab
+  artifactKey: Guid(78bf58cdf80221a4d9635b348c069a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/MediumHouse.prefab using Guid(78bf58cdf80221a4d9635b348c069a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c9e17a98e8781c12a178525625951c') in 0.057710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.346234 seconds.
+  path: Assets/Medieval_house_lite/Prefab/MediumHouse.prefab
+  artifactKey: Guid(78bf58cdf80221a4d9635b348c069a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/MediumHouse.prefab using Guid(78bf58cdf80221a4d9635b348c069a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900b5cd5ec84e67bf47878c223b142ee') in 0.054605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.520616 seconds.
+  path: Assets/Medieval_house_lite/Prefab/MediumHouse.prefab
+  artifactKey: Guid(78bf58cdf80221a4d9635b348c069a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Prefab/MediumHouse.prefab using Guid(78bf58cdf80221a4d9635b348c069a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcb0772c8abaae469dcdc4403a2619c') in 0.056387 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002058 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Domain Reload Profiling:
+	ReloadAssembly (813ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (140.3 KB). Loaded Objects now: 4162.
+Memory consumption went from 135.6 MB to 135.4 MB.
+Total: 2.652500 ms (FindLiveObjects: 0.245900 ms CreateObjectMapping: 0.102600 ms MarkObjects: 2.190600 ms  DeleteObjects: 0.112300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (138.8 KB). Loaded Objects now: 4165.
+Memory consumption went from 135.6 MB to 135.4 MB.
+Total: 3.133500 ms (FindLiveObjects: 0.326800 ms CreateObjectMapping: 0.232400 ms MarkObjects: 2.450700 ms  DeleteObjects: 0.122600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002048 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (138.7 KB). Loaded Objects now: 4168.
+Memory consumption went from 135.6 MB to 135.5 MB.
+Total: 2.865200 ms (FindLiveObjects: 0.267000 ms CreateObjectMapping: 0.212800 ms MarkObjects: 2.282100 ms  DeleteObjects: 0.102000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002501 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Domain Reload Profiling:
+	ReloadAssembly (802ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (115.1 KB). Loaded Objects now: 4171.
+Memory consumption went from 135.6 MB to 135.5 MB.
+Total: 2.629400 ms (FindLiveObjects: 0.261600 ms CreateObjectMapping: 0.099800 ms MarkObjects: 2.174100 ms  DeleteObjects: 0.093100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2099.036264 seconds.
+  path: Assets/Houses/Internal/Bar.prefab
+  artifactKey: Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Houses/Internal/Bar.prefab using Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d161cb82312201fc32336289747ea8') in 0.114846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.549660 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Bench_01.prefab
+  artifactKey: Guid(37c3c9bac33a4b9dafcace5d47746041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Bench_01.prefab using Guid(37c3c9bac33a4b9dafcace5d47746041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609783c7e8b2d4df9d5456470c735a08') in 0.190668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_02.prefab
+  artifactKey: Guid(1190fd8687304efb8e8af180203c5fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_02.prefab using Guid(1190fd8687304efb8e8af180203c5fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f13584a778c53aeab856a94143105c2') in 0.030658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_05.prefab
+  artifactKey: Guid(847b726f2c6045299e636f76a384a436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_05.prefab using Guid(847b726f2c6045299e636f76a384a436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd3c981b3d0a91a7fec302ba0865079') in 0.024517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Chair_Wooden_01.prefab
+  artifactKey: Guid(28204d4732d744778287ba981af91906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Chair_Wooden_01.prefab using Guid(28204d4732d744778287ba981af91906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ae138a9dec4d003486a0bdcf2fdba8') in 0.020879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_04.prefab
+  artifactKey: Guid(7d6463315d4e403f9ccc2aea0d6ecc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_04.prefab using Guid(7d6463315d4e403f9ccc2aea0d6ecc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4adf16401b8f397020e2ad575432d7a') in 0.033286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.609743 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Big_Preset_01.prefab
+  artifactKey: Guid(662dc20108624032b4ce7f54157a9ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Big_Preset_01.prefab using Guid(662dc20108624032b4ce7f54157a9ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a824be6beca3321be27fedf20ead282a') in 0.043169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_01.prefab
+  artifactKey: Guid(7ffc0d413ee44a1da7ef41392c80053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_01.prefab using Guid(7ffc0d413ee44a1da7ef41392c80053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3bce71ec0d7b8d1d4abf24be7c73c3') in 0.042019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_02.prefab
+  artifactKey: Guid(d3f5491481ca44e6a5445d9009794c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_02.prefab using Guid(d3f5491481ca44e6a5445d9009794c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a92d1149205374e94c2b2dbbd18a12b') in 0.050528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_05.prefab
+  artifactKey: Guid(9ca80a708cb044a896bdc73595df86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_05.prefab using Guid(9ca80a708cb044a896bdc73595df86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fe7449bd75ea5ef12afb11b6c50980') in 0.054394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_07.prefab
+  artifactKey: Guid(05321276d9d746b7b382f6d02305b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_07.prefab using Guid(05321276d9d746b7b382f6d02305b9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2396aad7fe41c869c390e660f1caaeae') in 0.062682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Ladder_01.prefab
+  artifactKey: Guid(871313d097424a8da9d90dc4db5a48ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Ladder_01.prefab using Guid(871313d097424a8da9d90dc4db5a48ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a3e842a0cf13fb17bfe45872a8fe8d') in 0.021413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Rostrum_Preset_01.prefab
+  artifactKey: Guid(663177e7db344bd692306990641ca5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Rostrum_Preset_01.prefab using Guid(663177e7db344bd692306990641ca5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6fdea6feecec7bb498ce9542385890') in 0.058169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_01.prefab
+  artifactKey: Guid(7898d54b47c340b59a0491e6a61aded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_01.prefab using Guid(7898d54b47c340b59a0491e6a61aded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c83102fb4c2919633da75cb32db8f34') in 0.043510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_Preset_05.prefab
+  artifactKey: Guid(ac54d2d6fecb48fe86a84515a8d01eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_Preset_05.prefab using Guid(ac54d2d6fecb48fe86a84515a8d01eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04baac05e4d657262411d8f7cfbf9058') in 0.049070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_Preset_07.prefab
+  artifactKey: Guid(ebca31b02b704c8fba1ab8328306f126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_Preset_07.prefab using Guid(ebca31b02b704c8fba1ab8328306f126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd24c44f7723f6eb896312c8995c25d') in 0.042007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Drawer_01.prefab
+  artifactKey: Guid(d8f3e38cbedc47d88632b646b8e53412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Drawer_01.prefab using Guid(d8f3e38cbedc47d88632b646b8e53412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071d48f87e84d90f63f57a95a5c2b8e1') in 0.039074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Shelf_Preset_04.prefab
+  artifactKey: Guid(d7a5e14202ef45918353047c81112c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Shelf_Preset_04.prefab using Guid(d7a5e14202ef45918353047c81112c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4d1948555ca713697d208d2c6bf9eb') in 0.042573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_Preset_02.prefab
+  artifactKey: Guid(4b15c1d3e1d14381be7a78f4ac797171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Table_Preset_02.prefab using Guid(4b15c1d3e1d14381be7a78f4ac797171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fbebd4becfedef71c54e686891bc9c') in 0.033209 seconds 
