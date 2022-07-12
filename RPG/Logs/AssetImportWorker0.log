@@ -15,7 +15,7 @@ O:/MSc AI/Project/RPG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50739
+53274
 Successfully changed project path to: O:/MSc AI/Project/RPG
 O:/MSc AI/Project/RPG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ O:/MSc AI/Project/RPG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 80.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004106 seconds.
+Registered in 0.004756 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 71.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.489 seconds
+- Completed reload, in  0.546 seconds
 Domain Reload Profiling:
-	ReloadAssembly (490ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (547ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (373ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (420ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (233ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (260ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
+				RefreshPlugins (83ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002267 seconds.
+Registered in 0.002645 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.793 seconds
+- Completed reload, in  0.839 seconds
 Domain Reload Profiling:
-	ReloadAssembly (793ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (840ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (623ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (670ms)
 			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (306ms)
+			SetupLoadedEditorAssemblies (329ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3646 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (156.0 KB). Loaded Objects now: 4114.
-Memory consumption went from 132.5 MB to 132.4 MB.
-Total: 2.863600 ms (FindLiveObjects: 0.270100 ms CreateObjectMapping: 0.094600 ms MarkObjects: 2.373800 ms  DeleteObjects: 0.124200 ms)
+Unloading 25 unused Assets / (148.5 KB). Loaded Objects now: 4115.
+Memory consumption went from 132.9 MB to 132.7 MB.
+Total: 3.061400 ms (FindLiveObjects: 0.292700 ms CreateObjectMapping: 0.177900 ms MarkObjects: 2.457800 ms  DeleteObjects: 0.132200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,155 +162,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17349.277057 seconds.
-  path: Assets/Houses/Internal/Bar.prefab
+  Time since last request: 90169.442880 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Textures/Materials/Fire_FX_Material_02.mat
+  artifactKey: Guid(789dc013a6454d6682babbf28f9e785d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Textures/Materials/Fire_FX_Material_02.mat using Guid(789dc013a6454d6682babbf28f9e785d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3917824318468b695a5ff766a1aeb4f') in 0.088230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.423589 seconds.
+  path: Assets/Sprites/Houses/Internal/BlacksmithHouse.prefab
+  artifactKey: Guid(657ae54f5bc9d3b49b01a13d95b1d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Internal/BlacksmithHouse.prefab using Guid(657ae54f5bc9d3b49b01a13d95b1d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26efecae06b0a2fa94f81447887db6f7') in 0.313171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.699024 seconds.
+  path: Assets/Sprites/Houses/Internal/BlacksmithHouse.prefab
+  artifactKey: Guid(657ae54f5bc9d3b49b01a13d95b1d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Internal/BlacksmithHouse.prefab using Guid(657ae54f5bc9d3b49b01a13d95b1d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ef776c0bac5734278a8173335d8701') in 0.154636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.180905 seconds.
+  path: Assets/Sprites/Cartoon Heroes/Character Prefabs/Female/Female A.prefab
+  artifactKey: Guid(f018c9b8a16f9c3449b1c025f1a66ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cartoon Heroes/Character Prefabs/Female/Female A.prefab using Guid(f018c9b8a16f9c3449b1c025f1a66ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb449a75814afd5f26b2dd719904eb4') in 0.621805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Cartoon Heroes/Character Prefabs/Female/Female C.prefab
+  artifactKey: Guid(de2a7efe044817e43b49fa819dea7499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cartoon Heroes/Character Prefabs/Female/Female C.prefab using Guid(de2a7efe044817e43b49fa819dea7499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d564345742a9703a6ac2b6fb9b9e787') in 0.288623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 220.171850 seconds.
+  path: Assets/Sprites/Houses/Internal/BlacksmithHouse.prefab
+  artifactKey: Guid(657ae54f5bc9d3b49b01a13d95b1d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Internal/BlacksmithHouse.prefab using Guid(657ae54f5bc9d3b49b01a13d95b1d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce27a07ba764c0c03c12bbd6a6c4ef89') in 0.262131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.629469 seconds.
+  path: Assets/Sprites/Houses/Internal/BlacksmithHouse.prefab
+  artifactKey: Guid(657ae54f5bc9d3b49b01a13d95b1d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Internal/BlacksmithHouse.prefab using Guid(657ae54f5bc9d3b49b01a13d95b1d5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da98312e6da8a98188a67c789ffa2ee') in 0.125993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 297.526574 seconds.
+  path: Assets/Sprites/Houses/Internal/Bar.prefab
   artifactKey: Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Houses/Internal/Bar.prefab using Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37579a3d3786602fcbae0fb02035cf70') in 0.406086 seconds 
+Start importing Assets/Sprites/Houses/Internal/Bar.prefab using Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e323f171c284c398a041bb66204f2dbd') in 0.209727 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1371.139633 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_01.prefab
-  artifactKey: Guid(131a112cf67c4e98af44b350b210ef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_01.prefab using Guid(131a112cf67c4e98af44b350b210ef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d4674ef122c87a18b41711f7872be3') in 0.024283 seconds 
+  Time since last request: 14.010599 seconds.
+  path: Assets/Sprites/Houses/Internal/WizardHouse.prefab
+  artifactKey: Guid(7892094156e8fd845a39882bb262b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Internal/WizardHouse.prefab using Guid(7892094156e8fd845a39882bb262b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6621ee2757e38c949b11afb3581900a') in 0.114799 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Glass_Jar_01.prefab
-  artifactKey: Guid(452a86ca4bb346709707701376fdcd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Glass_Jar_01.prefab using Guid(452a86ca4bb346709707701376fdcd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c3670f10fa972423fae899cba594b3') in 0.019311 seconds 
+  Time since last request: 178.309961 seconds.
+  path: Assets/Sprites/Houses/Internal/WizardHouse.prefab
+  artifactKey: Guid(7892094156e8fd845a39882bb262b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Internal/WizardHouse.prefab using Guid(7892094156e8fd845a39882bb262b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69931029252d87272ecbc505bcc2a522') in 0.113259 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_04.prefab
-  artifactKey: Guid(197a3bf124274ac5a1dd23cf272a9a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_04.prefab using Guid(197a3bf124274ac5a1dd23cf272a9a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a3015e3e23f793e86e2c501de8246c') in 0.024073 seconds 
+  Time since last request: 8.879766 seconds.
+  path: Assets/Sprites/Houses/Internal/WizardHouse.prefab
+  artifactKey: Guid(7892094156e8fd845a39882bb262b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Internal/WizardHouse.prefab using Guid(7892094156e8fd845a39882bb262b10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796f5cde40de2f49c5601b20952db3a1') in 0.110162 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_03.prefab
-  artifactKey: Guid(cab518aa9b9d42f3813edffa01162bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_03.prefab using Guid(cab518aa9b9d42f3813edffa01162bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032308564e0e65321eb99e71b56f2148') in 0.020973 seconds 
+  Time since last request: 46.336582 seconds.
+  path: Assets/Sprites/Houses/Internal/Bar.prefab
+  artifactKey: Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Internal/Bar.prefab using Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9078ff429e08035e78d3280081cd5aa2') in 0.113381 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_04.prefab
-  artifactKey: Guid(d79ee02934624ec8bdf62b8918e9d8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_04.prefab using Guid(d79ee02934624ec8bdf62b8918e9d8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e025d21259e42e2db784e9d7bcc60b8') in 0.018698 seconds 
+  Time since last request: 22.773040 seconds.
+  path: Assets/Sprites/Houses/Internal/Bar.prefab
+  artifactKey: Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Internal/Bar.prefab using Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bc067ba10119d9684dfcc7721748e1') in 0.114000 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_01.prefab
-  artifactKey: Guid(5d77920e991c410ab2bec909ec78a579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_01.prefab using Guid(5d77920e991c410ab2bec909ec78a579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc38e7f0ee4c1ee2cff3e1d001c1ad9') in 0.013925 seconds 
+  Time since last request: 4348.639956 seconds.
+  path: Assets/Sprites/Houses/Internal/Bar.prefab
+  artifactKey: Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Internal/Bar.prefab using Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6334c58fe3b0e12e2abe5b63c6d0c3d3') in 0.110536 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_04.prefab
-  artifactKey: Guid(00f3d6cec2fd439dad128145ad2a3048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_04.prefab using Guid(00f3d6cec2fd439dad128145ad2a3048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f61e35702203d9d4ea18de1c8a75fba') in 0.016172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_03.prefab
-  artifactKey: Guid(fd69dd2a121e4509a1e7ed3ab107ba7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_03.prefab using Guid(fd69dd2a121e4509a1e7ed3ab107ba7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce47fedd1c3e67e3389253ad9a23829') in 0.016191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_05.prefab
-  artifactKey: Guid(cfbebb7126464c7b9b9300fb0b51dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_05.prefab using Guid(cfbebb7126464c7b9b9300fb0b51dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e308ada5098bb176c7fd88c6921e56f7') in 0.016937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_06.prefab
-  artifactKey: Guid(147f183af15640289aa7154f0ea2de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_06.prefab using Guid(147f183af15640289aa7154f0ea2de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181b2fa36729cd85c24fa1346aaaca65') in 0.014788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_06.prefab
-  artifactKey: Guid(25b65563c564407d8b1214934a3cce01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_06.prefab using Guid(25b65563c564407d8b1214934a3cce01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf7788b2d5915252037c9116b4da917') in 0.015288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_02.prefab
-  artifactKey: Guid(36ac7bb4677d46aa8368525fc9a82bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_02.prefab using Guid(36ac7bb4677d46aa8368525fc9a82bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b015ffee3e632bed9e79d130969d4b3') in 0.017688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_03.prefab
-  artifactKey: Guid(0ed3201858cd4194bbf2553c8517321b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_03.prefab using Guid(0ed3201858cd4194bbf2553c8517321b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90c1e18dd21054ffb4178858e38493f') in 0.021652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Gas_Burner_01.prefab
-  artifactKey: Guid(b7861b2ee4d6486d8d0fa7a14cc3939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Gas_Burner_01.prefab using Guid(b7861b2ee4d6486d8d0fa7a14cc3939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f6658f07a2480ed30671aab9d79f44') in 0.026187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_01.prefab
-  artifactKey: Guid(90453fdc09234512bd43221d2b5f5569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_01.prefab using Guid(90453fdc09234512bd43221d2b5f5569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668b72a186d2a95cbf5c42ebd1c416c5') in 0.020943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.412923 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Glass_Jar_02.prefab
-  artifactKey: Guid(90f6956632cd4b0b990455ee7dee97ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Glass_Jar_02.prefab using Guid(90f6956632cd4b0b990455ee7dee97ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625873c8438594344119fa16619617d4') in 0.014733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010546 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_03.prefab
-  artifactKey: Guid(ec9920e44a9241b0bed559c0b9d90d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_03.prefab using Guid(ec9920e44a9241b0bed559c0b9d90d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d7ddd3fa82ef1b407bdb3fe6a9e6cc') in 0.013634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009419 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_04.prefab
-  artifactKey: Guid(845c09bb5de54859a6c48651aa011c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_04.prefab using Guid(845c09bb5de54859a6c48651aa011c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeeae5e4814c5d8f5b91e2588e1c636') in 0.014116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_Preset_01.prefab
-  artifactKey: Guid(86e6f19df467456c98668b86a7963358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_Preset_01.prefab using Guid(86e6f19df467456c98668b86a7963358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32deb488dae56ddeb5d88836fc1cadc5') in 0.016289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_02.prefab
-  artifactKey: Guid(95df6f7f30e343db95014a0a7537ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_02.prefab using Guid(95df6f7f30e343db95014a0a7537ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb007666d49fcd5d1718fdb2ba88c35') in 0.015825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_Blue_01.prefab
-  artifactKey: Guid(6a61beb91ee14785add56c8d67ee6e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_Blue_01.prefab using Guid(6a61beb91ee14785add56c8d67ee6e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf03513d13dd7b18483db1183c324de') in 0.016627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Scale_01.prefab
-  artifactKey: Guid(710caedd8bff451d82b2ab398533e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Scale_01.prefab using Guid(710caedd8bff451d82b2ab398533e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae371f7c7bf34bc34b1091644576d28') in 0.014944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_Red_01.prefab
-  artifactKey: Guid(aaa89c406a964d7780afb86370e3860d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Potion_Red_01.prefab using Guid(aaa89c406a964d7780afb86370e3860d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a28a665d0b91be7c4788828948130f1') in 0.016036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Stand_01.prefab
-  artifactKey: Guid(3e0ed916ce4c426c887d47337b536aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Stand_01.prefab using Guid(3e0ed916ce4c426c887d47337b536aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fa95d121fb43ed9acb0e770f84fb94') in 0.013820 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 16.688524 seconds.
+  path: Assets/Sprites/Houses/Internal/Bar.prefab
+  artifactKey: Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Internal/Bar.prefab using Guid(364ea318aee5f36409a0c98a56937c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c394f66a43573db4b3113ec1aeaca5f9') in 0.108547 seconds 
