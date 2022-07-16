@@ -1,0 +1,854 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32689 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+O:/MSc AI/Dissertation-Project/RPG
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50465
+Successfully changed project path to: O:/MSc AI/Dissertation-Project/RPG
+O:/MSc AI/Dissertation-Project/RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 82.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path O:/MSc AI/Dissertation-Project/RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   31.0.15.1659
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003851 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 96.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.557 seconds
+Domain Reload Profiling:
+	ReloadAssembly (557ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (433ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (79ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003885 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Domain Reload Profiling:
+	ReloadAssembly (871ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3652 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (185.2 KB). Loaded Objects now: 4150.
+Memory consumption went from 148.9 MB to 148.7 MB.
+Total: 3.135700 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.102500 ms MarkObjects: 2.560300 ms  DeleteObjects: 0.172200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198308.621817 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Heads/Head 1/Female_Head_1.FBX
+  artifactKey: Guid(f778d65360c43c3488f0f6aee8c4fd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Heads/Head 1/Female_Head_1.FBX using Guid(f778d65360c43c3488f0f6aee8c4fd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8d4c9f069d81822eeb6d2ffc26ec0d') in 0.238884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Toon Crystals pack/Particles/DarkBlue Glow.prefab
+  artifactKey: Guid(fca5a1670e71af549b9ebfc5cad1ae18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Crystals pack/Particles/DarkBlue Glow.prefab using Guid(fca5a1670e71af549b9ebfc5cad1ae18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0d4dcb866fb083fb694770f2eeefca') in 0.068229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprites/Dinner table/Models/Chair_Coloured.prefab
+  artifactKey: Guid(6074bc318b27e474d997c3ad099fa81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dinner table/Models/Chair_Coloured.prefab using Guid(6074bc318b27e474d997c3ad099fa81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd452f86b80c6e90cd73d363489e95f02') in 0.068960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Big_Preset_01.prefab
+  artifactKey: Guid(662dc20108624032b4ce7f54157a9ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Big_Preset_01.prefab using Guid(662dc20108624032b4ce7f54157a9ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55bf97430a2ae4d6d56dd7dcb9ee6d3') in 0.111286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candles_02.fbx
+  artifactKey: Guid(122c03a62707438e8b761d88a817c619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candles_02.fbx using Guid(122c03a62707438e8b761d88a817c619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f4d9d70e823fec477f73f270f0a2f4') in 0.038648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_02.fbx
+  artifactKey: Guid(5016bbbd2b6340c894f132e2c6fa37a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_02.fbx using Guid(5016bbbd2b6340c894f132e2c6fa37a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2328c8a6ba0de23873d923fa32ac732d') in 0.051740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Lamp_01.fbx
+  artifactKey: Guid(a599d5559b564d8bb2994dc60566d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Lamp_01.fbx using Guid(a599d5559b564d8bb2994dc60566d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4225020a36550c36e46aa1adadfb5b31') in 0.031996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Houses/Medieval_house_lite/Fire/Fire_fireplace.prefab
+  artifactKey: Guid(f29c74575f188b2499008434ffc2355e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Medieval_house_lite/Fire/Fire_fireplace.prefab using Guid(f29c74575f188b2499008434ffc2355e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f80825a108f756e1fb339546ce285e1') in 0.029579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Houses/Medieval_house_lite/Prefab/Medieval_house_lite.prefab
+  artifactKey: Guid(d78188a04ae94fb418ca4acc157a8c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Medieval_house_lite/Prefab/Medieval_house_lite.prefab using Guid(d78188a04ae94fb418ca4acc157a8c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a6a60fcf699cde397d41d9c33cd034') in 0.093630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Medieval village/Cart/PREFABs/cart_2w.prefab
+  artifactKey: Guid(3c0c424ddafa2834686e636738b21e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Medieval village/Cart/PREFABs/cart_2w.prefab using Guid(3c0c424ddafa2834686e636738b21e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b30b5909791e1efe0b7a11e16d5cc9') in 0.032002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Damage.FBX
+  artifactKey: Guid(436e584145a65834ba98fc684b2e4934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Damage.FBX using Guid(436e584145a65834ba98fc684b2e4934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774df678ddb5e4eafa652d39483cd886') in 0.016087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candle_02.fbx
+  artifactKey: Guid(cf36c939b69a4537aa9dd6a63cf249af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candle_02.fbx using Guid(cf36c939b69a4537aa9dd6a63cf249af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc7894156755d710f37097336e0f323') in 0.028022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx
+  artifactKey: Guid(b520dd2e830b53248a9a07d2d9f3f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx using Guid(b520dd2e830b53248a9a07d2d9f3f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc694f150ec34532f7a222cc5615141') in 0.033211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Paper_03.fbx
+  artifactKey: Guid(11d375aaad9b43a58145ce0d7ff808a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Paper_03.fbx using Guid(11d375aaad9b43a58145ce0d7ff808a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5ded895a88211f5e18ff2952ba6d49') in 0.027623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Toon Forest free set/Mesh/Plant_03a.fbx
+  artifactKey: Guid(7b04ee3ebdd67e34babf26f54b89587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Forest free set/Mesh/Plant_03a.fbx using Guid(7b04ee3ebdd67e34babf26f54b89587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5feb91d52c9b56d34a11bff656c059d') in 0.019951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Drawer_Preset_01.prefab
+  artifactKey: Guid(ba54338b1750435fa5051af844563833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Drawer_Preset_01.prefab using Guid(ba54338b1750435fa5051af844563833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73177708b4a3d20e349f20fdca25dc7d') in 0.058984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Stylized Environnement - Free Pack/Gfx/foliage_01.fbx
+  artifactKey: Guid(a8e0524c3b55c4381acf37786e5173f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Stylized Environnement - Free Pack/Gfx/foliage_01.fbx using Guid(a8e0524c3b55c4381acf37786e5173f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06941de28b8693a4cda0fa7f298e7964') in 0.022491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Bench_01.fbx
+  artifactKey: Guid(54f674c1af9240419414c806818c1f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Bench_01.fbx using Guid(54f674c1af9240419414c806818c1f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7592016c0eeb8e2bd77f9891520bd8c3') in 0.104924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Book_01.fbx
+  artifactKey: Guid(6cc3d9c277834456be4caa69091fa584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Book_01.fbx using Guid(6cc3d9c277834456be4caa69091fa584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392994bf44934891d2e25d28b6ac2b33') in 0.025461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_02.prefab
+  artifactKey: Guid(1190fd8687304efb8e8af180203c5fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_02.prefab using Guid(1190fd8687304efb8e8af180203c5fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5220abe356811cbfe3418cdd4faee5') in 0.041582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Dinner table/Models/Cup.FBX
+  artifactKey: Guid(056a8215673193e4faaa699e64c0a540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dinner table/Models/Cup.FBX using Guid(056a8215673193e4faaa699e64c0a540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68a520b187d57f759c0484355bee50d') in 0.019019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Handpainted_Forest_Pack_Lite/Assets/Meshs/Bush.fbx
+  artifactKey: Guid(16305a9712fbf054cb08e561d76da704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Handpainted_Forest_Pack_Lite/Assets/Meshs/Bush.fbx using Guid(16305a9712fbf054cb08e561d76da704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c2d073fab478c20a04a51172652b50') in 0.019068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_Preset_06.fbx
+  artifactKey: Guid(dec4eedc0224494ebbc9c81f812a5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_Preset_06.fbx using Guid(dec4eedc0224494ebbc9c81f812a5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9b45e1eef750d56fe4411f24453ae5') in 0.046213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Barrel_02.fbx
+  artifactKey: Guid(4f67e3351bc748e7bda31b4baf06beda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Barrel_02.fbx using Guid(4f67e3351bc748e7bda31b4baf06beda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af304d235554227bfc2266243ecba0c') in 0.028438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Brazier Set/Meshes/Meshes_Collisions/col_Brazier_03.FBX
+  artifactKey: Guid(ea192c1f757f6394e9c42bc23b11ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brazier Set/Meshes/Meshes_Collisions/col_Brazier_03.FBX using Guid(ea192c1f757f6394e9c42bc23b11ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb13be5a37ff966a7b72258d63ef05f') in 0.017507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Damage.FBX
+  artifactKey: Guid(23fd8c182a6515648baa9d0a89922e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Damage.FBX using Guid(23fd8c182a6515648baa9d0a89922e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8c3ca8f226b2166f89c3aac852eae4') in 0.010778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/StylizedHandPaintedDungeon(Free)/Originals/Lamp_02.fbx
+  artifactKey: Guid(495bc5d65ef7c7a47b914d4dd69f0edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StylizedHandPaintedDungeon(Free)/Originals/Lamp_02.fbx using Guid(495bc5d65ef7c7a47b914d4dd69f0edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0477b8d3aac4342b019712b359cee4d8') in 0.020970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Heads/Head_1/Male_Head_1.FBX
+  artifactKey: Guid(3ed30173e52bad9469c5720c7646c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Heads/Head_1/Male_Head_1.FBX using Guid(3ed30173e52bad9469c5720c7646c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d2fd5af8f86e5ea690f39b72c480e4') in 0.044573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candle_03.fbx
+  artifactKey: Guid(6ab8b1a90cf24fad82ef8f5222543c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candle_03.fbx using Guid(6ab8b1a90cf24fad82ef8f5222543c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa191015ed0a7af343fe80ca72b4cf22') in 0.025877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_06.prefab
+  artifactKey: Guid(25b65563c564407d8b1214934a3cce01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_06.prefab using Guid(25b65563c564407d8b1214934a3cce01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70da607c119b8ba15ace8a911c501e17') in 0.017598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Turntable_platforms/GodRays/Prefabs/GodRays.prefab
+  artifactKey: Guid(989095528b753aa49ad9de180a4267a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Turntable_platforms/GodRays/Prefabs/GodRays.prefab using Guid(989095528b753aa49ad9de180a4267a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4816cdaab33e3b7dd935af2f0a0bfaa6') in 0.026820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Dinner table/Models/Carpet_Coloured.prefab
+  artifactKey: Guid(601fa3b78427d5e419dedb8e77f7b149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dinner table/Models/Carpet_Coloured.prefab using Guid(601fa3b78427d5e419dedb8e77f7b149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5961366f72a9a5e9ac0d2b58c0c302b7') in 0.032869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candle_01.fbx
+  artifactKey: Guid(aa0d00c3df2c498ba1e54bc47aa4bda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candle_01.fbx using Guid(aa0d00c3df2c498ba1e54bc47aa4bda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4904c761c29c38ec15be3d690370ff2d') in 0.028446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Legs/Base Legs/Female_Base_Legs.FBX
+  artifactKey: Guid(a0aa481402b130e4f89cdb1b1e6e0d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Legs/Base Legs/Female_Base_Legs.FBX using Guid(a0aa481402b130e4f89cdb1b1e6e0d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9cbd4e5fbb07b63aa80296d89ddbb2') in 0.043790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_04.prefab
+  artifactKey: Guid(197a3bf124274ac5a1dd23cf272a9a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_04.prefab using Guid(197a3bf124274ac5a1dd23cf272a9a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021dc4bcac189636e8e2d6659f03dcdc') in 0.019173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Turntable_platforms/Models/platform.fbx
+  artifactKey: Guid(3750b896b58829b47b9e26f5ceef3dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Turntable_platforms/Models/platform.fbx using Guid(3750b896b58829b47b9e26f5ceef3dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2717b5958b4ceb7995419b0e24a223') in 0.023228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx
+  artifactKey: Guid(1fed90e8722c1334d9b51e0b56f26e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx using Guid(1fed90e8722c1334d9b51e0b56f26e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea5a216dad167d89d7579b226527602') in 0.020126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Glass_Jar_01.fbx
+  artifactKey: Guid(cdad7206c645493ab4507afd2223bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Glass_Jar_01.fbx using Guid(cdad7206c645493ab4507afd2223bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b70593d342611fa7ad6c60478f19f78') in 0.018667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Books_Preset_01.fbx
+  artifactKey: Guid(6a894affd811495e918ce32fe90d12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Books_Preset_01.fbx using Guid(6a894affd811495e918ce32fe90d12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc236a61966477d6dae02a8c5516217d') in 0.023776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Torsos/Torso_2/Female_Torso_2.FBX
+  artifactKey: Guid(162b8551ff1ba8742982aedf47246807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Torsos/Torso_2/Female_Torso_2.FBX using Guid(162b8551ff1ba8742982aedf47246807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a5449b3c8210d6d0636531e281c1b6') in 0.055327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Torsos/Torso_3/Male_Torso_3.FBX
+  artifactKey: Guid(e8eb09b19391bfe4eab8554eac44634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Torsos/Torso_3/Male_Torso_3.FBX using Guid(e8eb09b19391bfe4eab8554eac44634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e6f98a48784c297601ab4f4fa53ac8') in 0.067118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jug_01.fbx
+  artifactKey: Guid(f5cdd3ff716a4dfcbd14104d703672f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jug_01.fbx using Guid(f5cdd3ff716a4dfcbd14104d703672f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5050381f1e874cc0ce36c15483309205') in 0.030625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jugs_Preset_02.fbx
+  artifactKey: Guid(df6980d04b5e4e9896f6687d8a73d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jugs_Preset_02.fbx using Guid(df6980d04b5e4e9896f6687d8a73d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e8af2873095a374a858300969f0356') in 0.036170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Toon Crystals pack/Particles/Fel Glow.prefab
+  artifactKey: Guid(fd373896c67a6fc4fbe263ecc2483250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Crystals pack/Particles/Fel Glow.prefab using Guid(fd373896c67a6fc4fbe263ecc2483250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c617911094ad7cf71db6a01d0a89bd0') in 0.013873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_05.prefab
+  artifactKey: Guid(cfbebb7126464c7b9b9300fb0b51dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_05.prefab using Guid(cfbebb7126464c7b9b9300fb0b51dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd821c4689656fedaee1082c9d6cd8da3') in 0.022530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Block.FBX
+  artifactKey: Guid(020c8f2ae0efb944fb08ff9c463cab8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Block.FBX using Guid(020c8f2ae0efb944fb08ff9c463cab8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aac98532bf582fe9714ed4a4663268b') in 0.012426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Roll.FBX
+  artifactKey: Guid(add36877aa291f94a9cfa398a06cd910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Roll.FBX using Guid(add36877aa291f94a9cfa398a06cd910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cf5a3b726113ae3a575264e2e0f243') in 0.012894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Toon Forest free set/Mesh/Mushroom_A_01.fbx
+  artifactKey: Guid(90804d646006aa640905a83bb8ae95c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Forest free set/Mesh/Mushroom_A_01.fbx using Guid(90804d646006aa640905a83bb8ae95c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c07ec9ae0d4503d8d2e581e67c656c') in 0.035661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_01.prefab
+  artifactKey: Guid(e0e444834ba54dcd863b19283e180747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_01.prefab using Guid(e0e444834ba54dcd863b19283e180747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4300d48e1c3e98b0940ec298cb14c6') in 0.022245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jug_02.fbx
+  artifactKey: Guid(7c9f97b48ebe402f8604780c77cbdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jug_02.fbx using Guid(7c9f97b48ebe402f8604780c77cbdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31706acf8ca5183a5da7a51e3fa25250') in 0.033417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Flask_02.fbx
+  artifactKey: Guid(4a11217608894381b8c1faacb7051942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Flask_02.fbx using Guid(4a11217608894381b8c1faacb7051942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01e87e37c5d1209b531d66cf3ca7bb0') in 0.021159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Roll.FBX
+  artifactKey: Guid(69f1e5d1c1139c34ea159d3f7d42cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Roll.FBX using Guid(69f1e5d1c1139c34ea159d3f7d42cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d98a0f2318c4e7141e43c888fd5655') in 0.013587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_03.prefab
+  artifactKey: Guid(ec9920e44a9241b0bed559c0b9d90d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_03.prefab using Guid(ec9920e44a9241b0bed559c0b9d90d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300af72ba477ed943de34d3dffd0cc07') in 0.016870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candles_05.fbx
+  artifactKey: Guid(3bd9b56765ed4e049f0714d927c8da39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candles_05.fbx using Guid(3bd9b56765ed4e049f0714d927c8da39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09d6f0a44508b2f9a25b8bc6c7c23b0') in 0.029854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Book_06.fbx
+  artifactKey: Guid(64f5a07922ba43ce87d8ccbf4798669c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Book_06.fbx using Guid(64f5a07922ba43ce87d8ccbf4798669c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d7d0f2636e7f0ff006e764639afff0') in 0.024427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/A_piece_of_nature/Models/Ground.FBX
+  artifactKey: Guid(273aafbd147aec044a0f20c7242a83ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/A_piece_of_nature/Models/Ground.FBX using Guid(273aafbd147aec044a0f20c7242a83ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a042bc777a24399e5a44019af8dbd9') in 0.027680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Stance.FBX
+  artifactKey: Guid(8a646e73f32d5ab46be5ca7d3ebb4f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Stance.FBX using Guid(8a646e73f32d5ab46be5ca7d3ebb4f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63917b0f33fdc22ea9aedf8065b99df0') in 0.013092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Legs/Legs_2/Male_Legs_2.FBX
+  artifactKey: Guid(a48c0a1c97d48e7419d41fe8e176ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Legs/Legs_2/Male_Legs_2.FBX using Guid(a48c0a1c97d48e7419d41fe8e176ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da20a3266d48f742c6e7887c7cbfe14') in 0.036429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Die.FBX
+  artifactKey: Guid(1b89fcc283287844b8d68f9e0cc329cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Die.FBX using Guid(1b89fcc283287844b8d68f9e0cc329cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5c08c3f5c1478e0c5bf8f80b4077b8') in 0.014199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_06.prefab
+  artifactKey: Guid(147f183af15640289aa7154f0ea2de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Book_06.prefab using Guid(147f183af15640289aa7154f0ea2de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e36256ca763039e2afa11c8729ed45') in 0.014326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Brazier Set/Meshes/Meshes_Collisions/col_Brazier_03_Frame.FBX
+  artifactKey: Guid(c79dbfe5d408bed48b791b3ea2d06149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brazier Set/Meshes/Meshes_Collisions/col_Brazier_03_Frame.FBX using Guid(c79dbfe5d408bed48b791b3ea2d06149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406de290cf66861e6345ed1091eb3b28') in 0.025185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_02.prefab
+  artifactKey: Guid(36ac7bb4677d46aa8368525fc9a82bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Bottle_02.prefab using Guid(36ac7bb4677d46aa8368525fc9a82bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c440a476d249d75a9bb13b0c5e5b3746') in 0.023256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Walk.FBX
+  artifactKey: Guid(00ed1997eb74a40498b28747b3fdb59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Walk.FBX using Guid(00ed1997eb74a40498b28747b3fdb59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2f5124f8f299a82af75a73062835ed') in 0.010978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candles_01.fbx
+  artifactKey: Guid(ea055f48dd0d49b39582fe6f470b9f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Candles_01.fbx using Guid(ea055f48dd0d49b39582fe6f470b9f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4345c1878068d0ab9515579e1adea2ad') in 0.027827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Damage.FBX
+  artifactKey: Guid(9c291ec3850f7004fa3da8ac7a2397d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Damage.FBX using Guid(9c291ec3850f7004fa3da8ac7a2397d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d9a5f76f81f2f5a321e786b30fca98') in 0.010251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Toon Forest free set/Mesh/Mushroom_B_00.fbx
+  artifactKey: Guid(ebbe4f72fc4e5ce4fa52685820336d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Forest free set/Mesh/Mushroom_B_00.fbx using Guid(ebbe4f72fc4e5ce4fa52685820336d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cd88c1bc0f966bd672143e5917a018') in 0.022679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jugs_Preset_01.fbx
+  artifactKey: Guid(16f03af913724dfd80186c5d0ffa31e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jugs_Preset_01.fbx using Guid(16f03af913724dfd80186c5d0ffa31e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664bf09e0766147f3b2ce4bb61f8642d') in 0.040746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Bench_Wooden_01.fbx
+  artifactKey: Guid(8dee37a21a8c41ce95e83999b8e45bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Bench_Wooden_01.fbx using Guid(8dee37a21a8c41ce95e83999b8e45bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc07abdad464a1c4b93f695d43aedcc') in 0.028994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Paper_02.fbx
+  artifactKey: Guid(2cb0dc68466949f6bb5351158ceae9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Paper_02.fbx using Guid(2cb0dc68466949f6bb5351158ceae9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab992697b7d045fedc955aa9c9b9aafb') in 0.023331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Torsos/Torso_1/Male_Torso_1.FBX
+  artifactKey: Guid(fba03d136e511a9438a9e19a8c96fc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Torsos/Torso_1/Male_Torso_1.FBX using Guid(fba03d136e511a9438a9e19a8c96fc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f69821870ffc67b375bd0a71b496e5') in 0.055726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Chair_01.fbx
+  artifactKey: Guid(970176150adc40e29c812bb7823d307a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Chair_01.fbx using Guid(970176150adc40e29c812bb7823d307a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43beb5cfdca0ce818db26b64e0fcb6a0') in 0.034877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Inkpot_01.prefab
+  artifactKey: Guid(747dab04a1084dd1805bd446e606e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Inkpot_01.prefab using Guid(747dab04a1084dd1805bd446e606e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff99d8668be102e116cfe676c9a71c67') in 0.019009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Jump.FBX
+  artifactKey: Guid(8ba2178ed4716f348b34190ecf5d365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Jump.FBX using Guid(8ba2178ed4716f348b34190ecf5d365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0d2f093f7ebfe8447e45483ae094a4') in 0.012771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_06.prefab
+  artifactKey: Guid(6bbaf0f5eff14833833d82961e6f0504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_06.prefab using Guid(6bbaf0f5eff14833833d82961e6f0504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24750be8b16027116326cdd50b931d71') in 0.037091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_04.prefab
+  artifactKey: Guid(7d6463315d4e403f9ccc2aea0d6ecc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_04.prefab using Guid(7d6463315d4e403f9ccc2aea0d6ecc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab17a345a9880d1d571401ce55c89c34') in 0.038035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_02.prefab
+  artifactKey: Guid(d8c1ecd27d8b494f99c904bd9a3be8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Paper_02.prefab using Guid(d8c1ecd27d8b494f99c904bd9a3be8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ea3ae3b63d6e7c79244bb018543a5b') in 0.020251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_Preset_08.fbx
+  artifactKey: Guid(f610020ead1244d3926ee5b5c336ece1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_Preset_08.fbx using Guid(f610020ead1244d3926ee5b5c336ece1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99a18f9f53a6ddf12dc23ea6593d05a') in 0.028390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_Preset_03.fbx
+  artifactKey: Guid(d697306b62f04041b9036d4876582269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_Preset_03.fbx using Guid(d697306b62f04041b9036d4876582269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61f015349357bcf806e32f9a2fcc765') in 0.049092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_Preset_07.fbx
+  artifactKey: Guid(4e4f8b661fd64f5c87e5dc36c28d486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_Preset_07.fbx using Guid(4e4f8b661fd64f5c87e5dc36c28d486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca87f3663c2ba0ad6bfb7d0fb81fb98') in 0.059027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_01.prefab
+  artifactKey: Guid(7ffc0d413ee44a1da7ef41392c80053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_01.prefab using Guid(7ffc0d413ee44a1da7ef41392c80053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0947405b28e30708612249a1874e9cab') in 0.040904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Paper_05.fbx
+  artifactKey: Guid(64acf2bb8cf143aeb1dee7245e05a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Paper_05.fbx using Guid(64acf2bb8cf143aeb1dee7245e05a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d41219b07c1ef05be4ad3f6ca05959') in 0.035530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_08.prefab
+  artifactKey: Guid(34b63ad9eee444f5a16ccab020f97c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_08.prefab using Guid(34b63ad9eee444f5a16ccab020f97c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b2d9c305eefba68d1d2eca9d9916c4') in 0.039619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_03.prefab
+  artifactKey: Guid(cab518aa9b9d42f3813edffa01162bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_03.prefab using Guid(cab518aa9b9d42f3813edffa01162bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eab6ac91b5b0387d82a337aeb229ee3') in 0.017697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Paper_04.fbx
+  artifactKey: Guid(a9774b764aa24b3e8db2df039a7c172c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Paper_04.fbx using Guid(a9774b764aa24b3e8db2df039a7c172c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44700c8a868d05fdca5efd96bb55acf4') in 0.019707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Bench_Wooden_01.prefab
+  artifactKey: Guid(b8f3e8c6f9dc4b0cb6f7ee0bec988dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Bench_Wooden_01.prefab using Guid(b8f3e8c6f9dc4b0cb6f7ee0bec988dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d86c08ab0507c8ff44c5258a6b1c3b0') in 0.015846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Legs/Legs_3/Female_Legs_3.FBX
+  artifactKey: Guid(831ae8b579a9bfa4b845cff152b90e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Legs/Legs_3/Female_Legs_3.FBX using Guid(831ae8b579a9bfa4b845cff152b90e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bb83bbb71af6f63433fb19d272d15e') in 0.042748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_Preset_09.fbx
+  artifactKey: Guid(910cd8c33f684ffc8eda71de54aeba08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Cupboard_Preset_09.fbx using Guid(910cd8c33f684ffc8eda71de54aeba08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970f34273011b920d0c3f825806bdc9e') in 0.020816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Medieval village/Cart/PREFABs/cart_4w.prefab
+  artifactKey: Guid(b36af59f34432cc4e84faf493a39a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Medieval village/Cart/PREFABs/cart_4w.prefab using Guid(b36af59f34432cc4e84faf493a39a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b843c1b82e94a438b137ba064e484c') in 0.010696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_01.prefab
+  artifactKey: Guid(064ab94ee3ce4c9892a2682dc57ce18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_01.prefab using Guid(064ab94ee3ce4c9892a2682dc57ce18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42c50de04f938fd4cd5eb39ec988566') in 0.032367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Stance.FBX
+  artifactKey: Guid(326aba395acf9c5458709f7163b9f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Stance.FBX using Guid(326aba395acf9c5458709f7163b9f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3eb5b0e66236e53838a2a5fd33cc97') in 0.011054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sprint.FBX
+  artifactKey: Guid(41a9542dfeb1583478948b6f4702f26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sprint.FBX using Guid(41a9542dfeb1583478948b6f4702f26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60c57fda0c8b58814f68644403aec91') in 0.010847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_01.prefab
+  artifactKey: Guid(a4cadd393c8c41bd8946346a453ee36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_01.prefab using Guid(a4cadd393c8c41bd8946346a453ee36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbc3a38ddb107ec742f9d0d60c0086e') in 0.015159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Brazier Set/Meshes/Meshes_Braziers/mesh_Brazier_03_Frame.FBX
+  artifactKey: Guid(418149435f52a684ab9881f835b27427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brazier Set/Meshes/Meshes_Braziers/mesh_Brazier_03_Frame.FBX using Guid(418149435f52a684ab9881f835b27427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d5cbbf7fb485346ad8a0b9cef042e7') in 0.021580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Toon Forest free set/Mesh/Mushroom_B_02.fbx
+  artifactKey: Guid(d41ec4c9f83c0fd41919efea746bbef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Forest free set/Mesh/Mushroom_B_02.fbx using Guid(d41ec4c9f83c0fd41919efea746bbef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32daebda1ccab18d4d807317cb11aa32') in 0.023615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Die.FBX
+  artifactKey: Guid(88b371f485b13064183196949595c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Die.FBX using Guid(88b371f485b13064183196949595c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fc01258ffb65e42086b2950261640d') in 0.013429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Dinner table/Models/Plate.FBX
+  artifactKey: Guid(593c0d665d2d1e44dad6cbb9cb599529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dinner table/Models/Plate.FBX using Guid(593c0d665d2d1e44dad6cbb9cb599529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8ebd1a26e3356031da913f4747bc72') in 0.023599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Toon Forest free set/Prehub/Plant_02a.prefab
+  artifactKey: Guid(7df412b000e517f45bf54a61af8eaab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Forest free set/Prehub/Plant_02a.prefab using Guid(7df412b000e517f45bf54a61af8eaab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ed88a4cd81755ae048dd831ea12837') in 0.012495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Inkpot_01.fbx
+  artifactKey: Guid(16670cd9b8f94ddead9f0c556afdd169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Inkpot_01.fbx using Guid(16670cd9b8f94ddead9f0c556afdd169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e97a3f988cea79bbd640608e07bc732') in 0.021504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Roll.FBX
+  artifactKey: Guid(68d04a7b9dcc0fd4b877df82f02d1d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Roll.FBX using Guid(68d04a7b9dcc0fd4b877df82f02d1d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bc502eab1601b81b909e8e936a22e1') in 0.010454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Bucket_01.fbx
+  artifactKey: Guid(48981368e2e74a6f8c4e3a52d8c40ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Bucket_01.fbx using Guid(48981368e2e74a6f8c4e3a52d8c40ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa279a3db5bbfd674415f2f297fd8f3') in 0.020474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Female/3D/Hairs/Hair_2/Female_Hair_2.FBX
+  artifactKey: Guid(4eb7344e4bf8a3e48b8f9dfaf77c996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Female/3D/Hairs/Hair_2/Female_Hair_2.FBX using Guid(4eb7344e4bf8a3e48b8f9dfaf77c996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df64cb15b9fd6ba5d35ab477ff4c964d') in 0.027469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Drawer_Preset_02.fbx
+  artifactKey: Guid(478a7af3419844da98433fce6ce8f684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Drawer_Preset_02.fbx using Guid(478a7af3419844da98433fce6ce8f684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff2dcd2f8fdd2a6dcc7e9ea68755d43') in 0.019060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Houses/Medieval_house_lite/Fire/Fire_torch.prefab
+  artifactKey: Guid(59f880fcc3e70f44d9eaa367ee495453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Medieval_house_lite/Fire/Fire_torch.prefab using Guid(59f880fcc3e70f44d9eaa367ee495453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58910c76b764d9de49c3d0debbf6f48c') in 0.012613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Glass_Jar_02.fbx
+  artifactKey: Guid(d7617a2e4d6842ada4020c0e7ae9de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Glass_Jar_02.fbx using Guid(d7617a2e4d6842ada4020c0e7ae9de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2f613ea72dd2bbb3f880b02c83b004') in 0.024707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_02.prefab
+  artifactKey: Guid(1d040883b4c941fa9ab5cfdcce009a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Books_Preset_02.prefab using Guid(1d040883b4c941fa9ab5cfdcce009a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c50998d6f31acb7aa271e8aed13356') in 0.014326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Walk.FBX
+  artifactKey: Guid(0f5f811a33031524680b227a45dc9848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Walk.FBX using Guid(0f5f811a33031524680b227a45dc9848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f852a392d886768681e8a4dce00d91') in 0.011290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Toon Forest free set/Mesh/Plant_01a.fbx
+  artifactKey: Guid(f2aac8f12bea6bf4e811b49e5415b40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Forest free set/Mesh/Plant_01a.fbx using Guid(f2aac8f12bea6bf4e811b49e5415b40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2deed8306df925afee0b1bede305a61e') in 0.018518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sprites/Houses/Medieval_house_lite/FBX/Medieval_house_lite.fbx
+  artifactKey: Guid(05d0dcbe2e37f7c4a9ba340de427e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Houses/Medieval_house_lite/FBX/Medieval_house_lite.fbx using Guid(05d0dcbe2e37f7c4a9ba340de427e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5c973675757efe79865dc1f943210f') in 0.378432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 310.501965 seconds.
+  path: Assets/Sprites/!Prefabs/Flowers/flower_head1.prefab
+  artifactKey: Guid(fa03f161d8feb4d4d88f3e733c42c974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/Flowers/flower_head1.prefab using Guid(fa03f161d8feb4d4d88f3e733c42c974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880b81507eb9c1c131b532d7da109eda') in 0.015907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.978264 seconds.
+  path: Assets/Sprites/!Prefabs/Flowers/flower_head2.prefab
+  artifactKey: Guid(0581461eb27f72745a8bcfa46cb27981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/Flowers/flower_head2.prefab using Guid(0581461eb27f72745a8bcfa46cb27981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc5a11ae2bcac06eae966b95d375dba') in 0.022869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 347.445791 seconds.
+  path: Assets/Sprites/!Prefabs/Flowers/flower2.prefab
+  artifactKey: Guid(67d06854f17ca18468c65b9f81421207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/Flowers/flower2.prefab using Guid(67d06854f17ca18468c65b9f81421207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9620cb10c98893e165cb8ea9da3b135') in 0.117406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/!Prefabs/Flowers/flower3.prefab
+  artifactKey: Guid(f284d1644b0d38543a885f747091c7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/Flowers/flower3.prefab using Guid(f284d1644b0d38543a885f747091c7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b485ffedcc2632caeca369a4b4ab264b') in 0.025008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sprites/!Prefabs/Flowers/flower5.prefab
+  artifactKey: Guid(c7fbe8636013cab4bb9ef9832416cc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/Flowers/flower5.prefab using Guid(c7fbe8636013cab4bb9ef9832416cc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa24e4c3ddfa44820fd448758634dfd0') in 0.014539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/!Prefabs/Flowers/flower8.prefab
+  artifactKey: Guid(298d1ef1ac6d608419471f51cd58df2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/Flowers/flower8.prefab using Guid(298d1ef1ac6d608419471f51cd58df2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2f4d70076acf365a70e10e621df58b') in 0.013889 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
