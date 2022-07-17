@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Cinemachine;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,11 +15,18 @@ public class PlayerMovement : MonoBehaviour
     private float z;
     private float velocitySpeed;
 
+    CinemachineTransposer transposer;
+    public CinemachineVirtualCamera playerCamera;
+    private Vector3 position;
+    private Vector3 currentPosition;
+
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+        transposer = playerCamera.GetCinemachineComponent<CinemachineTransposer>();
+        currentPosition = transposer.m_FollowOffset;
     }
 
     // Update is called once per frame
@@ -28,6 +36,10 @@ public class PlayerMovement : MonoBehaviour
         x = agent.velocity.x;
         z = agent.velocity.z;
         velocitySpeed = x + z;
+
+        //get mouse position
+        position = Input.mousePosition;
+        transposer.m_FollowOffset = currentPosition;
 
         if(Input.GetMouseButtonDown(0))
         {
@@ -47,6 +59,14 @@ public class PlayerMovement : MonoBehaviour
         if (velocitySpeed == 0)
         {
             animator.SetBool("sprinting", false);
+        }
+
+        if(Input.GetMouseButton(1))
+        {
+            if(position.x != 0 || position.y != 0)
+            {
+                currentPosition = position / 200;
+            }
         }
     }
 }
