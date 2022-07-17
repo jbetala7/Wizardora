@@ -13,10 +13,4 @@ public class SaveScript : MonoBehaviour
     {
         DontDestroyOnLoad(this);
     }
-
-    // Update is called once per frame
-    //void Update()
-    //{
-
-    //}
 }
