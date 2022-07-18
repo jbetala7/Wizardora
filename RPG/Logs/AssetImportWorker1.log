@@ -15,7 +15,7 @@ O:/MSc AI/Dissertation-Project/RPG
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61741
+63705
 Successfully changed project path to: O:/MSc AI/Dissertation-Project/RPG
 O:/MSc AI/Dissertation-Project/RPG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ O:/MSc AI/Dissertation-Project/RPG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 101.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -65,94 +65,94 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005098 seconds.
+Registered in 0.004048 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 107.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
+- Completed reload, in  0.594 seconds
 Domain Reload Profiling:
-	ReloadAssembly (678ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (595ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (531ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (114ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (326ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (288ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
+				RefreshPlugins (93ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (150ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002892 seconds.
+Registered in 0.002963 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.156 seconds
+- Completed reload, in  1.055 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1157ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1055ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (955ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (494ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (367ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (355ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
 Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.4 MB). Loaded Objects now: 4430.
+Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (1.4 MB). Loaded Objects now: 4431.
 Memory consumption went from 165.0 MB to 163.6 MB.
-Total: 3.969000 ms (FindLiveObjects: 0.353700 ms CreateObjectMapping: 0.127600 ms MarkObjects: 2.984900 ms  DeleteObjects: 0.501600 ms)
+Total: 4.151200 ms (FindLiveObjects: 0.515000 ms CreateObjectMapping: 0.148600 ms MarkObjects: 3.070900 ms  DeleteObjects: 0.415500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,16 +166,46 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 451201.037928 seconds.
-  path: Assets/Sprites/!Prefabs/Players/Player1Character1.prefab
-  artifactKey: Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/!Prefabs/Players/Player1Character1.prefab using Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac04b1c4749af61e30b3b7358db50302') in 0.853421 seconds 
+  Time since last request: 459322.530184 seconds.
+  path: Assets/Scripts/Chest.cs
+  artifactKey: Guid(4cdddec5e0b8b2b408ef10b86cbe27a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chest.cs using Guid(4cdddec5e0b8b2b408ef10b86cbe27a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b64699b013b44e81f0c04cf822afbf') in 0.033812 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Sprites/!Prefabs/Players/Player1Character4.prefab
-  artifactKey: Guid(940bbeede757e5c46aa1232d0f4a7209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/!Prefabs/Players/Player1Character4.prefab using Guid(940bbeede757e5c46aa1232d0f4a7209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ffd19b7df2df72c330338ec06ac517') in 0.253844 seconds 
+  Time since last request: 490.544848 seconds.
+  path: Assets/Sprites/!Prefabs/NPC-Characters/peasant_man.fbx
+  artifactKey: Guid(d9024462a1d404a4281ab265607c53a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/NPC-Characters/peasant_man.fbx using Guid(d9024462a1d404a4281ab265607c53a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ff68a83d088942e4771b12da0134b8') in 0.157061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.702789 seconds.
+  path: Assets/Sprites/!Prefabs/NPC-Characters/peasant_man.fbm/Peasant_Man_normal.png
+  artifactKey: Guid(a92df3b82ea82194c8c31fd1eb78b3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/NPC-Characters/peasant_man.fbm/Peasant_Man_normal.png using Guid(a92df3b82ea82194c8c31fd1eb78b3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bc575f86a919497e559f1d89410070') in 0.037419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.767808 seconds.
+  path: Assets/Sprites/!Prefabs/NPC-Characters/peasant_man.fbm/Peasant_Man_diffuse 3.png
+  artifactKey: Guid(57e7de11364231a4fa23fd36bb92b52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/NPC-Characters/peasant_man.fbm/Peasant_Man_diffuse 3.png using Guid(57e7de11364231a4fa23fd36bb92b52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b714dea871fa547286de1bbaa3a23f5e') in 0.013057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/!Prefabs/NPC-Characters/peasant_man.fbm/Peasant_Man_diffuse.png
+  artifactKey: Guid(e148c8b0e47b15b438331a542438db21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/NPC-Characters/peasant_man.fbm/Peasant_Man_diffuse.png using Guid(e148c8b0e47b15b438331a542438db21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67336e8425b6df8f9af3fdf19338d64f') in 0.013132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/!Prefabs/NPC-Characters/peasant_man.fbm/Peasant_Man_diffuse 4.png
+  artifactKey: Guid(78322a802ad609e47a663e3dc3e0c870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/NPC-Characters/peasant_man.fbm/Peasant_Man_diffuse 4.png using Guid(78322a802ad609e47a663e3dc3e0c870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf2c44048befafc51fc855477bd46db') in 0.011159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.017309 seconds.
+  path: Assets/Sprites/!Prefabs/NPC-Characters/peasant_girl.fbm/Peasant_Girl_specular.png
+  artifactKey: Guid(7d55f5a513e30b24f85ba65e2ae0f0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/!Prefabs/NPC-Characters/peasant_girl.fbm/Peasant_Girl_specular.png using Guid(7d55f5a513e30b24f85ba65e2ae0f0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b1e9f36f8475a53fd5df70dcbef47c') in 0.012743 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
