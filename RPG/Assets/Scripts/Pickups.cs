@@ -6,7 +6,10 @@ public class Pickups : MonoBehaviour
 {
     public int number;
     public bool redMushroom = false;
-    public bool blueFlower = false;
+    public bool purpleMushroom = false;
+    public bool brownMushroom = false;
+    public bool bluePlants = false;
+    public bool redFlower = false;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -21,13 +24,13 @@ public class Pickups : MonoBehaviour
                 Inventory.redMushrooms++;
                 Destroy(gameObject);
             }
-            else if (blueFlower == true)
+            else if (bluePlants == true)
             {
-                if (Inventory.blueFlowers == 0)
+                if (Inventory.bluePlants == 0)
                 {
                     DisplayIcons();
                 }
-                Inventory.blueFlowers++;
+                Inventory.bluePlants++;
                 Destroy(gameObject);
             }
             else

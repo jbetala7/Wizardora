@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 currentPosition;
 
     public static bool canMove = true;
+    public LayerMask moveLayer;
 
     // Start is called before the first frame update
     void Start()
@@ -50,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
                 //changes 2D position of the mouse to effective 3D posiiton for the character
                 ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-                if (Physics.Raycast(ray, out hit))
+                if (Physics.Raycast(ray, out hit, 300, moveLayer))
                 {
                     agent.destination = hit.point;
                 }

@@ -14,9 +14,24 @@ public class Inventory : MonoBehaviour
     public Sprite emptyIcon;
 
     public static int redMushrooms = 0;
-    public static int blueFlowers = 0;
+    public static int purpleMushrooms = 0;
+    public static int brownMushrooms = 0;
+    public static int bluePlants = 0;
+    public static int redFlowers = 0;
+    public static int roots = 0;
+    public static int leafDew = 0;
+    public static int dragonEgg = 0;
+    public static int redPotion = 0;
+    public static int bluePotion = 0;
+    public static int greenPotion = 0;
+    public static int purplePotion = 0;
+    public static int bread = 0;
+    public static int cheese = 0;
+    public static int meat = 0;
+    public static bool key = true;
 
     public static int newIcon = 0;
+    public static int gold = 0;
     public static bool iconUpdate = false;
     private int max;
 
@@ -30,7 +45,21 @@ public class Inventory : MonoBehaviour
 
         //temporary
         redMushrooms = 0;
-        blueFlowers = 0;
+        purpleMushrooms = 0;
+        brownMushrooms = 0;
+        bluePlants = 0;
+        redFlowers = 0;
+        roots = 0;
+        leafDew = 0;
+        dragonEgg = 0;
+        redPotion = 0;
+        bluePotion = 0;
+        greenPotion = 0;
+        purplePotion = 0;
+        bread = 0;
+        cheese = 0;
+        meat = 0;
+
     }
 
     // Update is called once per frame
