@@ -1,0 +1,55 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
+public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+{
+    public Text buttonText;
+    public Text bartenderMessage;
+    public Color32 messageOff;
+    public Color32 messageOn;
+    public GameObject shopUI;
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        buttonText.color = messageOn;
+        PlayerMovement.canMove = false;
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        buttonText.color = messageOff;
+        PlayerMovement.canMove = true;
+    }
+
+    // Start is called before the first frame update
+    private void Start()
+    {
+        bartenderMessage.text = "oi " + SaveScript.pName + " you looking for something";
+    }
+
+    public void Message1()
+    {
+        bartenderMessage.text = "not much";
+    }
+
+    public void Message2()
+    {
+        bartenderMessage.text = "shop items from the list";
+        shopUI.SetActive(true);
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+        if(PlayerMovement.canMove == true && PlayerMovement.isMoving == true)
+        {
+            if (shopUI != null)
+            {
+                shopUI.SetActive(false);
+            }
+        }
+    }
+}

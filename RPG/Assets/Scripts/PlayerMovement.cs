@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 currentPosition;
 
     public static bool canMove = true;
+    public static bool isMoving = false;
     public LayerMask moveLayer;
 
     // Start is called before the first frame update
@@ -61,10 +62,12 @@ public class PlayerMovement : MonoBehaviour
         if(velocitySpeed != 0)
         {
             animator.SetBool("sprinting", true);
+            isMoving = true;
         }
         if (velocitySpeed == 0)
         {
             animator.SetBool("sprinting", false);
+            isMoving = false;
         }
 
         if(Input.GetMouseButton(1))

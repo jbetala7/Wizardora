@@ -31,7 +31,7 @@ public class Inventory : MonoBehaviour
     public static bool key = true;
 
     public static int newIcon = 0;
-    public static int gold = 0;
+    public static int gold = 250;
     public static bool iconUpdate = false;
     private int max;
 
