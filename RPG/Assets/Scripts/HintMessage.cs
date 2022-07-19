@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
 
     public GameObject hintBox;
@@ -14,14 +14,30 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     public int objectType = 0;
 
     private Vector3 screenPoint;
+    public GameObject canvas;
+    public Sprite cursorBasic;
+    public Sprite cursorHand;
+    public Image cursorImage;
+
+    public GameObject inventoryObject;
+    public bool magic = false;
+    public bool spells = false;
+    public bool left = true;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
         overIcon = true;
         if(displaying == true)
         {
+            cursorImage.sprite = cursorHand;
             hintBox.SetActive(true);
-            screenPoint.x = Input.mousePosition.x + 500;
+            if(left == true)
+            {
+                screenPoint.x = Input.mousePosition.x + 500;
+            }if(left == false)
+            {
+                screenPoint.x = Input.mousePosition.x - 500;
+            }
             screenPoint.y = Input.mousePosition.y;
             screenPoint.z = 1f;
             hintBox.transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
@@ -31,6 +47,7 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        cursorImage.sprite = cursorBasic;
         overIcon = false;
         hintBox.SetActive(false);
     }
@@ -50,6 +67,24 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             {
                 displaying = false;
                 hintBox.SetActive(false);
+                if(magic == true)
+                {
+                    if(objectType != 0)
+                    {
+                        inventoryObject.GetComponent<Inventory>().selected = objectType - 20;
+                        inventoryObject.GetComponent<Inventory>().set = true;
+                    }
+                    
+                }
+                if (spells == true)
+                {
+                    if (objectType != 0)
+                    {
+                        inventoryObject.GetComponent<Inventory>().selected = objectType - 30;
+                        inventoryObject.GetComponent<Inventory>().setTwo = true;
+                    }
+
+                }
             }
         }
         if (Input.GetMouseButtonUp(0))
@@ -128,5 +163,60 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         {
             message.text = Inventory.meat.ToString() + " meat used to replenish health";
         }
+
+        if (objectType == 20)
+        {
+            message.text = "explosive fire attack";
+        }
+        if (objectType == 21)
+        {
+            message.text = "replenishes full health";
+        }
+        if (objectType == 22)
+        {
+            message.text = "become invisible for as long as mana lasts";
+        }
+        if (objectType == 23)
+        {
+            message.text = "become invulnerable for as long as mana last";
+        }
+        if (objectType == 24)
+        {
+            message.text = "double strength for as long as mana lasts";
+        }
+        if (objectType == 25)
+        {
+            message.text = "magic attack 1";
+        }
+        if (objectType == 30)
+        {
+            message.text = "magic attack 1";
+        }
+        if (objectType == 31)
+        { 
+            message.text = "magic attack 2";
+        }
+        if (objectType == 32)
+        {
+            message.text = "magic attack 3";
+        }
+        if (objectType == 33)
+        {
+            message.text = "magic attack 4";
+        }
+        if (objectType == 34)
+        {
+            message.text = "magic attack 5";
+        }
+        if (objectType == 35)
+        {
+            message.text = "magic attack 6";
+        }
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        canvas.GetComponent<CreatePotion>().thisValue = objectType;
+        canvas.GetComponent<CreatePotion>().UpdateValues();
     }
 }

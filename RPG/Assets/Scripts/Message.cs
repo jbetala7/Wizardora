@@ -10,7 +10,10 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public Text bartenderMessage;
     public Color32 messageOff;
     public Color32 messageOn;
-    public GameObject shopUI;
+    public GameObject[] shopUI;
+
+    [HideInInspector]
+    public int shopNumber = 0;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -38,7 +41,8 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void Message2()
     {
         bartenderMessage.text = "shop items from the list";
-        shopUI.SetActive(true);
+        shopUI[shopNumber].SetActive(true);
+        shopUI[shopNumber].GetComponent<Buy>().UpdateGold();
     }
 
     // Update is called once per frame
@@ -48,7 +52,7 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         {
             if (shopUI != null)
             {
-                shopUI.SetActive(false);
+                shopUI[shopNumber].SetActive(false);
             }
         }
     }

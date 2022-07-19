@@ -24,6 +24,10 @@ public class PlayerMovement : MonoBehaviour
     public static bool isMoving = false;
     public LayerMask moveLayer;
 
+    public GameObject freeCamera;
+    public GameObject staticCamera;
+    private bool freeCameraActive = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +35,8 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
         transposer = playerCamera.GetCinemachineComponent<CinemachineTransposer>();
         currentPosition = transposer.m_FollowOffset;
+        freeCamera.SetActive(true);
+        staticCamera.SetActive(false);
     }
 
     // Update is called once per frame
@@ -75,6 +81,22 @@ public class PlayerMovement : MonoBehaviour
             if(position.x != 0 || position.y != 0)
             {
                 currentPosition = position / 200;
+            }
+        }
+
+        if(Input.GetKeyDown(KeyCode.C))
+        {
+            if(freeCameraActive == true)
+            {
+                freeCamera.SetActive(false);
+                staticCamera.SetActive(true);
+                freeCameraActive = false;
+            }
+            else if (freeCameraActive == false)
+            {
+                freeCamera.SetActive(true);
+                staticCamera.SetActive(false);
+                freeCameraActive = true;
             }
         }
     }

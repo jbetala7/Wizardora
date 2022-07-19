@@ -24,6 +24,33 @@ public class Pickups : MonoBehaviour
                 Inventory.redMushrooms++;
                 Destroy(gameObject);
             }
+            else if (purpleMushroom == true)
+            {
+                if (Inventory.purpleMushrooms == 0)
+                {
+                    DisplayIcons();
+                }
+                Inventory.purpleMushrooms++;
+                Destroy(gameObject);
+            }
+            else if (brownMushroom == true)
+            {
+                if (Inventory.brownMushrooms == 0)
+                {
+                    DisplayIcons();
+                }
+                Inventory.brownMushrooms++;
+                Destroy(gameObject);
+            }
+            else if (redFlower == true)
+            {
+                if (Inventory.redFlowers == 0)
+                {
+                    DisplayIcons();
+                }
+                Inventory.redFlowers++;
+                Destroy(gameObject);
+            }
             else if (bluePlants == true)
             {
                 if (Inventory.bluePlants == 0)
