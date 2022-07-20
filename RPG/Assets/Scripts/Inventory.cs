@@ -9,6 +9,8 @@ public class Inventory : MonoBehaviour
     public GameObject closedBook;
     public GameObject openBook;
     public GameObject potionBook;
+    private AudioSource audioSource;
+    public AudioClip bookOpenSound;
 
     public GameObject messageBox;
 
@@ -72,6 +74,7 @@ public class Inventory : MonoBehaviour
         max = emptySlots.Length;
         maxTwo = items.Length;
         maxThree = emptySlots.Length;
+        audioSource = GetComponent<AudioSource>();
 
         //temporary
         redMushrooms = 0;
@@ -175,6 +178,8 @@ public class Inventory : MonoBehaviour
         inventoryMenu.SetActive(true);
         openBook.SetActive(true);
         closedBook.SetActive(false);
+        audioSource.clip = bookOpenSound;
+        audioSource.Play();
         Time.timeScale = 0;
     }
 
@@ -183,6 +188,8 @@ public class Inventory : MonoBehaviour
         inventoryMenu.SetActive(false);
         openBook.SetActive(false);
         closedBook.SetActive(true);
+        audioSource.clip = bookOpenSound;
+        audioSource.Play();
         Time.timeScale = 1;
     }
     public void OpenPotionBook()

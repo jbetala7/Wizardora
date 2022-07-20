@@ -6,6 +6,8 @@ public class Roof : MonoBehaviour
 {
     public GameObject roof;
     public GameObject props;
+    public GameObject myCamera;
+    public bool bar = true;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,11 @@ public class Roof : MonoBehaviour
         {
             roof.SetActive(false);
             props.SetActive(true);
+            if(bar == true)
+            {
+                myCamera.GetComponent<AudioManager>().musicState = 2;
+                myCamera.GetComponent<AudioManager>().canPlay = true;
+            }
         }
     }
 
@@ -29,6 +36,11 @@ public class Roof : MonoBehaviour
         {
             roof.SetActive(true);
             props.SetActive(false);
+            if (bar == true)
+            {
+                myCamera.GetComponent<AudioManager>().musicState = 1;
+                myCamera.GetComponent<AudioManager>().canPlay = false;
+            } 
         }
     }
 }
