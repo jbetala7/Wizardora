@@ -18,6 +18,7 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     public Sprite cursorBasic;
     public Sprite cursorHand;
     public Image cursorImage;
+    public AudioSource audioSource;
 
     public GameObject inventoryObject;
     public bool magic = false;
@@ -56,6 +57,7 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     void Start()
     {
         hintBox.SetActive(false);
+        audioSource = inventoryObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -65,6 +67,9 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         {
             if(Input.GetMouseButtonDown(0))
             {
+
+                audioSource.clip = inventoryObject.GetComponent<Inventory>().selectSound;
+                audioSource.Play();
                 displaying = false;
                 hintBox.SetActive(false);
                 if(magic == true)

@@ -11,6 +11,7 @@ public class Inventory : MonoBehaviour
     public GameObject potionBook;
     private AudioSource audioSource;
     public AudioClip bookOpenSound;
+    public AudioClip selectSound;
 
     public GameObject messageBox;
 
