@@ -12,6 +12,9 @@ public class Inventory : MonoBehaviour
     private AudioSource audioSource;
     public AudioClip bookOpenSound;
     public AudioClip selectSound;
+    public AudioClip buySound;
+    public AudioClip createPotionSound;
+    public AudioClip pickupSound;
 
     public GameObject messageBox;
 
@@ -203,6 +206,8 @@ public class Inventory : MonoBehaviour
         canvas.GetComponent<CreatePotion>().value = 0;
         canvas.GetComponent<CreatePotion>().thisValue = 0;
         potionBook.SetActive(false);
+        audioSource.clip = selectSound;
+        audioSource.Play();
     }
 
     IEnumerator Reset()

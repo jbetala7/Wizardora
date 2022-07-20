@@ -19,6 +19,11 @@ public class CreatePotion : MonoBehaviour
     private int max;
     private int maxTwo;
 
+    public GameObject inventoryObject;
+
+    [HideInInspector]
+    public AudioSource audioSource;
+
     public Image[] emptySlots;
     public Sprite[] icons;
     public Sprite emptyIcon;
@@ -31,6 +36,7 @@ public class CreatePotion : MonoBehaviour
         expectedValue = values[0];
         max = emptySlots.Length;
         maxTwo = emptySlots.Length;
+        audioSource = inventoryObject.GetComponent<AudioSource>();
         Create();
     }
 
@@ -45,6 +51,8 @@ public class CreatePotion : MonoBehaviour
                     max = i;
                     emptySlots[i].sprite = icons[itemID];
                     emptySlots[i].transform.gameObject.GetComponent<HintMessage>().objectType = itemID + 20;
+                    audioSource.clip = inventoryObject.GetComponent<Inventory>().createPotionSound;
+                    audioSource.Play();
                     value = 0;
                     thisValue = 0;
                 }

@@ -11,11 +11,25 @@ public class Pickups : MonoBehaviour
     public bool bluePlants = false;
     public bool redFlower = false;
 
+    [HideInInspector]
+    public GameObject inventoryObject;
+    public AudioSource audioSource;
+
+    // Start is called before the first frame update
+    private void Start()
+    {
+        inventoryObject = GameObject.Find("InventoryCanvas");
+        audioSource = inventoryObject.GetComponent<AudioSource>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
         {
-            if(redMushroom == true)
+            audioSource.clip = inventoryObject.GetComponent<Inventory>().pickupSound;
+            audioSource.Play();
+
+            if (redMushroom == true)
             {
                 if(Inventory.redMushrooms == 0)
                 {

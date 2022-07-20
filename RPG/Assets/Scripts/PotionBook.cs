@@ -9,6 +9,10 @@ public class PotionBook : MonoBehaviour
     public Text magicName;
     public Text magicDescription;
 
+    [HideInInspector]
+    public AudioSource audioSource;
+    public GameObject inventoryObject;
+
     public Sprite[] magicSprites;
     public string[] names;
     public string[] descriptions;
@@ -22,6 +26,7 @@ public class PotionBook : MonoBehaviour
         magicIcon.sprite = magicSprites[0];
         magicName.text = names[0];
         magicDescription.text = descriptions[0];
+        audioSource = inventoryObject.GetComponent<AudioSource>();
         iconSets[0].SetActive(true);
 
     }
@@ -30,6 +35,8 @@ public class PotionBook : MonoBehaviour
     {
         if(currentIcon < magicSprites.Length - 1)
         {
+            audioSource.clip = inventoryObject.GetComponent<Inventory>().selectSound;
+            audioSource.Play();
             currentIcon++;
             magicIcon.sprite = magicSprites[currentIcon];
             magicName.text = names[currentIcon];
@@ -54,6 +61,8 @@ public class PotionBook : MonoBehaviour
     {
         if (currentIcon > 0)
         {
+            audioSource.clip = inventoryObject.GetComponent<Inventory>().selectSound;
+            audioSource.Play();
             currentIcon--;
             magicIcon.sprite = magicSprites[currentIcon];
             magicName.text = names[currentIcon];
