@@ -1,0 +1,908 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32689 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+O:/MSc AI/Dissertation-Project/RPG
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51201
+Successfully changed project path to: O:/MSc AI/Dissertation-Project/RPG
+O:/MSc AI/Dissertation-Project/RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 78.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path O:/MSc AI/Dissertation-Project/RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   31.0.15.1659
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003701 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 77.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.488 seconds
+Domain Reload Profiling:
+	ReloadAssembly (488ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (381ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002597 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.828 seconds
+Domain Reload Profiling:
+	ReloadAssembly (829ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3962 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (1.4 MB). Loaded Objects now: 4439.
+Memory consumption went from 165.4 MB to 164.0 MB.
+Total: 3.786800 ms (FindLiveObjects: 0.330700 ms CreateObjectMapping: 0.121200 ms MarkObjects: 2.963300 ms  DeleteObjects: 0.370700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 554114.534914 seconds.
+  path: Assets/Sprites/Music/Fantasy Music Collection Lite/desert_solo_loop.wav
+  artifactKey: Guid(cfd57d8fcf1393b4dae3f368d9915357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Music Collection Lite/desert_solo_loop.wav using Guid(cfd57d8fcf1393b4dae3f368d9915357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d2176398b11623357961f34f459b6d') in 0.159779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Music/Fantasy Music Collection Lite/frozen_lands_short_loop.wav
+  artifactKey: Guid(0a1069c923eaad143aa6eda2873c21d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Music Collection Lite/frozen_lands_short_loop.wav using Guid(0a1069c923eaad143aa6eda2873c21d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892fd7eed04591c57c7e7d7397d29cec') in 0.013010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Music/Fantasy Music Collection Lite/tavern_loop.wav
+  artifactKey: Guid(fa12cfe749020c74aab8f5e147582c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Music Collection Lite/tavern_loop.wav using Guid(fa12cfe749020c74aab8f5e147582c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552c517c6315df5e6c4e0b7dd06ef700') in 0.010413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Music/Fantasy Music Collection Lite/lower_cavern_loop.wav
+  artifactKey: Guid(3fc0fc27ebf04834baa4edb20a405aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Music Collection Lite/lower_cavern_loop.wav using Guid(3fc0fc27ebf04834baa4edb20a405aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27cb0b27c5cabe5e7f19f691e9438d3') in 0.011964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Music/Fantasy Music Collection Lite/grassland_short_loop.wav
+  artifactKey: Guid(bead0199fb2cd8d40832fcf68aeefc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Music Collection Lite/grassland_short_loop.wav using Guid(bead0199fb2cd8d40832fcf68aeefc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568f5719aa7e0f427d0184c36434e9ab') in 0.011435 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002426 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (838ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3904 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.4 MB). Loaded Objects now: 4463.
+Memory consumption went from 164.4 MB to 163.0 MB.
+Total: 3.163700 ms (FindLiveObjects: 0.324700 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.397700 ms  DeleteObjects: 0.337500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002710 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Domain Reload Profiling:
+	ReloadAssembly (826ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3903 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.4 MB). Loaded Objects now: 4478.
+Memory consumption went from 164.4 MB to 163.0 MB.
+Total: 3.165200 ms (FindLiveObjects: 0.342200 ms CreateObjectMapping: 0.099600 ms MarkObjects: 2.328300 ms  DeleteObjects: 0.394200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002389 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Domain Reload Profiling:
+	ReloadAssembly (826ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (633ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3903 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.4 MB). Loaded Objects now: 4493.
+Memory consumption went from 164.4 MB to 163.0 MB.
+Total: 4.995700 ms (FindLiveObjects: 0.598200 ms CreateObjectMapping: 0.143900 ms MarkObjects: 3.768200 ms  DeleteObjects: 0.484400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002248 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Domain Reload Profiling:
+	ReloadAssembly (873ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (674ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3903 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.4 MB). Loaded Objects now: 4508.
+Memory consumption went from 164.5 MB to 163.0 MB.
+Total: 3.635700 ms (FindLiveObjects: 0.398300 ms CreateObjectMapping: 0.150700 ms MarkObjects: 2.690300 ms  DeleteObjects: 0.395600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003224 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Domain Reload Profiling:
+	ReloadAssembly (875ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (669ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3903 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.4 MB). Loaded Objects now: 4523.
+Memory consumption went from 164.5 MB to 163.1 MB.
+Total: 3.365700 ms (FindLiveObjects: 0.316600 ms CreateObjectMapping: 0.140900 ms MarkObjects: 2.509900 ms  DeleteObjects: 0.397300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 939.579413 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_09.wav
+  artifactKey: Guid(3a06a27039e144e5c853a93d408fd63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_09.wav using Guid(3a06a27039e144e5c853a93d408fd63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93c02732f8de13300cdf62a82b32686') in 0.051902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Menu_Select_00.wav
+  artifactKey: Guid(33b6cd7837c7642958dac012307e9086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Menu_Select_00.wav using Guid(33b6cd7837c7642958dac012307e9086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba0b843edc9832c641c5c73f6033b13') in 0.010174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect1atk.wav
+  artifactKey: Guid(048db73fda998474e8aec9825cbbaf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect1atk.wav using Guid(048db73fda998474e8aec9825cbbaf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a185c3fcc07fed72af5f544491e55bcc') in 0.011302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Inventory_Open_01.wav
+  artifactKey: Guid(914a4a2a124d040df96bf13308aadc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Inventory_Open_01.wav using Guid(914a4a2a124d040df96bf13308aadc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf81e5e4dc3a4ecc38a0862b3433a2a0') in 0.011036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Jingle_Achievement_00.wav
+  artifactKey: Guid(c0cabce778ad54792bba3a0ca6765417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Jingle_Achievement_00.wav using Guid(c0cabce778ad54792bba3a0ca6765417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0346be9c007cf0f05f3f0be3a3e89722') in 0.013066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob4atk.wav
+  artifactKey: Guid(7731629c744584f4485f376fa0bdfd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob4atk.wav using Guid(7731629c744584f4485f376fa0bdfd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c224c5f71c216944b54fc67bb9991e5b') in 0.012516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob3atk.wav
+  artifactKey: Guid(cc47d394ade5def4dac3043b144bc740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob3atk.wav using Guid(cc47d394ade5def4dac3043b144bc740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2cd8ad21381410e82a23bdf9ae6267') in 0.012836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Water_00.wav
+  artifactKey: Guid(f19e74cad832142c99ce7fdf008daa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Water_00.wav using Guid(f19e74cad832142c99ce7fdf008daa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a84045529b8c48217ea2297b4a8df2') in 0.014987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Jingle_Lose_00.wav
+  artifactKey: Guid(2135b07382ab043e3a8947ca810d9bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Jingle_Lose_00.wav using Guid(2135b07382ab043e3a8947ca810d9bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df9d3eea1fd1a6d7194c5ae51818055') in 0.011050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect1die.wav
+  artifactKey: Guid(86211679397d6f041ab20bf366a12fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect1die.wav using Guid(86211679397d6f041ab20bf366a12fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0081ed7ab74d3822790cf7d028cfacdd') in 0.010301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob1.wav
+  artifactKey: Guid(e4f273c93d0e6ef41800b7b5eae0451f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob1.wav using Guid(e4f273c93d0e6ef41800b7b5eae0451f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a8838a30a6d18c220981cba99fd5d0') in 0.012136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Goblin_04.wav
+  artifactKey: Guid(b1e15b00e5c084b14b2fee5b2f708e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Goblin_04.wav using Guid(b1e15b00e5c084b14b2fee5b2f708e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48abd07159c5c584efe8d88a4e78d2b') in 0.013510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_07.mp3
+  artifactKey: Guid(c4c95fd958444446aacca5c7a33ba1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_07.mp3 using Guid(c4c95fd958444446aacca5c7a33ba1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac29127f879d241e8e1446b04e47b8e') in 0.011930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Inventory_Open_01.mp3
+  artifactKey: Guid(b7db7ff580d9848ed8f011953f466b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Inventory_Open_01.mp3 using Guid(b7db7ff580d9848ed8f011953f466b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bb6f9698bbdb883079e2a0886533c8') in 0.010836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Goblin_01.mp3
+  artifactKey: Guid(3a20c1f2fd4d44c4d9a6fabbec93be20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Goblin_01.mp3 using Guid(3a20c1f2fd4d44c4d9a6fabbec93be20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f7eaf069247fdeca8e463196c8b815') in 0.011376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob2die.wav
+  artifactKey: Guid(4b4d0aa682f21824da54924403a484fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob2die.wav using Guid(4b4d0aa682f21824da54924403a484fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d729ab2bdce4821e1680107ae5f317') in 0.012347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob1die.wav
+  artifactKey: Guid(d55296892cffb044e99edae1e22bd456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob1die.wav using Guid(d55296892cffb044e99edae1e22bd456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508470e80ae60b6095aa15b66056447a') in 0.013453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect2die.wav
+  artifactKey: Guid(461c75de4bf167a4688657a9c4bd432f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect2die.wav using Guid(461c75de4bf167a4688657a9c4bd432f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f01700486095e63b97e855fac9dba6') in 0.011147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_02.mp3
+  artifactKey: Guid(3d466a540cab840049f3a6d6d885a4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_02.mp3 using Guid(3d466a540cab840049f3a6d6d885a4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998822928d7cefda8b705caf60d70b40') in 0.011680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob4.wav
+  artifactKey: Guid(34b6e2e79c7e4e6409ab4dd2261adb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob4.wav using Guid(34b6e2e79c7e4e6409ab4dd2261adb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8956a4a97e41584dd0a0b12fbe2633') in 0.010212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob4.wav
+  artifactKey: Guid(ea00fc8acbbea674c8b6e2401e94b90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob4.wav using Guid(ea00fc8acbbea674c8b6e2401e94b90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a88b01d2564db3e7830a4b4442b571d') in 0.010621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Jingle_Win_00.mp3
+  artifactKey: Guid(14e15f75ff87846e18aa9ba0845c8a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Jingle_Win_00.mp3 using Guid(14e15f75ff87846e18aa9ba0845c8a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49b7a43329cfb576cc4afb9444133e4') in 0.012629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob3.wav
+  artifactKey: Guid(c8ae907ffbbe89e43be1f8a25411409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob3.wav using Guid(c8ae907ffbbe89e43be1f8a25411409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4961d764be7db86b79756058cdacfffa') in 0.012988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob1atk.wav
+  artifactKey: Guid(d1f8d4165dfa79a4fa92289d2d83d58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob1atk.wav using Guid(d1f8d4165dfa79a4fa92289d2d83d58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7987f3e58b98f75a0a3aae36d3f1134') in 0.011185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_03.mp3
+  artifactKey: Guid(82c7ec065b4f1479c85a5c2d51e4e313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_03.mp3 using Guid(82c7ec065b4f1479c85a5c2d51e4e313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9a6a290711e05a54197aeeb8312e81') in 0.010054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Goblin_02.wav
+  artifactKey: Guid(0cd0367ce705e426e944079a1e47eb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Goblin_02.wav using Guid(0cd0367ce705e426e944079a1e47eb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e26f7c1038e123a47a877f1084593b5') in 0.012419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob4die.wav
+  artifactKey: Guid(57af5a0a8d4cb68408c711f0bc2dd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob4die.wav using Guid(57af5a0a8d4cb68408c711f0bc2dd57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984c2f6c495fc5d25d7f81e13e91fa6a') in 0.013398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect2.wav
+  artifactKey: Guid(70857a4bad8d14b49ad276d9c611a12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect2.wav using Guid(70857a4bad8d14b49ad276d9c611a12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aadb917e4c960ffc0356b854a97189e') in 0.010163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect2atk.wav
+  artifactKey: Guid(e8b6eabdbaacefc4d94a781dbae09fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect2atk.wav using Guid(e8b6eabdbaacefc4d94a781dbae09fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7650c9816b14801a7f8d5a1bb37ca499') in 0.012206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird1.wav
+  artifactKey: Guid(6caf1d491fac9924a8aa9f3269cca80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird1.wav using Guid(6caf1d491fac9924a8aa9f3269cca80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2526a8920d67ddabaa02aaccee99ee8') in 0.011159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_07.wav
+  artifactKey: Guid(c1eac1c698fc84605adb7e1074fd7d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_07.wav using Guid(c1eac1c698fc84605adb7e1074fd7d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb39bd6c61084b46c8df973993ad68b5') in 0.010296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_06.mp3
+  artifactKey: Guid(dd1266cc97b6b4a38a280331273cb1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_06.mp3 using Guid(dd1266cc97b6b4a38a280331273cb1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548ad33c73438f82a6a9042d64d6e723') in 0.011788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_04.wav
+  artifactKey: Guid(f7bff2a24d7d64eb296a8133060bd3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_04.wav using Guid(f7bff2a24d7d64eb296a8133060bd3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1434a943c5db3563ce795a9829f5ba3') in 0.011712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird4.wav
+  artifactKey: Guid(23c03048ea7909e4ea1904d81861a1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird4.wav using Guid(23c03048ea7909e4ea1904d81861a1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50196fd16af8fbfe587578ebff5d8e1') in 0.011612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_02.wav
+  artifactKey: Guid(64049f336db3d403dabd0425eb159922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_02.wav using Guid(64049f336db3d403dabd0425eb159922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a04c56bca025f7b3440e4fe95aa5f6') in 0.010547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_03.mp3
+  artifactKey: Guid(f65c4ff197551410b9f70b804410c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_03.mp3 using Guid(f65c4ff197551410b9f70b804410c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93eaedfa7aed858d131cf252a5d62df') in 0.011250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird2.wav
+  artifactKey: Guid(fb0b5cc1bb0d3e84b81025435dc7c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird2.wav using Guid(fb0b5cc1bb0d3e84b81025435dc7c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5e26e9b9aca339387716fa3ebba9f8') in 0.011260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Dragon_Growl_00.wav
+  artifactKey: Guid(bf5d4102f62c644aa91a146267aaf815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Dragon_Growl_00.wav using Guid(bf5d4102f62c644aa91a146267aaf815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a517605056efe5621582a20d93ca083a') in 0.011893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_01.mp3
+  artifactKey: Guid(a948133482bd9461cbcb85c1b36c59b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_01.mp3 using Guid(a948133482bd9461cbcb85c1b36c59b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568a712bb994b3cdc9f2c4f998cf4f52') in 0.009822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_05.mp3
+  artifactKey: Guid(61467420665bc4bb782283cc97cebfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_05.mp3 using Guid(61467420665bc4bb782283cc97cebfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c0ff4bce69d01058161b5f7c3d3466') in 0.010932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob1atk.wav
+  artifactKey: Guid(b609876ba6b5b3b4ca7271338aa0c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/lowlevel/mob1atk.wav using Guid(b609876ba6b5b3b4ca7271338aa0c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f21c2faeceaa307c69c0a40793af64') in 0.010115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Menu_Select_00.mp3
+  artifactKey: Guid(4f13633ea56974e6dbf63eb99fa6c851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Menu_Select_00.mp3 using Guid(4f13633ea56974e6dbf63eb99fa6c851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14917fc60f584e4a27f75912e2a0cc6') in 0.010269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_04.mp3
+  artifactKey: Guid(c71a1656ec801453da6b0fc7884f77fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_04.mp3 using Guid(c71a1656ec801453da6b0fc7884f77fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf0db9fc4a9ee500c9b9216f8e349a7') in 0.010468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Ambience_Cave_00.wav
+  artifactKey: Guid(f74396619b7154fa5a38a1959cfa67ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Ambience_Cave_00.wav using Guid(f74396619b7154fa5a38a1959cfa67ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b438984fa4b097ca9820fe768d3956b') in 0.010908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Goblin_02.mp3
+  artifactKey: Guid(d4aedaaa8b7044b028ce7da7409a8fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Goblin_02.mp3 using Guid(d4aedaaa8b7044b028ce7da7409a8fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fca10487531567cc9936798630c812') in 0.010715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Inventory_Open_00.wav
+  artifactKey: Guid(ca056d4afe5e74498a0798f16e0e866d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Inventory_Open_00.wav using Guid(ca056d4afe5e74498a0798f16e0e866d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2af2c594d6e7c2b0087b1fa1f3fbd9') in 0.010637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob3.wav
+  artifactKey: Guid(2cc46cabf96c30b41aee8de58bffee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob3.wav using Guid(2cc46cabf96c30b41aee8de58bffee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7901299dcef80fdd36a3551428c56b') in 0.011891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_00.wav
+  artifactKey: Guid(05a08dd4ee0c046a6b56466d5c9aa9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_00.wav using Guid(05a08dd4ee0c046a6b56466d5c9aa9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389910df61160af7974c1beea0cd7a58') in 0.009031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird3.wav
+  artifactKey: Guid(cf9765ca9ec1f1346a6b62e8c5afd8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird3.wav using Guid(cf9765ca9ec1f1346a6b62e8c5afd8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25aac7ef0bbbb14ab1dd190ad88919d') in 0.011006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Dragon_Growl_00.mp3
+  artifactKey: Guid(31572d31fe9bc4d4d909f5a91c767e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Dragon_Growl_00.mp3 using Guid(31572d31fe9bc4d4d909f5a91c767e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8a9ed010d73377a4046088e7667992') in 0.010040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_05.wav
+  artifactKey: Guid(f626dafe2c3e045cd852e86532182f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Wav/Footsteps/Footstep_Dirt_05.wav using Guid(f626dafe2c3e045cd852e86532182f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3618536f411787334e44444c96de8725') in 0.011586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_07.mp3
+  artifactKey: Guid(1c30db6cd8fb645049fe02656a68d721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Dirt_07.mp3 using Guid(1c30db6cd8fb645049fe02656a68d721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff658d8426088e3a17b3be9386221006') in 0.011427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird4atk.wav
+  artifactKey: Guid(b5a1029d2a5f335408a4cfc3f2b238a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird4atk.wav using Guid(b5a1029d2a5f335408a4cfc3f2b238a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f3903b51a78370b306a843c0ff5f81') in 0.009790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird4die.wav
+  artifactKey: Guid(9ba5b6fb30c41934e9ce7f61d594b0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird4die.wav using Guid(9ba5b6fb30c41934e9ce7f61d594b0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376cf4a781997d02cabafd9546e4b9c2') in 0.010958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect1.wav
+  artifactKey: Guid(a624bcb07d968db4ca3b4ea98c11ed26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/insect/insect1.wav using Guid(a624bcb07d968db4ca3b4ea98c11ed26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a932dd875cc2e412405a81baad84ef') in 0.016544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird5atk.wav
+  artifactKey: Guid(b0bba471fcc88e84e9a208fa5e5f1d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/bird/bird5atk.wav using Guid(b0bba471fcc88e84e9a208fa5e5f1d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38e564503163a770fe3eae05b7e8501') in 0.011814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob1.wav
+  artifactKey: Guid(dd68c6f0dfd306c489dc7d2919167e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Monster SFX - 111518/monster/highlevel/mob1.wav using Guid(dd68c6f0dfd306c489dc7d2919167e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873b708d477062b3380f40589e5e9b6f') in 0.009153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_00.mp3
+  artifactKey: Guid(0f7237cf710e142909810e114ce1d2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Footsteps/Footstep_Water_00.mp3 using Guid(0f7237cf710e142909810e114ce1d2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c943fea6e849f557cad8db3515a6bd2b') in 0.011007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Music/Fantasy Sfx/Mp3/Ambience_Cave_00.mp3
+  artifactKey: Guid(dff547ca933eb4d72a80bbb104e16ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Music/Fantasy Sfx/Mp3/Ambience_Cave_00.mp3 using Guid(dff547ca933eb4d72a80bbb104e16ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db9c43fccf3721c6507b4b38375124f') in 0.011081 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002518 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3904 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.4 MB). Loaded Objects now: 4539.
+Memory consumption went from 164.6 MB to 163.2 MB.
+Total: 3.727100 ms (FindLiveObjects: 0.361200 ms CreateObjectMapping: 0.107300 ms MarkObjects: 2.798300 ms  DeleteObjects: 0.458700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
