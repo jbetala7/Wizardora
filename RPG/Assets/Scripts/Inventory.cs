@@ -16,6 +16,12 @@ public class Inventory : MonoBehaviour
     public AudioClip createPotionSound;
     public AudioClip pickupSound;
 
+    private GameObject playerObject;
+    private Animator playerAnimation;
+    private float weightAmount = 1.0f;
+    private bool changeWeight = false;
+    private AnimatorStateInfo playerInfo;
+
     public GameObject messageBox;
 
     public Image[] emptySlots;
@@ -68,7 +74,9 @@ public class Inventory : MonoBehaviour
     public bool set = false;
     public bool setTwo = false;
 
-    public GameObject magicParticle;
+    public GameObject[] magicParticles;
+    public AudioClip[] magicSounds;
+    public Image manaBar;
 
     // Start is called before the first frame update
     void Start()
@@ -81,6 +89,8 @@ public class Inventory : MonoBehaviour
         maxTwo = items.Length;
         maxThree = emptySlots.Length;
         audioSource = GetComponent<AudioSource>();
+        playerObject = GameObject.FindGameObjectWithTag("Player");
+        playerAnimation = playerObject.GetComponent<Animator>();
 
         //temporary
         redMushrooms = 0;
@@ -104,9 +114,12 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(iconUpdate == true)
+
+        playerInfo = playerAnimation.GetCurrentAnimatorStateInfo(1);
+
+        if (iconUpdate == true)
         {
-            for(int i =0; i < max; i++)
+            for (int i = 0; i < max; i++)
             {
                 if (emptySlots[i].sprite == emptyIcon)
                 {
@@ -117,9 +130,9 @@ public class Inventory : MonoBehaviour
             }
             StartCoroutine(Reset());
         }
-        if(set == true)
+        if (set == true)
         {
-            for(int i =0; i < UISlot.Length; i++)
+            for (int i = 0; i < UISlot.Length; i++)
             {
                 if (Input.GetKeyDown(keys[i]))
                 {
@@ -142,9 +155,47 @@ public class Inventory : MonoBehaviour
                 }
             }
         }
-        if(Input.GetKeyDown(KeyCode.M))
+        if (Input.anyKey && Time.timeScale == 1)
         {
-            Instantiate(magicParticle, SaveScript.firePoint.transform.position, SaveScript.firePoint.transform.rotation);
+            for (int i = 0; i < UISlot.Length; i++)
+            {
+                if (Input.GetKeyDown(keys[i]))
+                {
+                    if (UISlot[i].sprite != emptyIcon)
+                    {
+                        if(SaveScript.manaAmount > 0.1f)
+                        {
+                            Instantiate(magicParticles[magicAttack[i]], SaveScript.firePoint.transform.position,
+                                SaveScript.firePoint.transform.rotation);
+                            audioSource.clip = magicSounds[magicAttack[i]];
+                            audioSource.Play();
+                            playerAnimation.SetTrigger("magicAttack");
+                            playerAnimation.SetLayerWeight(1, 1);
+                            weightAmount = 1;
+                        }
+                        if (magicAttack[i] < 6 && SaveScript.manaAmount > 0.1)
+                        {
+                            UISlot[i].sprite = emptyIcon;
+                        }
+                    }
+                }
+            }
+        }
+        manaBar.fillAmount = SaveScript.manaAmount;
+
+        if(playerInfo.IsTag("magic"))
+        {
+            changeWeight = true;
+        }
+
+        if(changeWeight == true)
+        {
+            weightAmount -= 0.3f * Time.deltaTime;
+            playerAnimation.SetLayerWeight(1, weightAmount);
+            if(weightAmount <= 0)
+            {
+                changeWeight = false;
+            }
         }
     }
 
@@ -190,6 +241,7 @@ public class Inventory : MonoBehaviour
         closedBook.SetActive(false);
         audioSource.clip = bookOpenSound;
         audioSource.Play();
+        SaveScript.enemyTarget = null;
         Time.timeScale = 0;
     }
 

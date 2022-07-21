@@ -8,11 +8,30 @@ public class SaveScript : MonoBehaviour
     public static string pName = "player";
     public static GameObject firePoint;
     public static GameObject enemyTarget;
+    public static float manaAmount = 1.0f;
+    public static bool invisible = false;
 
 
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(this);
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+        if(manaAmount < 1.0)
+        {
+            manaAmount += 0.05f * Time.deltaTime;
+        }
+        if (manaAmount <= 0)
+        {
+            manaAmount = 0;
+        }
+        if(manaAmount < 0.02)
+        {
+            invisible = false;
+        }
     }
 }

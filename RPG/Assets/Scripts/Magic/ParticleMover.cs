@@ -13,6 +13,8 @@ public class ParticleMover : MonoBehaviour
     public bool followPlayer = false;
     private GameObject playerObject;
     private GameObject saveTarget;
+    public float manaDecreaseRate = 0.07f;
+    public bool invisibility = false;
     
 
     // Start is called before the first frame update
@@ -20,6 +22,10 @@ public class ParticleMover : MonoBehaviour
     {
         saveTarget = SaveScript.enemyTarget;
         playerObject = GameObject.FindGameObjectWithTag("Player");
+        if(invisibility == true)
+        {
+            SaveScript.invisible = true;
+        }
     }
 
     // Update is called once per frame
@@ -54,7 +60,13 @@ public class ParticleMover : MonoBehaviour
         if(followPlayer == true)
         {
             transform.position = playerObject.transform.position;
+            lifetime = 100;
+            if(SaveScript.manaAmount <= 0.01)
+            {
+                Destroy(obj);
+            }
         }
+        SaveScript.manaAmount -= manaDecreaseRate * Time.deltaTime;
         Destroy(obj, lifetime);
     }
 }
