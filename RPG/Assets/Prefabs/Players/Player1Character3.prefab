@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3402518472594167268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1587427500719035061}
+  m_Layer: 0
+  m_Name: Firepoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1587427500719035061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3402518472594167268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.132, z: 0.722}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2021339816743314259}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3607189435751800586
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,8 +150,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3607189437374289452}
-  m_LocalRotation: {x: 0.4331887, y: -0.000000015508169, z: 0.000000007453611, w: 0.90130323}
-  m_LocalPosition: {x: -0.26742554, y: 9.112188, z: -10.157043}
+  m_LocalRotation: {x: 0.43318874, y: -3.9955e-16, z: -1.3849232e-16, w: 0.90130323}
+  m_LocalPosition: {x: -0.26742554, y: 9.112189, z: -10.157043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -285,8 +316,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6272144014687504557}
-  m_LocalRotation: {x: 0.4331887, y: 0.000000015508167, z: -0.000000007453609, w: 0.9013033}
-  m_LocalPosition: {x: -0.26742554, y: 9.112188, z: -10.157043}
+  m_LocalRotation: {x: 0.43318874, y: 3.9955e-16, z: 1.3849232e-16, w: 0.90130323}
+  m_LocalPosition: {x: -0.26742554, y: 9.112189, z: -10.157043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -343,7 +374,7 @@ GameObject:
   - component: {fileID: 4512199545162264713}
   m_Layer: 0
   m_Name: Player1Character3
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -484,6 +515,7 @@ MonoBehaviour:
     m_Bits: 1
   freeCamera: {fileID: 3607189437374289452}
   staticCamera: {fileID: 6272144014687504557}
+  firePoint: {fileID: 3402518472594167268}
 --- !u!195 &9198889327534681280
 NavMeshAgent:
   m_ObjectHideFlags: 0

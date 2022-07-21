@@ -28,6 +28,9 @@ public class PlayerMovement : MonoBehaviour
     public GameObject staticCamera;
     private bool freeCameraActive = true;
 
+    public GameObject firePoint;
+    private WaitForSeconds approachEnemy = new WaitForSeconds(0.7f);
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
         currentPosition = transposer.m_FollowOffset;
         freeCamera.SetActive(true);
         staticCamera.SetActive(false);
+        SaveScript.firePoint = firePoint;
     }
 
     // Update is called once per frame
@@ -60,7 +64,19 @@ public class PlayerMovement : MonoBehaviour
 
                 if (Physics.Raycast(ray, out hit, 300, moveLayer))
                 {
-                    agent.destination = hit.point;
+                    if(hit.transform.gameObject.CompareTag("Enemy"))
+                    {
+                        agent.isStopped = false;
+                        SaveScript.enemyTarget = hit.transform.gameObject;
+                        agent.destination = hit.point;
+                        StartCoroutine(MoveTo());
+                    }
+                    else
+                    {
+                        SaveScript.enemyTarget = null;
+                        agent.destination = hit.point;
+                        agent.isStopped = false;
+                    }
                 }
             }
         }
@@ -80,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if(position.x != 0 || position.y != 0)
             {
-                currentPosition = position / 200;
+                currentPosition = position / 70;
             }
         }
 
@@ -99,5 +115,11 @@ public class PlayerMovement : MonoBehaviour
                 freeCameraActive = true;
             }
         }
+    }
+
+    IEnumerator MoveTo()
+    {
+        yield return approachEnemy;
+        agent.isStopped = true;
     }
 }

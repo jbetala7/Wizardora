@@ -68,6 +68,8 @@ public class Inventory : MonoBehaviour
     public bool set = false;
     public bool setTwo = false;
 
+    public GameObject magicParticle;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -139,6 +141,10 @@ public class Inventory : MonoBehaviour
                     magicAttack[i] = selected += 6;
                 }
             }
+        }
+        if(Input.GetKeyDown(KeyCode.M))
+        {
+            Instantiate(magicParticle, SaveScript.firePoint.transform.position, SaveScript.firePoint.transform.rotation);
         }
     }
 

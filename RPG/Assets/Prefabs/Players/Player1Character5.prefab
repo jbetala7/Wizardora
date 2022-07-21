@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &927620360078809413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2083975480297768841}
+  m_Layer: 0
+  m_Name: Firepoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2083975480297768841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927620360078809413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.132, z: 0.722}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4198540501150764722}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1070392011353745989
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,7 +150,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3370189307404555379}
-  m_LocalRotation: {x: 0.43318874, y: -0.000000015508169, z: 0.000000007453612, w: 0.90130323}
+  m_LocalRotation: {x: 0.43318874, y: 0.000000015508167, z: -0.000000007453611, w: 0.90130323}
   m_LocalPosition: {x: -0.77523804, y: 9.112195, z: -10.851685}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -177,7 +208,7 @@ GameObject:
   - component: {fileID: 6950968362586814003}
   m_Layer: 0
   m_Name: Player1Character5
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -484,6 +515,7 @@ MonoBehaviour:
     m_Bits: 1
   freeCamera: {fileID: 7847257230848561302}
   staticCamera: {fileID: 3370189307404555379}
+  firePoint: {fileID: 927620360078809413}
 --- !u!195 &1062120132049637548
 NavMeshAgent:
   m_ObjectHideFlags: 0
