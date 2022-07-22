@@ -16,20 +16,21 @@ public class PlayerMovement : MonoBehaviour
     private float velocitySpeed;
 
     CinemachineTransposer transposer;
-    public CinemachineVirtualCamera playerCamera;
+    CinemachineOrbitalTransposer transposer1;
     private Vector3 position;
     private Vector3 currentPosition;
+    private string axisNamed = "Mouse X";
 
     public static bool canMove = true;
     public static bool isMoving = false;
     public LayerMask moveLayer;
 
-    public GameObject freeCamera;
     public GameObject staticCamera;
+    public GameObject freeCamera;
     private bool freeCameraActive = true;
 
     public GameObject firePoint;
-    private WaitForSeconds approachEnemy = new WaitForSeconds(0.7f);
+    private WaitForSeconds approachEnemy = new WaitForSeconds(0.3f);
     public GameObject[] playerObjects;
 
     // Start is called before the first frame update
@@ -37,7 +38,8 @@ public class PlayerMovement : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-        transposer = playerCamera.GetCinemachineComponent<CinemachineTransposer>();
+        transposer = freeCamera.gameObject.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineTransposer>();
+        transposer1 = staticCamera.gameObject.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineOrbitalTransposer>();
         currentPosition = transposer.m_FollowOffset;
         freeCamera.SetActive(true);
         staticCamera.SetActive(false);
@@ -95,10 +97,17 @@ public class PlayerMovement : MonoBehaviour
 
         if(Input.GetMouseButton(1))
         {
+            transposer1.m_XAxis.m_InputAxisName = axisNamed;
             if(position.x != 0 || position.y != 0)
             {
                 currentPosition = position / 70;
             }
+        }
+
+        if(Input.GetMouseButtonUp(1))
+        {
+            transposer1.m_XAxis.m_InputAxisName = null;
+            transposer1.m_XAxis.m_InputAxisValue = 0;
         }
 
         if(Input.GetKeyDown(KeyCode.C))

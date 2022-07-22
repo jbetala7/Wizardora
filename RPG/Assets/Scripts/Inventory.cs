@@ -35,7 +35,7 @@ public class Inventory : MonoBehaviour
     public static int redFlowers = 0;
     public static int roots = 0;
     public static int leafDew = 0;
-    public static bool key = true;
+    public static bool key = false;
     public static int dragonEgg = 0;
     public static int redPotion = 0;
     public static int bluePotion = 0;

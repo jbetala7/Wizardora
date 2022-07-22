@@ -10,6 +10,7 @@ public class Pickups : MonoBehaviour
     public bool brownMushroom = false;
     public bool bluePlants = false;
     public bool redFlower = false;
+    public bool key = false;
 
     [HideInInspector]
     public GameObject inventoryObject;
@@ -72,6 +73,12 @@ public class Pickups : MonoBehaviour
                     DisplayIcons();
                 }
                 Inventory.bluePlants++;
+                Destroy(gameObject);
+            }
+            else if (key == true)
+            {
+                DisplayIcons();
+                Inventory.key = true;
                 Destroy(gameObject);
             }
             else

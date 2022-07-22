@@ -14,8 +14,14 @@ public class CollectBook : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //magicUI.SetActive(false);
-        //spellsUI.SetActive(false);
+        if(magicBook == true)
+        {
+            magicUI.SetActive(false);
+        }
+        if (spellsBook == true)
+        {
+            spellsUI.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -28,6 +34,7 @@ public class CollectBook : MonoBehaviour
                 {
                     magicUI.SetActive(true);
                     magicCollected = true;
+                    Destroy(gameObject);
 
                 }
             }
@@ -37,6 +44,7 @@ public class CollectBook : MonoBehaviour
                 {
                     spellsUI.SetActive(true);
                     spellsCollected = true;
+                    Destroy(gameObject);
 
                 }
             }
