@@ -80,6 +80,7 @@ public class Inventory : MonoBehaviour
     public GameObject[] magicParticles;
     public AudioClip[] magicSounds;
     public Image manaBar;
+    public bool[] weapons;
 
     // Start is called before the first frame update
     void Start()
@@ -269,6 +270,7 @@ public class Inventory : MonoBehaviour
 
     public void OpenStatsScreen()
     {
+        statsScreen.GetComponent<UpdateStats>().updateWeapons = true;
         inventoryScreen.SetActive(false);
         statsScreen.SetActive(true);
         characterDisplay.SetActive(true);

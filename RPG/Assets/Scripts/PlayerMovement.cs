@@ -102,7 +102,16 @@ public class PlayerMovement : MonoBehaviour
 
         if(velocitySpeed != 0)
         {
-            animator.SetBool("sprinting", true);
+            if(SaveScript.carryingWeapon == false)
+            {
+                animator.SetBool("sprinting", true);
+                animator.SetBool("carryingWeapon", false);
+            }
+            if (SaveScript.carryingWeapon == true)
+            {
+                animator.SetBool("sprinting", true);
+                animator.SetBool("carryingWeapon", true);
+            }
             isMoving = true;
         }
         if (velocitySpeed == 0)

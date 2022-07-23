@@ -15,9 +15,8 @@ public class SaveScript : MonoBehaviour
     public static float staminaPowerAmount = 0.1f;
     public static int killAmount = 0;
     public static int weaponChoice = 0;
-    public static bool changeWeapon = true;
-
-
+    public static bool changeWeapon = false;
+    public static bool carryingWeapon = false;
 
     // Start is called before the first frame update
     void Start()
