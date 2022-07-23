@@ -15,7 +15,7 @@ O:/MSc AI/Dissertation-Project/RPG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65259
+58490
 Successfully changed project path to: O:/MSc AI/Dissertation-Project/RPG
 O:/MSc AI/Dissertation-Project/RPG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ O:/MSc AI/Dissertation-Project/RPG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 96.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 119.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -65,177 +65,94 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004280 seconds.
+Registered in 0.004262 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 95.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 110.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.554 seconds
+- Completed reload, in  0.614 seconds
 Domain Reload Profiling:
-	ReloadAssembly (554ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (614ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (401ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (457ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (81ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (256ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
+				RefreshPlugins (111ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003437 seconds.
+Registered in 0.002970 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.902 seconds
+- Completed reload, in  1.052 seconds
 Domain Reload Profiling:
-	ReloadAssembly (903ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (1052ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (723ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (361ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
-Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4157 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4642.
-Memory consumption went from 243.8 MB to 242.4 MB.
-Total: 3.569200 ms (FindLiveObjects: 0.279900 ms CreateObjectMapping: 0.104200 ms MarkObjects: 2.698200 ms  DeleteObjects: 0.486000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 522.914457 seconds.
-  path: Assets/Prefabs/Players/Player1Character2.prefab
-  artifactKey: Guid(8e3316c1adada6f4c8311f976e2659be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Players/Player1Character2.prefab using Guid(8e3316c1adada6f4c8311f976e2659be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca655be32d952a242200aca57e0618d5') in 0.684483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.770317 seconds.
-  path: Assets/Prefabs/Payers (Display Only)/Player1Female1Display.prefab
-  artifactKey: Guid(a8977ce0556fbb940a6bbf26e2144403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Payers (Display Only)/Player1Female1Display.prefab using Guid(a8977ce0556fbb940a6bbf26e2144403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff963144453a0e980ff270999a8bf16') in 0.317227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Prefabs/Payers (Display Only)/Player1Male3Display.prefab
-  artifactKey: Guid(d7c5fdbea1bc672438858f13ddc0889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Payers (Display Only)/Player1Male3Display.prefab using Guid(d7c5fdbea1bc672438858f13ddc0889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7220f745ce627569ae1510268a5db017') in 0.541637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Prefabs/Payers (Display Only)/Player1Female3Display.prefab
-  artifactKey: Guid(0cc32b60cc2c7264a9a9595eccfcaada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Payers (Display Only)/Player1Female3Display.prefab using Guid(0cc32b60cc2c7264a9a9595eccfcaada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b0168672b0e6483f204355483fb004') in 0.187467 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003057 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
-Domain Reload Profiling:
-	ReloadAssembly (953ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (740ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (841ms)
 			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (356ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (421ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
 Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
 Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
-Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4097 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 4665.
-Memory consumption went from 257.7 MB to 256.3 MB.
-Total: 3.883900 ms (FindLiveObjects: 0.315400 ms CreateObjectMapping: 0.219100 ms MarkObjects: 2.844300 ms  DeleteObjects: 0.504000 ms)
+Unloading 4157 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4642.
+Memory consumption went from 243.8 MB to 242.4 MB.
+Total: 4.132500 ms (FindLiveObjects: 0.336100 ms CreateObjectMapping: 0.140900 ms MarkObjects: 3.236200 ms  DeleteObjects: 0.418800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -247,3 +164,247 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20146.865360 seconds.
+  path: Assets/Prefabs/Players/Player1Character3.prefab
+  artifactKey: Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character3.prefab using Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d755a0d2d77825804bf9a3e16055b8') in 0.574690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.124017 seconds.
+  path: Assets/Sprites/Turntable_platforms/Prefabs/base_prefabs/leaf_short.prefab
+  artifactKey: Guid(7e5c407202bfac34580d2b43142d7d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Turntable_platforms/Prefabs/base_prefabs/leaf_short.prefab using Guid(7e5c407202bfac34580d2b43142d7d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c185cdbf8af04287b2860a90ba1c0e99') in 0.017364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Level.prefab
+  artifactKey: Guid(d88046430d0ae344b86ab8454d6e0f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Demo Elements/Prefabs/Stage/Level.prefab using Guid(d88046430d0ae344b86ab8454d6e0f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a37a9c67911d62d0483c6908fb1dde') in 0.157729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Character Prefabs/Male/Male A.prefab
+  artifactKey: Guid(7e6e29f21a00d5f499e21eb93d6fabaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Character Prefabs/Male/Male A.prefab using Guid(7e6e29f21a00d5f499e21eb93d6fabaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7c7c3899ffa471783d12b7833da54b') in 0.200578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Hairs/Hair_1/Male_Hair_1.FBX
+  artifactKey: Guid(f72746b6ba199774992e6eda7be20f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Hairs/Hair_1/Male_Hair_1.FBX using Guid(f72746b6ba199774992e6eda7be20f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453dddb535bec00e7152a59c31295c95') in 0.085074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Character Prefabs/Male/Male C.prefab
+  artifactKey: Guid(60e8218091f83244c9bf9c8c2569a009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Character Prefabs/Male/Male C.prefab using Guid(60e8218091f83244c9bf9c8c2569a009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7239aab68348e783659800b1fff271a') in 0.164634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Toon Forest free set/Prehub/Mushroom_A_00.prefab
+  artifactKey: Guid(16f93aebbe56f604cbd07ddf19840c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Forest free set/Prehub/Mushroom_A_00.prefab using Guid(16f93aebbe56f604cbd07ddf19840c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fc40a0644bd8068ec0f4b8100386f6') in 0.021819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Torsos/Torso_2/Male_Torso_2.FBX
+  artifactKey: Guid(a54c56bf4e395ac4c940603b7b12ee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Torsos/Torso_2/Male_Torso_2.FBX using Guid(a54c56bf4e395ac4c940603b7b12ee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2da528c49420cd81dfc62b3a08dcba') in 0.032523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Crystals/MoonStone03.fbx
+  artifactKey: Guid(ff05fb6312481104fb330edfe716b399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crystals/MoonStone03.fbx using Guid(ff05fb6312481104fb330edfe716b399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09504b711f3302f347297227e269a8f7') in 0.038103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Hand-Painted Fountain/Meshes/Meshes_Fountain/mesh_Fountain.FBX
+  artifactKey: Guid(11a60179d77a72f45aa726eb32cdc28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hand-Painted Fountain/Meshes/Meshes_Fountain/mesh_Fountain.FBX using Guid(11a60179d77a72f45aa726eb32cdc28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730af2cc290f4519ff6e350070397cae') in 0.025840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Toon Forest free set/Mesh/Mushroom_A_00.fbx
+  artifactKey: Guid(f1529d33976cc8c44a938df51ebb9e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Forest free set/Mesh/Mushroom_A_00.fbx using Guid(f1529d33976cc8c44a938df51ebb9e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3163f82e6fd7146ad1707ab148e37849') in 0.014937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Mortar_01.prefab
+  artifactKey: Guid(4efba74564624dfea3803661732fd71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Mortar_01.prefab using Guid(4efba74564624dfea3803661732fd71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe503e654eeb755d92813a8cb0281b6') in 0.021172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Mortar_01.fbx
+  artifactKey: Guid(14da406f0ed149cfa126a40aa2c80323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Mortar_01.fbx using Guid(14da406f0ed149cfa126a40aa2c80323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69f437db4869cd3db933fabb70b4477') in 0.018538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Toon Forest free set/Prehub/Mushroom_B_00.prefab
+  artifactKey: Guid(6b1f1e55f7a6d3441b6121b7d3416479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Forest free set/Prehub/Mushroom_B_00.prefab using Guid(6b1f1e55f7a6d3441b6121b7d3416479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b556d811760665f21844e2c7d2fef2c2') in 0.010422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/AncientRuins/3DModels/Mesh_AncientRuinsUnity.fbx
+  artifactKey: Guid(90220ae87f239d4498c425af8694ed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AncientRuins/3DModels/Mesh_AncientRuinsUnity.fbx using Guid(90220ae87f239d4498c425af8694ed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdca4c7b2c57df6729102509951851d5') in 0.264671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Torsos/Torso_1/Male_Torso_1.FBX
+  artifactKey: Guid(fba03d136e511a9438a9e19a8c96fc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Torsos/Torso_1/Male_Torso_1.FBX using Guid(fba03d136e511a9438a9e19a8c96fc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f5b69bac0e652ab1b502f1e70ff560') in 0.037431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace2h.fbx
+  artifactKey: Guid(1f2df18c8d37e344092e26ad53b0e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace2h.fbx using Guid(1f2df18c8d37e344092e26ad53b0e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78eb002c09bc1ff713a02ac1c1c466f8') in 0.031476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Brazier Set/Meshes/Meshes_Braziers/mesh_Brazier_02.FBX
+  artifactKey: Guid(ab3a9c652e302134e82160864a45cf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brazier Set/Meshes/Meshes_Braziers/mesh_Brazier_02.FBX using Guid(ab3a9c652e302134e82160864a45cf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e059299f299a42f129d16fa8f2c92ada') in 0.046564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Legs/Legs_1/Male_Legs_1.FBX
+  artifactKey: Guid(d7739944e3990de4bbb0cfdc16f876fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Legs/Legs_1/Male_Legs_1.FBX using Guid(d7739944e3990de4bbb0cfdc16f876fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3783dc69af6363ad03bf4001e2cec278') in 0.038323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Toon Forest free set/Prehub/Mushroom_B_01.prefab
+  artifactKey: Guid(64d5316cc2ec52e4dac47f07ef7791c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toon Forest free set/Prehub/Mushroom_B_01.prefab using Guid(64d5316cc2ec52e4dac47f07ef7791c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4f44c75eba18a86702a21f1d3b3caf') in 0.018844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Hand-Painted Fountain/Meshes/Meshes_Fountain/mesh_FountainWater.FBX
+  artifactKey: Guid(3fa90fe6805a9bd4fb67c2b31905d5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hand-Painted Fountain/Meshes/Meshes_Fountain/mesh_FountainWater.FBX using Guid(3fa90fe6805a9bd4fb67c2b31905d5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdcc2b340c0b36851f2763dc91655b9') in 0.014925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Hairs/Hair_2/Male_Hair_2.FBX
+  artifactKey: Guid(6a11a3d001e91bb4abc2cc119ccefdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Hairs/Hair_2/Male_Hair_2.FBX using Guid(6a11a3d001e91bb4abc2cc119ccefdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f1aace95a3711ec8ac05ca84ef5535') in 0.028583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Crystals/MoonStone00.fbx
+  artifactKey: Guid(456aa20c486e5da4c91e989620329b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crystals/MoonStone00.fbx using Guid(456aa20c486e5da4c91e989620329b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e8f8b40856c5f9b3fd93f92436f106') in 0.022525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Hairs/Hair_3/Male_Hair_3.FBX
+  artifactKey: Guid(ba81bc73c9f97274688f3affce011d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Hairs/Hair_3/Male_Hair_3.FBX using Guid(ba81bc73c9f97274688f3affce011d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d712fd46a617e6196917f27ea0620ad') in 0.024650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/3D/Legs/Base Legs/Male_Base_Legs.FBX
+  artifactKey: Guid(17e8ecbc4e6bcea40878ead9b50712be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/3D/Legs/Base Legs/Male_Base_Legs.FBX using Guid(17e8ecbc4e6bcea40878ead9b50712be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c580d582537aa028a380337b0dab553e') in 0.025908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Brazier Set/Meshes/Meshes_Braziers/mesh_Brazier_03.FBX
+  artifactKey: Guid(f8065cb254f2094408f97cd46d5fb17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brazier Set/Meshes/Meshes_Braziers/mesh_Brazier_03.FBX using Guid(f8065cb254f2094408f97cd46d5fb17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52211bd3c9ac698d5008c861570438ad') in 0.027020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.318102 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Ladder_01.fbx
+  artifactKey: Guid(9d437e4208214630b6aa7de04ca1a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Ladder_01.fbx using Guid(9d437e4208214630b6aa7de04ca1a2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7bde506e345464e3daab4e27834e99') in 0.021577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Lantern_Handheld_01.prefab
+  artifactKey: Guid(c2b5621c0df447c6832963ba7245f335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Lantern_Handheld_01.prefab using Guid(c2b5621c0df447c6832963ba7245f335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f743259be88a6581a8009aba291df02f') in 0.024864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Lamp_01.fbx
+  artifactKey: Guid(a599d5559b564d8bb2994dc60566d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Lamp_01.fbx using Guid(a599d5559b564d8bb2994dc60566d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76407fb7be754d4f72e62c762ed6347') in 0.033968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Lantern_02.fbx
+  artifactKey: Guid(86dbfc9a9256414095e3e4ddc240e4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Lantern_02.fbx using Guid(86dbfc9a9256414095e3e4ddc240e4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8ed1004bea32e9431d0a6af761263a') in 0.034267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Animations/Karate@Idle.FBX
+  artifactKey: Guid(1ceb86b296fd2014e9633c67c8539458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Animations/Karate@Idle.FBX using Guid(1ceb86b296fd2014e9633c67c8539458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baf8de2d843cec41fa44a2b628dfa2d') in 0.023704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Characters/Karate.FBX
+  artifactKey: Guid(8645e0506d8d64d44bda3003df478c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Characters/Karate.FBX using Guid(8645e0506d8d64d44bda3003df478c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06ed38a5705f58040d4f2922b2e0742') in 0.037609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Jugs_Preset_01.prefab
+  artifactKey: Guid(3c48fffcc1564b28b55bbdf60e5b9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Jugs_Preset_01.prefab using Guid(3c48fffcc1564b28b55bbdf60e5b9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758b5c92c1eb17b61e508d0e9f7eb98e') in 0.020789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Lantern_01.fbx
+  artifactKey: Guid(ef7597e32e9b44f9baf46865b7128c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Lantern_01.fbx using Guid(ef7597e32e9b44f9baf46865b7128c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bffa2093a9ac1e470b60608af9a9152') in 0.025195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jugs_Preset_02.fbx
+  artifactKey: Guid(df6980d04b5e4e9896f6687d8a73d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jugs_Preset_02.fbx using Guid(df6980d04b5e4e9896f6687d8a73d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c685cc0fb00fb9e80d9d4681e7893d12') in 0.038442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jugs_Preset_03.fbx
+  artifactKey: Guid(f25595ab9d3b461fa0df7b5234869001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Props/Multistory Dungeons 2/Meshes/SRC_Props/Jugs_Preset_03.fbx using Guid(f25595ab9d3b461fa0df7b5234869001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63517e180d2b4a6fcbb4ae5bd22a338e') in 0.035722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.085548 seconds.
+  path: Assets/Sprites/Turntable_platforms/Prefabs/base_prefabs/mushroom_thik.prefab
+  artifactKey: Guid(286107ea05191cb4ba5c907dc1f56e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Turntable_platforms/Prefabs/base_prefabs/mushroom_thik.prefab using Guid(286107ea05191cb4ba5c907dc1f56e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0367fe55729b894bafaeb4913db8067') in 0.017248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Characters/Ninja.FBX
+  artifactKey: Guid(24bdb7cc7a8d8a745a84df6c531bc19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Characters/Ninja.FBX using Guid(24bdb7cc7a8d8a745a84df6c531bc19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c865e8a9211e55fce7b3ef25c0d3b2a0') in 0.044736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations/Ninja@Fall.FBX
+  artifactKey: Guid(270e1a5a1c864ad41a8f1975302250e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations/Ninja@Fall.FBX using Guid(270e1a5a1c864ad41a8f1975302250e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911c34b544e53497bcc206b679d609b9') in 0.012692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations/Ninja@Run.FBX
+  artifactKey: Guid(0931ee4927ebe68469e9d3c13bd8cd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations/Ninja@Run.FBX using Guid(0931ee4927ebe68469e9d3c13bd8cd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c85f09a956d563f10aa8a92403d9f9') in 0.010800 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
