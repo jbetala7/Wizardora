@@ -39,7 +39,7 @@ public class Roof : MonoBehaviour
             if (bar == true)
             {
                 myCamera.GetComponent<AudioManager>().musicState = 1;
-                myCamera.GetComponent<AudioManager>().canPlay = false;
+                myCamera.GetComponent<AudioManager>().canPlay = true;
             } 
         }
     }

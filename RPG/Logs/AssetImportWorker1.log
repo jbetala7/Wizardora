@@ -15,7 +15,7 @@ O:/MSc AI/Dissertation-Project/RPG
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59646
+59872
 Successfully changed project path to: O:/MSc AI/Dissertation-Project/RPG
 O:/MSc AI/Dissertation-Project/RPG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ O:/MSc AI/Dissertation-Project/RPG
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 101.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -65,47 +65,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005285 seconds.
+Registered in 0.004616 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 110.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.582 seconds
+- Completed reload, in  0.518 seconds
 Domain Reload Profiling:
-	ReloadAssembly (582ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (519ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (428ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (380ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (87ms)
+			SetupTypeCache (77ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (277ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
+				RefreshPlugins (89ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003258 seconds.
+Registered in 0.002806 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -114,29 +114,29 @@ Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
+- Completed reload, in  0.865 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (865ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (822ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (194ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (416ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (355ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,8 +151,8 @@ Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4152 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4637.
-Memory consumption went from 243.7 MB to 242.2 MB.
-Total: 3.632800 ms (FindLiveObjects: 0.360800 ms CreateObjectMapping: 0.103400 ms MarkObjects: 2.780600 ms  DeleteObjects: 0.386900 ms)
+Memory consumption went from 243.7 MB to 242.3 MB.
+Total: 3.472300 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.096800 ms MarkObjects: 2.606100 ms  DeleteObjects: 0.451400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,274 +166,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 144927.627087 seconds.
-  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Axe1H_Epic.prefab
-  artifactKey: Guid(992bb947a6df6634487686c2fe6330bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Axe1H_Epic.prefab using Guid(992bb947a6df6634487686c2fe6330bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd36643ff543d0ce09a71e2c6cc6db4') in 0.178003 seconds 
+  Time since last request: 222521.698467 seconds.
+  path: Assets/UI-Graphics/BarShop/ChatGrey.png
+  artifactKey: Guid(df2739261a0cd034ab575682966a6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI-Graphics/BarShop/ChatGrey.png using Guid(df2739261a0cd034ab575682966a6055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac65f9f9967b6df86c68a0d909f7caf') in 0.138109 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_08.prefab
-  artifactKey: Guid(34b63ad9eee444f5a16ccab020f97c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_08.prefab using Guid(34b63ad9eee444f5a16ccab020f97c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdf97f709969ef034dacc1d96152cb4') in 0.124119 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI-Graphics/BarShop
+  artifactKey: Guid(ebad2c135f9aa0e4b8a517183be9c531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI-Graphics/BarShop using Guid(ebad2c135f9aa0e4b8a517183be9c531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866b8e4ca2bf574458ac0c9b062fc28a') in 0.004013 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sprites/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Deciduous_tree1.prefab
-  artifactKey: Guid(dc20bf501e8161b40859eb66568d49f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Deciduous_tree1.prefab using Guid(dc20bf501e8161b40859eb66568d49f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7002455fff52b0df6fb004a86566da46') in 0.041166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Toon Crystals pack/Particles/DarkBlue Glow.prefab
-  artifactKey: Guid(fca5a1670e71af549b9ebfc5cad1ae18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Toon Crystals pack/Particles/DarkBlue Glow.prefab using Guid(fca5a1670e71af549b9ebfc5cad1ae18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0d4dcb866fb083fb694770f2eeefca') in 0.015474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/Toon Forest free set/Prehub/Fllower_A_08.prefab
-  artifactKey: Guid(17c6ca175b4aadc458a04dd37daa772a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Toon Forest free set/Prehub/Fllower_A_08.prefab using Guid(17c6ca175b4aadc458a04dd37daa772a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912c455c2c7c4f6b37148768b726b6d2') in 0.018201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candles_04.prefab
-  artifactKey: Guid(4ca27bc633e2469a911874c5d25aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candles_04.prefab using Guid(4ca27bc633e2469a911874c5d25aa6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f50c60870708fcf3cdd54a421b2eacb') in 0.022160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Sprites/Medieval village/Cart/cart_wheels.prefab
-  artifactKey: Guid(f452d22c5e166f545b6bdbcba12f29c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Medieval village/Cart/cart_wheels.prefab using Guid(f452d22c5e166f545b6bdbcba12f29c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e05e904b03602215a2263fc62f6388') in 0.133174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Bow_Medium.prefab
-  artifactKey: Guid(238d5f1b77b9e494180383a7f0480c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Bow_Medium.prefab using Guid(238d5f1b77b9e494180383a7f0480c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8811a29d6352647ee4c80c2aa9a39c06') in 0.021560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_03.prefab
-  artifactKey: Guid(fd69dd2a121e4509a1e7ed3ab107ba7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_03.prefab using Guid(fd69dd2a121e4509a1e7ed3ab107ba7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da699a4b9d5cd7f065c5e54e572937b') in 0.018798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/FantasyEnvironments/Environments/Prefabs/Flower1.prefab
-  artifactKey: Guid(092dfbd1d1f007a448a41cded731f699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/FantasyEnvironments/Environments/Prefabs/Flower1.prefab using Guid(092dfbd1d1f007a448a41cded731f699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7502d774e91c162823e669adcc22fc87') in 0.013898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Axe2H_Basic.prefab
-  artifactKey: Guid(90785c74b47617741aa5d3792af17448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Axe2H_Basic.prefab using Guid(90785c74b47617741aa5d3792af17448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7108c2b628b9ed5add32f9342d88cf3e') in 0.019896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candle_04.prefab
-  artifactKey: Guid(1960faf6eb584ed791bfca46bf40ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candle_04.prefab using Guid(1960faf6eb584ed791bfca46bf40ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf299935e9e8ec3b456f3a5e39c8c4aa') in 0.022746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Axe2H_Medium.prefab
-  artifactKey: Guid(bda0e0a54afa7464ab2ce114082b55d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Axe2H_Medium.prefab using Guid(bda0e0a54afa7464ab2ce114082b55d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a741ebc6ff5184aa3e9778fdbaba96') in 0.019265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candle_02.prefab
-  artifactKey: Guid(374b0997db81407ca6f741e55d078c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candle_02.prefab using Guid(374b0997db81407ca6f741e55d078c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e34820e03e668575c26609f7009648') in 0.019425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candle_01.prefab
-  artifactKey: Guid(f92572ee929e4eb7a01d7dfecc063a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candle_01.prefab using Guid(f92572ee929e4eb7a01d7dfecc063a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14544844290d5fbc544bacb0a605c600') in 0.036869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Prefabs/Brute Warrior.prefab
-  artifactKey: Guid(38300d189f3d2d345a7da78a139754c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Prefabs/Brute Warrior.prefab using Guid(38300d189f3d2d345a7da78a139754c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd35c094933ef130124d81702174d509') in 0.053719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Big_Preset_02.prefab
-  artifactKey: Guid(0648a8654321442ba88d4834921d373a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Big_Preset_02.prefab using Guid(0648a8654321442ba88d4834921d373a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6d1be60f7321c94bb66219529eab22') in 0.036178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Cup_01.prefab
-  artifactKey: Guid(11974f92aea44b97a97ff84cc6182945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Cup_01.prefab using Guid(11974f92aea44b97a97ff84cc6182945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59454e1491485587d2b2c88ccaada73d') in 0.018011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/Handpainted_Forest_Pack_Lite/Assets/_Prefabs/Diorama.prefab
-  artifactKey: Guid(94e87208fa6b03848a2aa8b5546f9eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Handpainted_Forest_Pack_Lite/Assets/_Prefabs/Diorama.prefab using Guid(94e87208fa6b03848a2aa8b5546f9eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b63245a90c80f98347e0b43aeaadc9') in 0.016085 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI-Graphics/BarShop/ShopItems.png
+  artifactKey: Guid(c4e66e8539f791e4cb2a0dc4fdba94ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI-Graphics/BarShop/ShopItems.png using Guid(c4e66e8539f791e4cb2a0dc4fdba94ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21c0699afdbdf14e749ea8aff79f02f') in 0.033451 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candles_02.prefab
-  artifactKey: Guid(502607ad5cbe456193f957ac30014e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candles_02.prefab using Guid(502607ad5cbe456193f957ac30014e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1be204f5c7724645aef09620ee01cdd') in 0.018743 seconds 
+  path: Assets/UI-Graphics/BarShop/ShopLayout.png
+  artifactKey: Guid(97a9adcc54793e74c939a2128b9ec1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI-Graphics/BarShop/ShopLayout.png using Guid(97a9adcc54793e74c939a2128b9ec1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70deaa1f03141d4c876da3b6b4d1d55b') in 0.038701 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Dinner table/Models/Carpet_Coloured.prefab
-  artifactKey: Guid(601fa3b78427d5e419dedb8e77f7b149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dinner table/Models/Carpet_Coloured.prefab using Guid(601fa3b78427d5e419dedb8e77f7b149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ae807f952357794439bfab591dbf2e') in 0.018649 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/UI-Graphics/BarShop/ShopBG.png
+  artifactKey: Guid(1a2b5c08526fe0048be0c10080008902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI-Graphics/BarShop/ShopBG.png using Guid(1a2b5c08526fe0048be0c10080008902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a68575085dde7fd8b8bdc7158932ed') in 0.097248 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Chair_01.prefab
-  artifactKey: Guid(1efd93450a4746d1bf94bff601cf447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Chair_01.prefab using Guid(1efd93450a4746d1bf94bff601cf447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94e9efe23c59ca9962c43c547e982c4') in 0.032967 seconds 
+  Time since last request: 196.327585 seconds.
+  path: Assets/UI-Graphics/Characters/AcceptOn.png
+  artifactKey: Guid(89da7b50f6a0f9c4b99fcb1b2b75dd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI-Graphics/Characters/AcceptOn.png using Guid(89da7b50f6a0f9c4b99fcb1b2b75dd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31407244ff4ae5b7819fe7714b4ade4f') in 0.055996 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_02.prefab
-  artifactKey: Guid(a9c924e80c494a0187ef4b735a3c46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_02.prefab using Guid(a9c924e80c494a0187ef4b735a3c46b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e14a3769c45c9d7cf1f66a2834aec3') in 0.017480 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI-Graphics/Characters/ChooseText.png
+  artifactKey: Guid(0d27a275a34792140ae3ffd614adecc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI-Graphics/Characters/ChooseText.png using Guid(0d27a275a34792140ae3ffd614adecc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6908b678b196d8ceeccdd7d467b40415') in 0.066936 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candles_05.prefab
-  artifactKey: Guid(9787aadb1e7e4d40967ab15f624bffc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candles_05.prefab using Guid(9787aadb1e7e4d40967ab15f624bffc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40f39740a1fe589e97cc5f24e8c2592') in 0.018970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candlestick_Floor_02_Lit.prefab
-  artifactKey: Guid(aebf24aa57894961bfe5b60492dd5bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candlestick_Floor_02_Lit.prefab using Guid(aebf24aa57894961bfe5b60492dd5bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1563c99fefd71135ade96b19e7629af') in 0.019147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_03.prefab
-  artifactKey: Guid(dbd2951b893941f1821fa65212a274cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_03.prefab using Guid(dbd2951b893941f1821fa65212a274cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a270ec75a78ea176d698bf48fe9922') in 0.031919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_grass01_bb3407d0e55802f81.terrainlayer
-  artifactKey: Guid(6c6153049e4a260489d1bb8c8f87919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_grass01_bb3407d0e55802f81.terrainlayer using Guid(6c6153049e4a260489d1bb8c8f87919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f11a1528d557c3cc3f06ef3f27fd12') in 0.030278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Medieval village/Cart/PREFABs/cart_2w.prefab
-  artifactKey: Guid(3c0c424ddafa2834686e636738b21e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Medieval village/Cart/PREFABs/cart_2w.prefab using Guid(3c0c424ddafa2834686e636738b21e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a9b26f5a31fdfa670e3c9b67eb33c5') in 0.020210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Sprites/Houses/Medieval_house_lite/Fire/Fire_fireplace.prefab
-  artifactKey: Guid(f29c74575f188b2499008434ffc2355e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Houses/Medieval_house_lite/Fire/Fire_fireplace.prefab using Guid(f29c74575f188b2499008434ffc2355e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4c831a32eaf0a6fbc91e799b4abfc6') in 0.036404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Axe1H_Medium.prefab
-  artifactKey: Guid(0e960670a1eb55b44b56f715951db803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Axe1H_Medium.prefab using Guid(0e960670a1eb55b44b56f715951db803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc89e367bf9b74115e7c07652d6e7da') in 0.019647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Bow_Epic.prefab
-  artifactKey: Guid(d0c32318984847e428ac1bce4ea19377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Bow_Epic.prefab using Guid(d0c32318984847e428ac1bce4ea19377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccfdd5459227448f04eac59f53488aa') in 0.020416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_05.prefab
-  artifactKey: Guid(847b726f2c6045299e636f76a384a436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_05.prefab using Guid(847b726f2c6045299e636f76a384a436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b00a4a8b4194d71b61d303c0487004') in 0.041210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer
-  artifactKey: Guid(e72656c187deca44b8a3b29d63b3fc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer using Guid(e72656c187deca44b8a3b29d63b3fc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d406db77ce35f698726fac8b42bdc1') in 0.021172 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI-Graphics/Characters/Name.png
+  artifactKey: Guid(c8722812d55de8f49bfabdaa0e1ea83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI-Graphics/Characters/Name.png using Guid(c8722812d55de8f49bfabdaa0e1ea83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeab4d0a6f1e346b867abd396d4bfef1') in 0.047728 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_05.prefab
-  artifactKey: Guid(9ca80a708cb044a896bdc73595df86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_05.prefab using Guid(9ca80a708cb044a896bdc73595df86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25464e3abda1ee79d4313e3f9afaa455') in 0.043162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_05.prefab
-  artifactKey: Guid(ca65590ee38a4f878c549a1c596e4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Books And Alchemy/Flask_05.prefab using Guid(ca65590ee38a4f878c549a1c596e4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447d4e8706c4ab31d4948e4fc2a0740e') in 0.018421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Toon Forest free set/Prehub/Fllower_B_01.prefab
-  artifactKey: Guid(b05c25d12ca0fe24e9b0c4dc55d4100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Toon Forest free set/Prehub/Fllower_B_01.prefab using Guid(b05c25d12ca0fe24e9b0c4dc55d4100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c0324f826785eaa03ced891813adbe') in 0.019671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/Dinner table/Models/Chicken_Coloured.prefab
-  artifactKey: Guid(902dbd80783f7414c87b8dc843a7bca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Dinner table/Models/Chicken_Coloured.prefab using Guid(902dbd80783f7414c87b8dc843a7bca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09bc88e5c664aa34feca697823d61c4') in 0.041270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Prefabs/Flowers/flower1.prefab
-  artifactKey: Guid(665a625bee8f1cd47954996d100d0024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Flowers/flower1.prefab using Guid(665a625bee8f1cd47954996d100d0024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e565bc8b9c826c8f0bbb67730e8c9fa4') in 0.016465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candles_01.prefab
-  artifactKey: Guid(b83d1fb4a7e14defb6ab7dd86e0ff3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Candles_01.prefab using Guid(b83d1fb4a7e14defb6ab7dd86e0ff3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b0535bdda35d6e9341c750ffb49c7c') in 0.019640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Bucket_01.prefab
-  artifactKey: Guid(8f91923b9a9c4dd2a622b3b1c3231268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Bucket_01.prefab using Guid(8f91923b9a9c4dd2a622b3b1c3231268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ce9de9f6bb56952cc51fed55f08af5') in 0.017617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Chair_Wooden_01.prefab
-  artifactKey: Guid(28204d4732d744778287ba981af91906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Chair_Wooden_01.prefab using Guid(28204d4732d744778287ba981af91906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db605cf3b54747bcbba501bea197cadf') in 0.017122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/Character/Cartoon Heroes/Character Prefabs/Female/Female B.prefab
-  artifactKey: Guid(a367f32b0351f2648a0e15f3444c6f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character/Cartoon Heroes/Character Prefabs/Female/Female B.prefab using Guid(a367f32b0351f2648a0e15f3444c6f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfae3da55c69b0eb709831011611fe0') in 0.396897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/Toon Forest free set/Prehub/Fllower_A_01.prefab
-  artifactKey: Guid(bb1a6ef5a890dd8489e9d9bed4c86c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Toon Forest free set/Prehub/Fllower_A_01.prefab using Guid(bb1a6ef5a890dd8489e9d9bed4c86c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d503ee4ad61197762dea0ef1ee4315') in 0.026513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Axe2H_Epic.prefab
-  artifactKey: Guid(d2a4ffc4311ba5e4c81b0fc76531c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Axe2H_Epic.prefab using Guid(d2a4ffc4311ba5e4c81b0fc76531c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693f8650e5fc21f527036ab8a85034dc') in 0.022561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_01.prefab
-  artifactKey: Guid(7ffc0d413ee44a1da7ef41392c80053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Props/Multistory Dungeons 2/Prefabs/Props/Furniture/Cupboard_Preset_01.prefab using Guid(7ffc0d413ee44a1da7ef41392c80053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b149bf09ff446b2d1e9bc3bbedd176') in 0.035975 seconds 
+  path: Assets/UI-Graphics/Characters/Background.png
+  artifactKey: Guid(310de6b5ffc1ce34b8a9ad7516eee852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI-Graphics/Characters/Background.png using Guid(310de6b5ffc1ce34b8a9ad7516eee852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b216a814d9e391b8e60365f011dd533') in 0.245221 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

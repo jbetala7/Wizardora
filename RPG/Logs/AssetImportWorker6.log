@@ -1,0 +1,1077 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32689 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+O:/MSc AI/Dissertation-Project/RPG
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+59872
+Successfully changed project path to: O:/MSc AI/Dissertation-Project/RPG
+O:/MSc AI/Dissertation-Project/RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 130.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path O:/MSc AI/Dissertation-Project/RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   31.0.15.1659
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004496 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 110.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.580 seconds
+Domain Reload Profiling:
+	ReloadAssembly (581ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (417ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (82ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002998 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Domain Reload Profiling:
+	ReloadAssembly (935ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (746ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.4 MB). Loaded Objects now: 4639.
+Memory consumption went from 243.8 MB to 242.3 MB.
+Total: 4.008700 ms (FindLiveObjects: 0.416300 ms CreateObjectMapping: 0.103700 ms MarkObjects: 3.027300 ms  DeleteObjects: 0.460600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 226940.894968 seconds.
+  path: Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/Bow2.wav
+  artifactKey: Guid(6b50bafaa2ac38c43a8bd2a002b7cfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/Bow2.wav using Guid(6b50bafaa2ac38c43a8bd2a002b7cfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87db126cd0dc85a75096492cd6dfacfc') in 0.128137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowIce2.wav
+  artifactKey: Guid(b46570503514e2a4f8183e73714a8fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowIce2.wav using Guid(b46570503514e2a4f8183e73714a8fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49806fbfc7d965cb1364a952acf845e3') in 0.017621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowFlesh2.wav
+  artifactKey: Guid(7282ca5a2495791438d14a92c68afd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowFlesh2.wav using Guid(7282ca5a2495791438d14a92c68afd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176826b99c25082f84f61012dad7ffb0') in 0.017367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/Bow13.wav
+  artifactKey: Guid(1d8cc3c188ec572489b65bbcf098ddd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/Bow13.wav using Guid(1d8cc3c188ec572489b65bbcf098ddd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6c533040473472ecf9829c83f4f067') in 0.016608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowIce3.wav
+  artifactKey: Guid(5e0be140f13f0c341bb91abddd2e76bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowIce3.wav using Guid(5e0be140f13f0c341bb91abddd2e76bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13135ce1513cb5f9b7d0db38179d009d') in 0.016433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/Bow4.wav
+  artifactKey: Guid(f9cfc0e6ef7909a4fa3f8663ac5f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/Bow4.wav using Guid(f9cfc0e6ef7909a4fa3f8663ac5f3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5fbe629db2b2d8b8b47509870179d3') in 0.018257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowIce4.wav
+  artifactKey: Guid(589b20060dc19154ab2d746246fe6b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowIce4.wav using Guid(589b20060dc19154ab2d746246fe6b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eef49cfa7fa9373783453533bd2dca5') in 0.015817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowStringPull9.wav
+  artifactKey: Guid(28ecac922c44d264383925bb733197ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowStringPull9.wav using Guid(28ecac922c44d264383925bb733197ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bba34c202117062d403875e0c775524') in 0.015435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowStringPull10.wav
+  artifactKey: Guid(153cc42fbabf480428286131bfba51b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowStringPull10.wav using Guid(153cc42fbabf480428286131bfba51b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9312b10926f0832f8d5d9b9ce3b9a895') in 0.015577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowStringPull6.wav
+  artifactKey: Guid(7a2bdfb02d40f88498572ce438a724f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowStringPull6.wav using Guid(7a2bdfb02d40f88498572ce438a724f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd371dd6efe46ca6f8965f4530c369ed') in 0.015348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowStringPull4.wav
+  artifactKey: Guid(240adc6fec9322a4e8ad90d4738bca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Bow and Hammer Sound Effects/Bow/BowStringPull4.wav using Guid(240adc6fec9322a4e8ad90d4738bca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97aa119d6b2540702965cba47d76da26') in 0.016083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.865250 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Mace1H_Epic.prefab
+  artifactKey: Guid(cd129f656ecb0a543aba3aec71bf1158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Mace1H_Epic.prefab using Guid(cd129f656ecb0a543aba3aec71bf1158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1cf01301d3ac787818d4ee74420f40') in 0.093563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Spear2H_Medium.prefab
+  artifactKey: Guid(623b347c8f6a87e44abd622ce171e13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Spear2H_Medium.prefab using Guid(623b347c8f6a87e44abd622ce171e13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfe033586f46308fe079c0fc6a082a9') in 0.042943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Staff_Medium.prefab
+  artifactKey: Guid(340f8fecb7a9daa4bb72c4d06454e3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Staff_Medium.prefab using Guid(340f8fecb7a9daa4bb72c4d06454e3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3625ba6baaf602e41457652f8730b63e') in 0.040847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Spear2H_Epic.prefab
+  artifactKey: Guid(f35679122b59888499aef7a69b391c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Spear2H_Epic.prefab using Guid(f35679122b59888499aef7a69b391c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da0e206d59759e3ed321e3ab6b38d6a') in 0.038354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Spear1H_Medium.prefab
+  artifactKey: Guid(1a8eaaa38b934ed4dbe357ed598e1318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Spear1H_Medium.prefab using Guid(1a8eaaa38b934ed4dbe357ed598e1318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecb7c86ba3a716819ac528285166d92') in 0.031794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Mace2H_Medium.prefab
+  artifactKey: Guid(aac5a422caf682d45bb63a88e5b01e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Mace2H_Medium.prefab using Guid(aac5a422caf682d45bb63a88e5b01e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15cee0c17776077804c0117a45aab79') in 0.033892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Spear1H_Basic.prefab
+  artifactKey: Guid(8f2b838937bf3ce499fe912cc972a648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Spear1H_Basic.prefab using Guid(8f2b838937bf3ce499fe912cc972a648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7374c1ba37ac30ce78c15c6f35d228bb') in 0.038079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 475.451134 seconds.
+  path: Assets/Scenes/Terrain-1/Lightmap-8_comp_dir.png
+  artifactKey: Guid(22024efb3ece3ca4f8d158c89429f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Terrain-1/Lightmap-8_comp_dir.png using Guid(22024efb3ece3ca4f8d158c89429f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2238d9565e979bf1232a4cf04b41c0b4') in 0.042545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Basic_MetallicSmoothness.png
+  artifactKey: Guid(033eb8444c09e2c468b9124e611ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Basic_MetallicSmoothness.png using Guid(033eb8444c09e2c468b9124e611ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2962865b1a911427713f0b3c687d83f9') in 0.019758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Torsos/Torso_1/Male_Torso_1_Green.tga
+  artifactKey: Guid(adaf6facc05fabc47bc7a3340e9b5c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Torsos/Torso_1/Male_Torso_1_Green.tga using Guid(adaf6facc05fabc47bc7a3340e9b5c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991fe494ea23778fd8afa390b740b52b') in 0.028648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Medium_Normal.png
+  artifactKey: Guid(292c6bc2e1d2dfd4da72539d77594f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Medium_Normal.png using Guid(292c6bc2e1d2dfd4da72539d77594f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ae5182da0caeb4c2fe37b36b870b11') in 0.019495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Terrain-1/Lightmap-15_comp_dir.png
+  artifactKey: Guid(da6568596b14c7c4491d375f6083b033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Terrain-1/Lightmap-15_comp_dir.png using Guid(da6568596b14c7c4491d375f6083b033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc38eb4837e1154ef5c086abce15b2e') in 0.017288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Terrain-1/Lightmap-13_comp_light.exr
+  artifactKey: Guid(06e46618f0fd9254fa8d510e1532d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Terrain-1/Lightmap-13_comp_light.exr using Guid(06e46618f0fd9254fa8d510e1532d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185ff158758b97c7b0a349d1e155b059') in 0.015397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Basic_BaseColor.png
+  artifactKey: Guid(e526f48cd526d354ebdff80dd702d1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Basic_BaseColor.png using Guid(e526f48cd526d354ebdff80dd702d1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9887a3a82aa087c3d471fcf8356f8185') in 0.012306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Heads/Head_2/Male_Head_2_Normals.tga
+  artifactKey: Guid(9d6477c809bef7d40a5970fdcf75678e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Heads/Head_2/Male_Head_2_Normals.tga using Guid(9d6477c809bef7d40a5970fdcf75678e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901c9ed926cb545a2b30b6195a9cf8dd') in 0.011302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Heads/Head_2/Male_Head_2.tga
+  artifactKey: Guid(b7d117414e94a2b4490bd8b0968743da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Heads/Head_2/Male_Head_2.tga using Guid(b7d117414e94a2b4490bd8b0968743da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c624b7963540f995aac88572a3c0f3') in 0.018004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Epic_MetallicSmoothness.png
+  artifactKey: Guid(597576a17b35ce54b9377022e0d774fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Epic_MetallicSmoothness.png using Guid(597576a17b35ce54b9377022e0d774fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb21aeaddaf76001717ff6e7db4dc29a') in 0.013360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Epic_Normal.png
+  artifactKey: Guid(f49a6dcb00194e847beaa9df380787ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Epic_Normal.png using Guid(f49a6dcb00194e847beaa9df380787ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f2b0a0eefa326b3db80877a2c97c02') in 0.013043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Legs/Base Legs/Male_Base_Legs.tga
+  artifactKey: Guid(46d8ec0b3a571c5498e8a6a5807fed30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Legs/Base Legs/Male_Base_Legs.tga using Guid(46d8ec0b3a571c5498e8a6a5807fed30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d268369f8fb43f6e9a4c821230a724') in 0.019215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Legs/Legs_2/Male_Legs_2_Black.tga
+  artifactKey: Guid(2d067327324af2441aeed3920cd67353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Legs/Legs_2/Male_Legs_2_Black.tga using Guid(2d067327324af2441aeed3920cd67353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162154ed05038f9b717d7d81aba59d3f') in 0.014758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Basic_Normal.png
+  artifactKey: Guid(c122052339018e3489070fe988577fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Basic_Normal.png using Guid(c122052339018e3489070fe988577fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e9bdc5dc2c69a35c3485c84dc345a4') in 0.018619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Medium_BaseColor.png
+  artifactKey: Guid(f9de4933bf4f6a34a840bcbd219475ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Medium_BaseColor.png using Guid(f9de4933bf4f6a34a840bcbd219475ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26c4d652c312e6edccc898e88133593') in 0.013519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Terrain-1/Lightmap-11_comp_dir.png
+  artifactKey: Guid(afa46e40223064643a829552d4e1eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Terrain-1/Lightmap-11_comp_dir.png using Guid(afa46e40223064643a829552d4e1eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba251d75241526a8efe549801a23e19') in 0.013987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Legs/Base Legs/Male_Base_Legs_Normals.tga
+  artifactKey: Guid(1b1a3135e8b7f9b48b52baa70eb0fd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Legs/Base Legs/Male_Base_Legs_Normals.tga using Guid(1b1a3135e8b7f9b48b52baa70eb0fd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf286e6cfbc425da75c1c8a2aba9fe1d') in 0.012971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Basic_MetallicSmoothness.png
+  artifactKey: Guid(6fdb37838a5d5c449a7915040e9f42ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Basic_MetallicSmoothness.png using Guid(6fdb37838a5d5c449a7915040e9f42ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33489a7bd10411c165bcc04fe621d51d') in 0.014450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Terrain-1/Lightmap-14_comp_dir.png
+  artifactKey: Guid(fe16779ee6003aa4d84842b873fc2cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Terrain-1/Lightmap-14_comp_dir.png using Guid(fe16779ee6003aa4d84842b873fc2cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e97fc7b5f1eabf8a84a52d6b55a319') in 0.014952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Epic_Emission.png
+  artifactKey: Guid(6b530ad8c11776f449111550f1a993da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Epic_Emission.png using Guid(6b530ad8c11776f449111550f1a993da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd589dc63654fca45b990f0e9b172ab1') in 0.011828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Legs/Legs_2/Male_Legs_2_Normals.tga
+  artifactKey: Guid(b3690a33194a9b54d97311def026e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Legs/Legs_2/Male_Legs_2_Normals.tga using Guid(b3690a33194a9b54d97311def026e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed68ae58c0c940360e3dfb4f16ff100f') in 0.013170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Terrain-1/Lightmap-10_comp_dir.png
+  artifactKey: Guid(7de5ad491e0afac45ac18e7641af1080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Terrain-1/Lightmap-10_comp_dir.png using Guid(7de5ad491e0afac45ac18e7641af1080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b68e6ed761aaaaf2f15ec3a09b65a22') in 0.013396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Medium_Normal.png
+  artifactKey: Guid(ec0a8c4c72ff6b149879992d0d5b941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Medium_Normal.png using Guid(ec0a8c4c72ff6b149879992d0d5b941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573797de28ee347755693864d8492965') in 0.016062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Terrain-1/Lightmap-9_comp_dir.png
+  artifactKey: Guid(78460c8b2247d3049961c5c28e42e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Terrain-1/Lightmap-9_comp_dir.png using Guid(78460c8b2247d3049961c5c28e42e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad532679bec508825b826926d1b9d4e8') in 0.015296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Medium_MetallicSmoothness.png
+  artifactKey: Guid(79065a279459cef419643ab3be92e275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Medium_MetallicSmoothness.png using Guid(79065a279459cef419643ab3be92e275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de8844836621209068a8aafe9257946') in 0.013562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Epic_BaseColor.png
+  artifactKey: Guid(9cfc6f8340f40394b959df75775b8bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Epic_BaseColor.png using Guid(9cfc6f8340f40394b959df75775b8bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcffa143ab2c923526977bea75ac8b9c') in 0.012458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Torsos/Torso_1/Male_Torso_1_Blue.tga
+  artifactKey: Guid(19137f3eb09828f4c83eb1a56b8da66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Torsos/Torso_1/Male_Torso_1_Blue.tga using Guid(19137f3eb09828f4c83eb1a56b8da66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab872ef45218428d2e5d754b256b09f') in 0.017009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Hairs/Hair_1/Male_Hair_1_Normals.tga
+  artifactKey: Guid(88d9a40737bb7424b8ee0c1304e0d884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Hairs/Hair_1/Male_Hair_1_Normals.tga using Guid(88d9a40737bb7424b8ee0c1304e0d884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721ea9d613f9efc8c41106643bf383ce') in 0.020974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Basic_BaseColor.png
+  artifactKey: Guid(86acb5ab9bd2f8a4bad613e0d375988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Basic_BaseColor.png using Guid(86acb5ab9bd2f8a4bad613e0d375988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389ce5653cdeb703915a1e782e57870b') in 0.014417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UI-Graphics/Inventory/MagicBG.png
+  artifactKey: Guid(31ab85c6b89c5a14f9ed918bdf6b3411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI-Graphics/Inventory/MagicBG.png using Guid(31ab85c6b89c5a14f9ed918bdf6b3411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc793c328ce179ad89c4d5539cd3fecc') in 0.048980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Heads/Head_1/Male_Head_1.tga
+  artifactKey: Guid(b6db225e4f5cca14f9cc339287ee95b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Heads/Head_1/Male_Head_1.tga using Guid(b6db225e4f5cca14f9cc339287ee95b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a35ea2f3a941ca5a25ea4f1944dbd04') in 0.014882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Torsos/Base Torso/Male_Base_Torso.tga
+  artifactKey: Guid(6b161c7ba2772114fbdd70d11bd0b1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Torsos/Base Torso/Male_Base_Torso.tga using Guid(6b161c7ba2772114fbdd70d11bd0b1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321bf578da95cc1b74a5993471ea8687') in 0.035631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Epic_BaseColor.png
+  artifactKey: Guid(e4b203c728684ee478d39042b2a695e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_1H_Textures/Mace1H_Epic_BaseColor.png using Guid(e4b203c728684ee478d39042b2a695e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba01db0e564baa7317cb457a44f61e05') in 0.012512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Hairs/Hair_4/Male_Hair_4_Normals.tga
+  artifactKey: Guid(9298e356c40cb534793bd809c21da97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Hairs/Hair_4/Male_Hair_4_Normals.tga using Guid(9298e356c40cb534793bd809c21da97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1727c9edfc20e48afaa1145a3af30e06') in 0.013890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Legs/Legs_3/Male_Legs_3_Brown.tga
+  artifactKey: Guid(52c437022ade52346b34ffa5e4786176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character/Cartoon Heroes/Male/Textures/Legs/Legs_3/Male_Legs_3_Brown.tga using Guid(52c437022ade52346b34ffa5e4786176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a665e91eb929972cb89e577b34cb175') in 0.013102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Epic_Emission.png
+  artifactKey: Guid(88974748e580f994a92f5e36e391e325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Maces/Mace_2H_Textures/Mace2H_Epic_Emission.png using Guid(88974748e580f994a92f5e36e391e325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1dbdba8ad12a5b8826b557a57888e5a') in 0.016854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.827951 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Mace2H_Basic.prefab
+  artifactKey: Guid(85ba34deb1de19f41ae8795fef846895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Mace2H_Basic.prefab using Guid(85ba34deb1de19f41ae8795fef846895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3c559532c18e5d350288932ea05bbe') in 0.016284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.848738 seconds.
+  path: Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Spear1H_Medium.prefab
+  artifactKey: Guid(1a8eaaa38b934ed4dbe357ed598e1318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Weapons/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/_PREFABS/Spear1H_Medium.prefab using Guid(1a8eaaa38b934ed4dbe357ed598e1318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec358a13818201ec9dea47b6b3cb59e') in 0.015655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 417.927438 seconds.
+  path: Assets/Prefabs/Players/Player1Character1.prefab
+  artifactKey: Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character1.prefab using Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3456fde487ea65280f4802372896a911') in 0.449031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.923488 seconds.
+  path: Assets/Prefabs/Players/Player1Character2.prefab
+  artifactKey: Guid(8e3316c1adada6f4c8311f976e2659be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character2.prefab using Guid(8e3316c1adada6f4c8311f976e2659be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac13773708de5ff9118770a0ca86694') in 0.278680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 241.864253 seconds.
+  path: Assets/Prefabs/Players/Player1Character3.prefab
+  artifactKey: Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character3.prefab using Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26426906055fc11c01c4d0a46ab6bbc7') in 0.279924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.461719 seconds.
+  path: Assets/Prefabs/Players/Player1Character2.prefab
+  artifactKey: Guid(8e3316c1adada6f4c8311f976e2659be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character2.prefab using Guid(8e3316c1adada6f4c8311f976e2659be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c862f0f3c2d1212bd811ab5ffed4614e') in 0.273284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.054692 seconds.
+  path: Assets/Prefabs/Players/Player1Character1.prefab
+  artifactKey: Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character1.prefab using Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241188a9c96473dbf8c6d4233d43aa75') in 0.258600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 224.789605 seconds.
+  path: Assets/Prefabs/Players/Player1Character4.prefab
+  artifactKey: Guid(940bbeede757e5c46aa1232d0f4a7209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character4.prefab using Guid(940bbeede757e5c46aa1232d0f4a7209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d4654fabefc73ac7c0f18eaeedcea3') in 0.334114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.036020 seconds.
+  path: Assets/Prefabs/Players/Player1Character6.prefab
+  artifactKey: Guid(594ac1b463e0531458340a5a4a01c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character6.prefab using Guid(594ac1b463e0531458340a5a4a01c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abc2cf24a1b441497aa5c5d057d86f8') in 0.309769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 128.064298 seconds.
+  path: Assets/Prefabs/Players/Player1Character5.prefab
+  artifactKey: Guid(86869c8ef905ce44ab4e0f4ad69dd67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character5.prefab using Guid(86869c8ef905ce44ab4e0f4ad69dd67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a89d7be45455049a9067b9a43a2da4e') in 0.256046 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003977 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Domain Reload Profiling:
+	ReloadAssembly (952ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (749ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (293ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 4672.
+Memory consumption went from 258.1 MB to 256.7 MB.
+Total: 3.942500 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.090500 ms MarkObjects: 3.208100 ms  DeleteObjects: 0.347700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002675 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Domain Reload Profiling:
+	ReloadAssembly (927ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 4687.
+Memory consumption went from 258.1 MB to 256.7 MB.
+Total: 3.140400 ms (FindLiveObjects: 0.290000 ms CreateObjectMapping: 0.099800 ms MarkObjects: 2.419700 ms  DeleteObjects: 0.329900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (925ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (731ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 4702.
+Memory consumption went from 258.1 MB to 256.7 MB.
+Total: 3.606600 ms (FindLiveObjects: 0.325500 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.782500 ms  DeleteObjects: 0.398800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83.839239 seconds.
+  path: Assets/Prefabs/Players/Player1Character1.prefab
+  artifactKey: Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character1.prefab using Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd1d2688df7c9cf473e8d920985c6e5') in 0.412235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Players/Player1Character6.prefab
+  artifactKey: Guid(594ac1b463e0531458340a5a4a01c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character6.prefab using Guid(594ac1b463e0531458340a5a4a01c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386e5ccd63491de92d9a028dd08dda31') in 0.416052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Players/Player1Character3.prefab
+  artifactKey: Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character3.prefab using Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0a1f6499598066280e8126ccf2bff2') in 0.308515 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003188 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.355 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1356ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1149ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (579ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (419ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 4717.
+Memory consumption went from 258.3 MB to 256.9 MB.
+Total: 6.462500 ms (FindLiveObjects: 0.560000 ms CreateObjectMapping: 0.312700 ms MarkObjects: 4.583600 ms  DeleteObjects: 1.004600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.188715 seconds.
+  path: Assets/Prefabs/Players/Player1Character2.prefab
+  artifactKey: Guid(8e3316c1adada6f4c8311f976e2659be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character2.prefab using Guid(8e3316c1adada6f4c8311f976e2659be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe366d4fa0527b5294b6155f03471e4') in 0.451819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Prefabs/Players/Player1Character5.prefab
+  artifactKey: Guid(86869c8ef905ce44ab4e0f4ad69dd67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character5.prefab using Guid(86869c8ef905ce44ab4e0f4ad69dd67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1d9cf172c5dab92c4a506eea4a8fd4') in 0.363279 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003981 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (997ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (763ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 4732.
+Memory consumption went from 258.3 MB to 256.9 MB.
+Total: 3.287600 ms (FindLiveObjects: 0.354800 ms CreateObjectMapping: 0.112600 ms MarkObjects: 2.477700 ms  DeleteObjects: 0.341500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59.974140 seconds.
+  path: Assets/Prefabs/Players/Player1Character1.prefab
+  artifactKey: Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character1.prefab using Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0f8fe000cc10c1bb632a2685483e1d') in 0.465735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Players/Player1Character6.prefab
+  artifactKey: Guid(594ac1b463e0531458340a5a4a01c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character6.prefab using Guid(594ac1b463e0531458340a5a4a01c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc296c5721a11d30c7e305e10a4de4a') in 0.378223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Players/Player1Character3.prefab
+  artifactKey: Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character3.prefab using Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd918dde7cdd03690774b6bbbc29249e5') in 0.382566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.947017 seconds.
+  path: Assets/Prefabs/Players/Player1Character1.prefab
+  artifactKey: Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character1.prefab using Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8230bbb33512a709871a3ec6280e79d2') in 0.428164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Players/Player1Character6.prefab
+  artifactKey: Guid(594ac1b463e0531458340a5a4a01c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character6.prefab using Guid(594ac1b463e0531458340a5a4a01c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d452ba1ee494b2a19b04d299d832f99') in 0.439390 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002733 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (925ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (717ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 4747.
+Memory consumption went from 258.3 MB to 256.9 MB.
+Total: 3.868500 ms (FindLiveObjects: 0.351000 ms CreateObjectMapping: 0.092100 ms MarkObjects: 2.666700 ms  DeleteObjects: 0.757800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.825038 seconds.
+  path: Assets/Prefabs/Players/Player1Character1.prefab
+  artifactKey: Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character1.prefab using Guid(2db5bc2fd49fd84478d966cd26599710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9ce9c2d77382ef59e6f3d01c759745') in 0.300386 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002764 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\MSc AI\Dissertation-Project\RPG\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.882 seconds
+Domain Reload Profiling:
+	ReloadAssembly (883ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (665ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 4762.
+Memory consumption went from 258.4 MB to 257.0 MB.
+Total: 3.305700 ms (FindLiveObjects: 0.314100 ms CreateObjectMapping: 0.091700 ms MarkObjects: 2.537400 ms  DeleteObjects: 0.361800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41.370838 seconds.
+  path: Assets/Prefabs/Players/Player1Character2.prefab
+  artifactKey: Guid(8e3316c1adada6f4c8311f976e2659be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character2.prefab using Guid(8e3316c1adada6f4c8311f976e2659be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab7302b9f8744fb2554bc47c890e052') in 0.326274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.679658 seconds.
+  path: Assets/Prefabs/Players/Player1Character3.prefab
+  artifactKey: Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character3.prefab using Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aa6d6efdbfb301cccd9ec8765f04ce') in 0.313494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.751052 seconds.
+  path: Assets/Prefabs/Players/Player1Character3.prefab
+  artifactKey: Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character3.prefab using Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b3ea046bf782832459512c547698f8') in 0.247784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.163809 seconds.
+  path: Assets/Prefabs/Players/Player1Character3.prefab
+  artifactKey: Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character3.prefab using Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655d8ae6c46ee9279c44a81c165e120f') in 0.218430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.984403 seconds.
+  path: Assets/Prefabs/Players/Player1Character3.prefab
+  artifactKey: Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character3.prefab using Guid(1422e546a5b81d04aa4ff45061dfeff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b5640eb2d27a3aae45cde0ef6f6c1c') in 0.253193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.009668 seconds.
+  path: Assets/Prefabs/Players/Player1Character4.prefab
+  artifactKey: Guid(940bbeede757e5c46aa1232d0f4a7209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character4.prefab using Guid(940bbeede757e5c46aa1232d0f4a7209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b380c8cd2f831953b703413cf0dcd4') in 0.245723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.720231 seconds.
+  path: Assets/Prefabs/Players/Player1Character5.prefab
+  artifactKey: Guid(86869c8ef905ce44ab4e0f4ad69dd67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character5.prefab using Guid(86869c8ef905ce44ab4e0f4ad69dd67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc40512a4ba34f72eccb54fd3e70fbed') in 0.272368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.599709 seconds.
+  path: Assets/Prefabs/Players/Player1Character6.prefab
+  artifactKey: Guid(594ac1b463e0531458340a5a4a01c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Players/Player1Character6.prefab using Guid(594ac1b463e0531458340a5a4a01c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259b1db8bdc3dfc4f77a08083144f00b') in 0.286474 seconds 

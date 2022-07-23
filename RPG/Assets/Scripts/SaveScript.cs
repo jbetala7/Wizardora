@@ -10,6 +10,13 @@ public class SaveScript : MonoBehaviour
     public static GameObject enemyTarget;
     public static float manaAmount = 1.0f;
     public static bool invisible = false;
+    public static float strengthPowerAmount = 0.1f;
+    public static float manaPowerAmount = 0.1f;
+    public static float staminaPowerAmount = 0.1f;
+    public static int killAmount = 0;
+    public static int weaponChoice = 0;
+    public static bool changeWeapon = true;
+
 
 
     // Start is called before the first frame update

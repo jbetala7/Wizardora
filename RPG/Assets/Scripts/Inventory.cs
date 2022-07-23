@@ -9,6 +9,9 @@ public class Inventory : MonoBehaviour
     public GameObject closedBook;
     public GameObject openBook;
     public GameObject potionBook;
+    public GameObject inventoryScreen;
+    public GameObject statsScreen;
+    public GameObject characterDisplay;
     private AudioSource audioSource;
     public AudioClip bookOpenSound;
     public AudioClip selectSound;
@@ -242,6 +245,7 @@ public class Inventory : MonoBehaviour
         audioSource.clip = bookOpenSound;
         audioSource.Play();
         SaveScript.enemyTarget = null;
+        OpenInventoryScreen();
         Time.timeScale = 0;
     }
 
@@ -252,7 +256,22 @@ public class Inventory : MonoBehaviour
         closedBook.SetActive(true);
         audioSource.clip = bookOpenSound;
         audioSource.Play();
+        characterDisplay.SetActive(false);
         Time.timeScale = 1;
+    }
+
+    public void OpenInventoryScreen()
+    {
+        statsScreen.SetActive(false);
+        characterDisplay.SetActive(false);
+        inventoryScreen.SetActive(true);
+    }
+
+    public void OpenStatsScreen()
+    {
+        inventoryScreen.SetActive(false);
+        statsScreen.SetActive(true);
+        characterDisplay.SetActive(true);
     }
     public void OpenPotionBook()
     {

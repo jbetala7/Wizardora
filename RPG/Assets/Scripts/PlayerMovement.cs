@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject firePoint;
     private WaitForSeconds approachEnemy = new WaitForSeconds(0.3f);
     public GameObject[] playerObjects;
+    public GameObject[] weapons;
 
     // Start is called before the first frame update
     void Start()
@@ -41,9 +42,13 @@ public class PlayerMovement : MonoBehaviour
         transposer = freeCamera.gameObject.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineTransposer>();
         transposer1 = staticCamera.gameObject.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineOrbitalTransposer>();
         currentPosition = transposer.m_FollowOffset;
-        freeCamera.SetActive(true);
-        staticCamera.SetActive(false);
+        freeCamera.SetActive(false);
+        staticCamera.SetActive(true);
         SaveScript.firePoint = firePoint;
+        for(int i = 0; i < weapons.Length; i++)
+        {
+            weapons[i].SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -57,6 +62,17 @@ public class PlayerMovement : MonoBehaviour
         //get mouse position
         position = Input.mousePosition;
         transposer.m_FollowOffset = currentPosition;
+
+        //load correct weapon
+        if(SaveScript.changeWeapon == true)
+        {
+            SaveScript.changeWeapon = false;
+            for (int i = 0; i < weapons.Length; i++)
+            {
+                weapons[i].SetActive(false);
+            }
+            weapons[SaveScript.weaponChoice].SetActive(true);
+        }
 
         if(Input.GetMouseButtonDown(0))
         {
