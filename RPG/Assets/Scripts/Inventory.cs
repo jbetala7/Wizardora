@@ -270,10 +270,11 @@ public class Inventory : MonoBehaviour
 
     public void OpenStatsScreen()
     {
-        statsScreen.GetComponent<UpdateStats>().updateWeapons = true;
         inventoryScreen.SetActive(false);
         statsScreen.SetActive(true);
         characterDisplay.SetActive(true);
+        characterDisplay.GetComponent<CharacterDisplay>().ChangeArmourDisplay();
+        statsScreen.GetComponent<UpdateStats>().updateWeapons = true;
     }
     public void OpenPotionBook()
     {

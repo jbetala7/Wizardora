@@ -17,4 +17,9 @@ public class CharacterDisplay : MonoBehaviour
         charactersDisplay[SaveScript.pCharacter].SetActive(true);
     }
 
+    public void ChangeArmourDisplay()
+    {
+        charactersDisplay[SaveScript.pCharacter].GetComponent<DisplayArmour>().UpdateArmour();    
+    }
+
 }

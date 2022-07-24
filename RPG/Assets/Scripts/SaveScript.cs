@@ -17,6 +17,8 @@ public class SaveScript : MonoBehaviour
     public static int weaponChoice = 0;
     public static bool changeWeapon = false;
     public static bool carryingWeapon = false;
+    public static int armour = 0;
+    public static bool changeArmour = false;
 
     // Start is called before the first frame update
     void Start()

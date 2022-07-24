@@ -283,8 +283,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599505909237802842}
-  m_LocalRotation: {x: 0.4331887, y: 0.000000015508167, z: -0.000000007453609, w: 0.9013033}
-  m_LocalPosition: {x: 1.6338501, y: 9.112185, z: -8.588196}
+  m_LocalRotation: {x: 0.43318874, y: -0.000000015508167, z: 0.000000007453611, w: 0.90130323}
+  m_LocalPosition: {x: 1.6338501, y: 9.112186, z: -8.588196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3668,10 +3668,14 @@ MonoBehaviour:
   freeCamera: {fileID: 599505909237802842}
   firePoint: {fileID: 4242754860190636503}
   playerObjects:
-  - {fileID: 3186967096516894899}
-  - {fileID: 5819542698550769174}
   - {fileID: 1562788418197978157}
   - {fileID: 1563511198624392769}
+  - {fileID: 3186967096516894899}
+  - {fileID: 5819542698550769174}
+  - {fileID: 1278669467979255080}
+  - {fileID: 2460177539337887504}
+  - {fileID: 6198366460270990374}
+  - {fileID: 6198366460699207030}
   weapons:
   - {fileID: 1325673134}
   - {fileID: 1674876592}
@@ -3679,6 +3683,18 @@ MonoBehaviour:
   - {fileID: 2846288252327754423}
   - {fileID: 1033240900783509299}
   - {fileID: 5474014686241432542}
+  armourTorso:
+  - {fileID: 3186967096516894899}
+  - {fileID: 1278669467979255080}
+  - {fileID: 6198366460270990374}
+  armourLegs: []
+  attacks:
+  - shortSword
+  - longSword
+  - shortAxe
+  - longAxe
+  - hammer
+  - spear
 --- !u!1 &1563478985224524671
 GameObject:
   m_ObjectHideFlags: 0
@@ -10869,8 +10885,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6411872122212103044}
-  m_LocalRotation: {x: 0.22129402, y: -0.63549846, z: 0.19726126, w: 0.7129227}
-  m_LocalPosition: {x: 11.568115, y: 5.9821854, z: -1.7327881}
+  m_LocalRotation: {x: 0.22632219, y: -0.6168457, z: 0.19147128, w: 0.7291217}
+  m_LocalPosition: {x: 11.495636, y: 5.9821854, z: -2.244995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

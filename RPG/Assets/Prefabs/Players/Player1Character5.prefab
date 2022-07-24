@@ -4872,8 +4872,8 @@ Transform:
   - {fileID: 2158849746182966023}
   - {fileID: 2767747910252182345}
   - {fileID: 2083975480297768841}
-  - {fileID: 7164924928437981088}
   - {fileID: 7164900380796643208}
+  - {fileID: 7164924928437981088}
   - {fileID: 6518683834215853011}
   - {fileID: 5366994480584190889}
   - {fileID: 1453282258369283628}
@@ -4991,10 +4991,14 @@ MonoBehaviour:
   freeCamera: {fileID: 3370189307404555379}
   firePoint: {fileID: 927620360078809413}
   playerObjects:
-  - {fileID: 7169154187843278882}
-  - {fileID: 7167692757296219566}
   - {fileID: 597038936149416537}
   - {fileID: 1801406025483819925}
+  - {fileID: 7167692757296219566}
+  - {fileID: 7169154187843278882}
+  - {fileID: 7811621156441240172}
+  - {fileID: 7440496999166286526}
+  - {fileID: 1416150398699830560}
+  - {fileID: 7640275704818152832}
   weapons:
   - {fileID: 1362787324}
   - {fileID: 149569813}
@@ -5002,6 +5006,18 @@ MonoBehaviour:
   - {fileID: 2846288252067630868}
   - {fileID: 1033240898985393689}
   - {fileID: 5474014687032760392}
+  armourTorso:
+  - {fileID: 7167692757296219566}
+  - {fileID: 7811621156441240172}
+  - {fileID: 1416150398699830560}
+  armourLegs: []
+  attacks:
+  - shortSword
+  - longSword
+  - shortAxe
+  - longAxe
+  - hammer
+  - spear
 --- !u!195 &1062120132049637548
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8723,7 +8739,7 @@ Transform:
   m_Children:
   - {fileID: 7165451849015081524}
   m_Father: {fileID: 4198540501150764722}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7167696216788329686
 GameObject:
@@ -10100,7 +10116,7 @@ Transform:
   m_Children:
   - {fileID: 7165619717425860740}
   m_Father: {fileID: 4198540501150764722}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7169163238663544294
 GameObject:
@@ -10625,7 +10641,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7847257230848561302}
-  m_LocalRotation: {x: 0.2403265, y: -0.5591706, z: 0.17356862, w: 0.7742386}
+  m_LocalRotation: {x: 0.24032648, y: -0.55917066, z: 0.17356864, w: 0.7742386}
   m_LocalPosition: {x: 8.717651, y: 5.982194, z: -5.9957275}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

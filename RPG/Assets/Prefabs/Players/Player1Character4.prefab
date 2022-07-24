@@ -4016,10 +4016,14 @@ MonoBehaviour:
   freeCamera: {fileID: 7175124267849401104}
   firePoint: {fileID: 5153917035389432995}
   playerObjects:
-  - {fileID: 6138531729109455265}
-  - {fileID: 6140586728948603917}
   - {fileID: 9183888721379069589}
   - {fileID: 6488897413732140721}
+  - {fileID: 6138531729109455265}
+  - {fileID: 6140586728948603917}
+  - {fileID: 7167352697599010581}
+  - {fileID: 8473398886675612735}
+  - {fileID: 5126455283605545639}
+  - {fileID: 1765360416412693277}
   weapons:
   - {fileID: 1533818653}
   - {fileID: 1630054277}
@@ -4027,6 +4031,18 @@ MonoBehaviour:
   - {fileID: 2846288252412079681}
   - {fileID: 1033240898865078624}
   - {fileID: 5474014686824329173}
+  armourTorso:
+  - {fileID: 6138531729109455265}
+  - {fileID: 7167352697599010581}
+  - {fileID: 5126455283605545639}
+  armourLegs: []
+  attacks:
+  - shortSword
+  - longSword
+  - shortAxe
+  - longAxe
+  - hammer
+  - spear
 --- !u!195 &8996665555402606175
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9903,7 +9919,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7175124267849401104}
-  m_LocalRotation: {x: 0.4331887, y: -0.000000015508162, z: 0.0000000074536075, w: 0.90130323}
+  m_LocalRotation: {x: 0.4331887, y: 0.000000015508173, z: -0.000000007453612, w: 0.9013033}
   m_LocalPosition: {x: 1.5317688, y: 9.112204, z: -8.541809}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

@@ -1202,7 +1202,7 @@ Transform:
   m_Children:
   - {fileID: 4121339409314204299}
   m_Father: {fileID: 2016440611624309867}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1816086729346909599
 GameObject:
@@ -1327,7 +1327,7 @@ Transform:
   m_Children:
   - {fileID: 6592181138026392593}
   m_Father: {fileID: 2016440611624309867}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2011139332386289939
 GameObject:
@@ -4691,6 +4691,7 @@ GameObject:
   - component: {fileID: 2016440611624309867}
   - component: {fileID: 1925819077137056271}
   - component: {fileID: 1905778686311471603}
+  - component: {fileID: 4908636943202937521}
   m_Layer: 0
   m_Name: Player1Female3Display
   m_TagString: Untagged
@@ -4716,10 +4717,10 @@ Transform:
   - {fileID: 4517023345159574292}
   - {fileID: 7742749857441376343}
   - {fileID: 7742674749005287351}
-  - {fileID: 533882454189361756}
   - {fileID: 1694137858228545574}
-  - {fileID: 5663777696101618986}
+  - {fileID: 533882454189361756}
   - {fileID: 5462391642508782995}
+  - {fileID: 5663777696101618986}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4785,6 +4786,26 @@ MonoBehaviour:
     - prefab: {fileID: 100000, guid: 7e462abb283b73a4ba97438461785130, type: 3}
     slots: 4
   disabledGraySkeleton: {fileID: 0}
+--- !u!114 &4908636943202937521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012740911850187425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394071e0434f11d4cac9d56613207daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  armourTorso:
+  - {fileID: 7744192246356689051}
+  - {fileID: 2206034699782471701}
+  - {fileID: 3814554353894359314}
+  armourLegs:
+  - {fileID: 7745954810986351927}
+  - {fileID: 1779967850269228480}
+  - {fileID: 1969461403461100080}
 --- !u!1 &2012743179980134521
 GameObject:
   m_ObjectHideFlags: 0
@@ -6708,7 +6729,7 @@ Transform:
   m_Children:
   - {fileID: 6651480231879122032}
   m_Father: {fileID: 2016440611624309867}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2271750611288497567
 GameObject:
@@ -7392,7 +7413,7 @@ Transform:
   m_Children:
   - {fileID: 3366911668087549155}
   m_Father: {fileID: 2016440611624309867}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3850835027877837762
 GameObject:

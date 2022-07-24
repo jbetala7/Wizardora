@@ -33,6 +33,10 @@ public class PlayerMovement : MonoBehaviour
     private WaitForSeconds approachEnemy = new WaitForSeconds(0.3f);
     public GameObject[] playerObjects;
     public GameObject[] weapons;
+    public GameObject[] armourTorso;
+    public GameObject[] armourLegs;
+    public string[] attacks;
+    private AnimatorStateInfo playerInfo;
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +58,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //listent to the animator
+        playerInfo = animator.GetCurrentAnimatorStateInfo(0);
+
         //calculate velocity speed
         x = agent.velocity.x;
         z = agent.velocity.z;
@@ -74,7 +81,15 @@ public class PlayerMovement : MonoBehaviour
             weapons[SaveScript.weaponChoice].SetActive(true);
         }
 
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.Z))
+        {
+            if (SaveScript.carryingWeapon == true)
+            {
+                animator.SetTrigger(attacks[SaveScript.weaponChoice]);
+            }
+        }
+
+        if(Input.GetMouseButtonDown(0) && playerInfo.IsTag("nonAttack") && !animator.IsInTransition(0))
         {
             if(canMove == true)
             {
@@ -160,15 +175,30 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
         }
-        if (playerObjects[0].activeSelf == false)
+        if (SaveScript.manaAmount <= 0.1)
         {
             if (SaveScript.invisible == false)
             {
                 for (int i = 0; i < playerObjects.Length; i++)
                 {
                     playerObjects[i].SetActive(true);
+                    SaveScript.changeArmour = true;
                 }
             }
+        }
+        if(SaveScript.changeArmour == true)
+        {
+            for (int i = 0; i < armourTorso.Length; i++)
+            {
+                armourTorso[i].SetActive(false);
+            }
+            armourTorso[SaveScript.armour].SetActive(true);
+            for (int i = 0; i < armourLegs.Length; i++)
+            {
+                armourLegs[i].SetActive(false);
+            }
+            armourLegs[SaveScript.armour].SetActive(true);
+            SaveScript.changeArmour = false;
         }
     }
 

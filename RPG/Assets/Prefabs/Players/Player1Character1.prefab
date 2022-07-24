@@ -138,7 +138,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373124907}
-  m_LocalRotation: {x: 0.4331887, y: 0.000000026860931, z: -0.00000001291003, w: 0.90130323}
+  m_LocalRotation: {x: 0.4331887, y: -0.000000014357469, z: 0.000000006900555, w: 0.9013033}
   m_LocalPosition: {x: -1.179718, y: 9.115803, z: -7.815277}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2709,7 +2709,7 @@ Transform:
   m_Children:
   - {fileID: 6575283869293308191}
   m_Father: {fileID: 8107613920407108130}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4598409117117706904
 GameObject:
@@ -3085,7 +3085,7 @@ Transform:
   m_Children:
   - {fileID: 4911087653258908254}
   m_Father: {fileID: 8107613920407108130}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4912071370880163644
 GameObject:
@@ -4236,7 +4236,7 @@ Transform:
   m_Children:
   - {fileID: 4910640376924895470}
   m_Father: {fileID: 8107613920407108130}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4912909754910302924
 GameObject:
@@ -5682,8 +5682,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6688632154554355257}
-  m_LocalRotation: {x: 0.22052114, y: -0.63827944, z: 0.19812405, w: 0.71043414}
-  m_LocalPosition: {x: 8.763214, y: 5.9858027, z: -0.88220215}
+  m_LocalRotation: {x: 0.23961487, y: -0.5623314, z: 0.17454973, w: 0.77194595}
+  m_LocalPosition: {x: 8.338562, y: 5.9858027, z: -2.8815918}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6258,7 +6258,7 @@ Transform:
   m_Children:
   - {fileID: 5311289278186330045}
   m_Father: {fileID: 8107613920407108130}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7929452325540968692
 GameObject:
@@ -9155,10 +9155,10 @@ Transform:
   - {fileID: 4910770689468805774}
   - {fileID: 8107941579745231900}
   - {fileID: 435163151}
-  - {fileID: 4915740958715989370}
   - {fileID: 4915683351685768530}
-  - {fileID: 1752542964345328427}
+  - {fileID: 4915740958715989370}
   - {fileID: 7787173119866061191}
+  - {fileID: 1752542964345328427}
   - {fileID: 5214371508750728947}
   - {fileID: 6865268924087410845}
   m_Father: {fileID: 6688632154803137374}
@@ -9274,10 +9274,15 @@ MonoBehaviour:
   freeCamera: {fileID: 1373124907}
   firePoint: {fileID: 435163150}
   playerObjects:
-  - {fileID: 4912062534839622392}
-  - {fileID: 4912890148941842292}
   - {fileID: 8111972400886067486}
+  - {fileID: 4912688174565821384}
   - {fileID: 8111625796714348194}
+  - {fileID: 4912890148941842292}
+  - {fileID: 4912062534839622392}
+  - {fileID: 7802909255039832487}
+  - {fileID: 4458839362785324036}
+  - {fileID: 3922935965379237059}
+  - {fileID: 2549181329265308025}
   weapons:
   - {fileID: 2036977835}
   - {fileID: 568785320}
@@ -9285,6 +9290,18 @@ MonoBehaviour:
   - {fileID: 2846288251529370777}
   - {fileID: 1033240899405834399}
   - {fileID: 5474014686984923640}
+  armourTorso:
+  - {fileID: 4912890148941842292}
+  - {fileID: 7802909255039832487}
+  - {fileID: 3922935965379237059}
+  armourLegs: []
+  attacks:
+  - shortSword
+  - longSword
+  - shortAxe
+  - longAxe
+  - hammer
+  - spear
 --- !u!195 &6688632153892999414
 NavMeshAgent:
   m_ObjectHideFlags: 0

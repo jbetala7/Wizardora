@@ -2173,6 +2173,7 @@ GameObject:
   - component: {fileID: 473404284210041050}
   - component: {fileID: 564052222545610430}
   - component: {fileID: 511342328618556738}
+  - component: {fileID: 8672504701275167228}
   m_Layer: 0
   m_Name: Player1Female1Display
   m_TagString: Untagged
@@ -2200,8 +2201,8 @@ Transform:
   - {fileID: 7157082070383274264}
   - {fileID: 7988281894218150870}
   - {fileID: 3767109398496646630}
-  - {fileID: 2358693976439272342}
   - {fileID: 4163675287724216980}
+  - {fileID: 2358693976439272342}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2267,6 +2268,26 @@ MonoBehaviour:
     - prefab: {fileID: 100000, guid: 7e462abb283b73a4ba97438461785130, type: 3}
     slots: 4
   disabledGraySkeleton: {fileID: 0}
+--- !u!114 &8672504701275167228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469704286298500624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394071e0434f11d4cac9d56613207daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  armourTorso:
+  - {fileID: 7158599430297822772}
+  - {fileID: 3322828489414364597}
+  - {fileID: 783652804283110817}
+  armourLegs:
+  - {fileID: 7160645668934658968}
+  - {fileID: 2876961387031422622}
+  - {fileID: 4777165922590969958}
 --- !u!1 &469706966507936968
 GameObject:
   m_ObjectHideFlags: 0
@@ -5691,7 +5712,7 @@ Transform:
   m_Children:
   - {fileID: 6030718279015750082}
   m_Father: {fileID: 473404284210041050}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &814334306948425088
 GameObject:
@@ -7537,7 +7558,7 @@ Transform:
   m_Children:
   - {fileID: 6565162170300150851}
   m_Father: {fileID: 473404284210041050}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4963461034322737393
 GameObject:

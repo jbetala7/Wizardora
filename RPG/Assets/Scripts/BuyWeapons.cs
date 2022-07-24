@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class BuyWeapons : MonoBehaviour
 {
     public int weaponNumber;
+    public int armourNumber;
     public int weaponCost;
     public Text currencyText;
     public GameObject inventoryObject;
@@ -29,8 +30,19 @@ public class BuyWeapons : MonoBehaviour
             audioSource.clip = inventoryObject.GetComponent<Inventory>().buySound;
             audioSource.Play();
             currencyText.text = Inventory.gold.ToString();
-            Debug.Log("cost = " + weaponCost);
-            Debug.Log("Currency = " + Inventory.gold);
+        }
+    }
+
+    public void BuyArmourButton()
+    {
+        if(Inventory.gold >= weaponCost)
+        {
+            SaveScript.armour = armourNumber;
+            SaveScript.changeArmour = true;
+            Inventory.gold -= weaponCost;
+            audioSource.clip = inventoryObject.GetComponent<Inventory>().buySound;
+            audioSource.Play();
+            currencyText.text = Inventory.gold.ToString();
         }
     }
 }
