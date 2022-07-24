@@ -20,7 +20,7 @@ public class UpdateStats : MonoBehaviour
     void Start()
     {
         nameText.text = SaveScript.pName;
-        if(SaveScript.pCharacter == 1 || SaveScript.pCharacter == 3 || SaveScript.pCharacter == 5)
+        if(SaveScript.pCharacter == 0 || SaveScript.pCharacter == 2 || SaveScript.pCharacter == 4)
         {
             items[0].SetActive(true);
         }
