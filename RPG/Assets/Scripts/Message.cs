@@ -42,7 +42,10 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         bartenderMessage.text = "shop items from the list";
         shopUI[shopNumber].SetActive(true);
-        shopUI[shopNumber].GetComponent<Buy>().UpdateGold();
+        if(shopNumber < 6)
+        {
+            shopUI[shopNumber].GetComponent<Buy>().UpdateGold();
+        }
     }
 
     // Update is called once per frame

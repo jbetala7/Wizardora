@@ -34,10 +34,10 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             hintBox.SetActive(true);
             if(left == true)
             {
-                screenPoint.x = Input.mousePosition.x + 500;
+                screenPoint.x = Input.mousePosition.x + Screen.width / 2.5f;
             }if(left == false)
             {
-                screenPoint.x = Input.mousePosition.x - 500;
+                screenPoint.x = Input.mousePosition.x - Screen.width / 2.5f;
             }
             screenPoint.y = Input.mousePosition.y;
             screenPoint.z = 1f;

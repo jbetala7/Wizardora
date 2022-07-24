@@ -8,6 +8,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip mainLoop;
     public AudioClip tavernLoop;
     public AudioClip battleLoop;
+    public AudioClip wizardLoop;
+    public AudioClip blacksmithLoop;
     public int musicState = 1;
 
     [HideInInspector]
@@ -38,6 +40,16 @@ public class AudioManager : MonoBehaviour
             if (musicState == 3)
             {
                 audioSource.clip = battleLoop;
+                audioSource.Play();
+            }
+            if (musicState == 4)
+            {
+                audioSource.clip = wizardLoop;
+                audioSource.Play();
+            }
+            if (musicState == 5)
+            {
+                audioSource.clip = blacksmithLoop;
                 audioSource.Play();
             }
         }
