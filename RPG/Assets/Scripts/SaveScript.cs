@@ -9,17 +9,20 @@ public class SaveScript : MonoBehaviour
     public static GameObject firePoint;
     public static GameObject enemyTarget;
     public static float manaAmount = 1.0f;
-    public static bool invisible = false;
     public static float staminaAmount = 1.0f;
     public static float strengthPowerAmount = 0.1f;
     public static float manaPowerAmount = 0.1f;
     public static float staminaPowerAmount = 0.1f;
+    public static float playerLevel = 0.1f;
     public static int killAmount = 0;
     public static int weaponChoice = 0;
     public static bool changeWeapon = false;
     public static bool carryingWeapon = false;
     public static int armour = 0;
     public static bool changeArmour = false;
+    public static bool invisible = false;
+    private int checkAmount = 1;
+    public static int weaponIncrease;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +35,7 @@ public class SaveScript : MonoBehaviour
     {
         if(manaAmount < 1.0)
         {
-            manaAmount += 0.05f * Time.deltaTime;
+            manaAmount += (manaPowerAmount / 10 + 0.05f) * Time.deltaTime;
         }
         if (manaAmount <= 0)
         {
@@ -44,11 +47,20 @@ public class SaveScript : MonoBehaviour
         }
         if (staminaAmount < 1.0)
         {
-            staminaAmount += 0.05f * Time.deltaTime;
+            staminaAmount += (staminaPowerAmount / 10 + 0.05f) * Time.deltaTime;
         }
         if (staminaAmount <= 0)
         {
             staminaAmount = 0;
+        }
+        if(killAmount == checkAmount)
+        {
+            playerLevel += 0.1f;
+            checkAmount = killAmount + 2;
+            strengthPowerAmount = playerLevel;
+            staminaPowerAmount = playerLevel;
+            manaPowerAmount = playerLevel;
+            weaponIncrease = System.Convert.ToInt32(strengthPowerAmount * 90);
         }
     }
 }

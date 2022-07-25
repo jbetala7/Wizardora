@@ -11,6 +11,7 @@ public class Pickups : MonoBehaviour
     public bool bluePlants = false;
     public bool redFlower = false;
     public bool key = false;
+    public bool coins = false;
 
     [HideInInspector]
     public GameObject inventoryObject;
@@ -21,6 +22,10 @@ public class Pickups : MonoBehaviour
     {
         inventoryObject = GameObject.Find("InventoryCanvas");
         audioSource = inventoryObject.GetComponent<AudioSource>();
+        if(coins == true)
+        {
+            Destroy(gameObject, 5f);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -79,6 +84,11 @@ public class Pickups : MonoBehaviour
             {
                 DisplayIcons();
                 Inventory.key = true;
+                Destroy(gameObject);
+            }
+            else if (coins == true)
+            {
+                Inventory.gold += Random.Range(30, 200);
                 Destroy(gameObject);
             }
             else

@@ -120,6 +120,7 @@ public class PlayerMovement : MonoBehaviour
                         agent.isStopped = false;
                         SaveScript.enemyTarget = hit.transform.gameObject;
                         agent.destination = hit.point;
+                        transform.LookAt(SaveScript.enemyTarget.transform);
                         StartCoroutine(MoveTo());
                     }
                     else
@@ -157,7 +158,7 @@ public class PlayerMovement : MonoBehaviour
             transposer1.m_XAxis.m_InputAxisName = axisNamed;
             if(position.x != 0 || position.y != 0)
             {
-                currentPosition = position / 70;
+                currentPosition = position / 100;
             }
         }
 

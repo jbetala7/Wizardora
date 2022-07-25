@@ -14554,6 +14554,9 @@ MonoBehaviour:
   notMoving: 0
   followPlayer: 0
   manaDecreaseRate: 0.02
+  invisibility: 0
+  damageAmount: 30
+  lastObject: {fileID: 0}
 --- !u!1 &4116047761159007914
 GameObject:
   m_ObjectHideFlags: 0
@@ -14609,6 +14612,9 @@ MonoBehaviour:
   notMoving: 0
   followPlayer: 0
   manaDecreaseRate: 0.02
+  invisibility: 0
+  damageAmount: 30
+  lastObject: {fileID: 0}
 --- !u!1 &4116047761197440369
 GameObject:
   m_ObjectHideFlags: 0
@@ -24278,6 +24284,8 @@ GameObject:
   - component: {fileID: 4116047761258251818}
   - component: {fileID: 4116047761258251817}
   - component: {fileID: 4116047761258251816}
+  - component: {fileID: 4987095908434534984}
+  - component: {fileID: 1342120527650686151}
   m_Layer: 0
   m_Name: TargetPoint5
   m_TagString: Untagged
@@ -24315,6 +24323,8 @@ MonoBehaviour:
   speed: 7
   rotator: 0
   particleTarget: 1
+  damageAmount: 30
+  lastObject: {fileID: 0}
 --- !u!33 &4116047761258251817
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -24365,6 +24375,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &4987095908434534984
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116047761258251814}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1342120527650686151
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116047761258251814}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: -0.0007324219}
 --- !u!1 &4116047761326188430
 GameObject:
   m_ObjectHideFlags: 0
@@ -29244,6 +29283,9 @@ MonoBehaviour:
   notMoving: 0
   followPlayer: 0
   manaDecreaseRate: 0.02
+  invisibility: 0
+  damageAmount: 30
+  lastObject: {fileID: 0}
 --- !u!1 &4116047761617892815
 GameObject:
   m_ObjectHideFlags: 0
@@ -29299,6 +29341,9 @@ MonoBehaviour:
   notMoving: 0
   followPlayer: 0
   manaDecreaseRate: 0.02
+  invisibility: 0
+  damageAmount: 30
+  lastObject: {fileID: 0}
 --- !u!1 &4116047761644263932
 GameObject:
   m_ObjectHideFlags: 0
@@ -29311,6 +29356,8 @@ GameObject:
   - component: {fileID: 4116047761644263904}
   - component: {fileID: 4116047761644263935}
   - component: {fileID: 4116047761644263934}
+  - component: {fileID: 1791042877294831292}
+  - component: {fileID: 1726915560142064509}
   m_Layer: 0
   m_Name: TargetPoint4
   m_TagString: Untagged
@@ -29348,6 +29395,8 @@ MonoBehaviour:
   speed: 7
   rotator: 0
   particleTarget: 1
+  damageAmount: 30
+  lastObject: {fileID: 0}
 --- !u!33 &4116047761644263935
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -29398,6 +29447,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1791042877294831292
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116047761644263932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0.00024414062, y: 0, z: 0}
+--- !u!54 &1726915560142064509
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116047761644263932}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4116047761829213731
 GameObject:
   m_ObjectHideFlags: 0
@@ -48706,6 +48784,8 @@ GameObject:
   - component: {fileID: 4116047762471762444}
   - component: {fileID: 4116047762471762443}
   - component: {fileID: 4116047762471762442}
+  - component: {fileID: 2838017650609262591}
+  - component: {fileID: 1630112365935783967}
   m_Layer: 0
   m_Name: TargetPoint3
   m_TagString: Untagged
@@ -48743,6 +48823,8 @@ MonoBehaviour:
   speed: 7
   rotator: 0
   particleTarget: 1
+  damageAmount: 30
+  lastObject: {fileID: 0}
 --- !u!33 &4116047762471762443
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -48793,6 +48875,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2838017650609262591
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116047762471762440}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: -0.00030517578, y: 0, z: -0.00048828125}
+--- !u!54 &1630112365935783967
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116047762471762440}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4116047762730082709
 GameObject:
   m_ObjectHideFlags: 0
@@ -48805,6 +48916,8 @@ GameObject:
   - component: {fileID: 4116047762730082713}
   - component: {fileID: 4116047762730082712}
   - component: {fileID: 4116047762730082711}
+  - component: {fileID: 3529773039471930952}
+  - component: {fileID: 3952006740570680864}
   m_Layer: 0
   m_Name: TargetPoint2
   m_TagString: Untagged
@@ -48842,6 +48955,8 @@ MonoBehaviour:
   speed: 7
   rotator: 0
   particleTarget: 1
+  damageAmount: 30
+  lastObject: {fileID: 0}
 --- !u!33 &4116047762730082712
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -48892,6 +49007,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3529773039471930952
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116047762730082709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: -0.00048828125, y: 0, z: 0.0005187988}
+--- !u!54 &3952006740570680864
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116047762730082709}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4116047762794952071
 GameObject:
   m_ObjectHideFlags: 0
@@ -63428,6 +63572,9 @@ MonoBehaviour:
   notMoving: 0
   followPlayer: 0
   manaDecreaseRate: 0.02
+  invisibility: 0
+  damageAmount: 30
+  lastObject: {fileID: 0}
 --- !u!1 &5085623802084615531
 GameObject:
   m_ObjectHideFlags: 0
@@ -73088,6 +73235,8 @@ GameObject:
   - component: {fileID: 5086780352616146279}
   - component: {fileID: 5086780352616146278}
   - component: {fileID: 5086780352616146277}
+  - component: {fileID: 2983261156924652659}
+  - component: {fileID: 2077701908100546715}
   m_Layer: 0
   m_Name: TargetPoint1
   m_TagString: Untagged
@@ -73125,6 +73274,8 @@ MonoBehaviour:
   speed: 7
   rotator: 0
   particleTarget: 1
+  damageAmount: 30
+  lastObject: {fileID: 0}
 --- !u!33 &5086780352616146278
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -73175,6 +73326,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2983261156924652659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5086780352616146299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_Center: {x: 0, y: 0, z: 0.00048828125}
+--- !u!54 &2077701908100546715
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5086780352616146299}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5086780353599930656
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,8 @@ public class PlayerAttack : MonoBehaviour
 {
     private GameObject objectToDestory;
     public int damageAmount;
+    private bool canDamage = true;
+    private WaitForSeconds damagePause = new WaitForSeconds(0.5f);
 
     // Start is called before the first frame update
     void Start()
@@ -28,11 +30,23 @@ public class PlayerAttack : MonoBehaviour
             Destroy(other.transform.gameObject);
             StartCoroutine(WaitForDestory());
         }
+        if(other.CompareTag("Enemy") && canDamage == true)
+        {
+            canDamage = false;
+            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= damageAmount + SaveScript.weaponIncrease;
+            StartCoroutine(ResetDamage());
+        }
     }
 
     IEnumerator WaitForDestory()
     {
         yield return new WaitForSeconds(3);
         Destroy(objectToDestory);
+    }
+
+    IEnumerator ResetDamage()
+    {
+        yield return damagePause;
+        canDamage = true;
     }
 }

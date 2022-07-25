@@ -15,7 +15,8 @@ public class ParticleMover : MonoBehaviour
     private GameObject saveTarget;
     public float manaDecreaseRate = 0.07f;
     public bool invisibility = false;
-    
+    public int damageAmount = 30;
+    public GameObject lastObject;
 
     // Start is called before the first frame update
     private void Start()
@@ -68,5 +69,14 @@ public class ParticleMover : MonoBehaviour
         }
         SaveScript.manaAmount -= manaDecreaseRate * Time.deltaTime;
         Destroy(obj, lifetime);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemy") && other.transform.gameObject != lastObject)
+        {
+            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= damageAmount;
+            lastObject = other.transform.gameObject;
+        }
     }
 }

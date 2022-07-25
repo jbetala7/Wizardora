@@ -188,6 +188,40 @@ MonoBehaviour:
   lifetime: 9
   enemySeeker: 1
   notMoving: 0
+  followPlayer: 0
+  manaDecreaseRate: 0.07
+  invisibility: 0
+  damageAmount: 30
+  lastObject: {fileID: 0}
+--- !u!65 &7270455055544060382
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134957498960599223}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.207951, y: 1.9459842, z: 2.0189877}
+  m_Center: {x: -0.06747872, y: -0.045064565, z: -0.036327668}
+--- !u!54 &2963575502351527579
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134957498960599223}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &134957498960829691 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 403046, guid: 90393fb9e43e4614399458a973650b70, type: 3}
