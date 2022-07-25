@@ -41,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
     public AudioClip[] weaponSounds;
     private GameObject trailObject;
     private WaitForSeconds trailTimeOff = new WaitForSeconds(0.1f);
+    public float[] staminaCost;
 
     // Start is called before the first frame update
     void Start()
@@ -88,14 +89,24 @@ public class PlayerMovement : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Z))
         {
-            if (SaveScript.carryingWeapon == true)
+            if (SaveScript.carryingWeapon == true && SaveScript.staminaAmount > 0.2)
             {
                 animator.SetTrigger(attacks[SaveScript.weaponChoice]);
                 audioSource.clip = weaponSounds[SaveScript.weaponChoice];
+                SaveScript.staminaAmount -= staminaCost[SaveScript.weaponChoice];
             }
         }
 
-        if(Input.GetMouseButtonDown(0) && playerInfo.IsTag("nonAttack") && !animator.IsInTransition(0))
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            if (SaveScript.carryingWeapon == true)
+            {
+                SaveScript.carryingWeapon = false;
+                weapons[SaveScript.weaponChoice].SetActive(false);
+            }
+        }
+
+        if (Input.GetMouseButtonDown(0) && playerInfo.IsTag("nonAttack") && !animator.IsInTransition(0))
         {
             if(canMove == true)
             {

@@ -80,6 +80,7 @@ public class Inventory : MonoBehaviour
     public GameObject[] magicParticles;
     public AudioClip[] magicSounds;
     public Image manaBar;
+    public Image staminaBar;
     public bool[] weapons;
 
     // Start is called before the first frame update
@@ -186,6 +187,11 @@ public class Inventory : MonoBehaviour
             }
         }
         manaBar.fillAmount = SaveScript.manaAmount;
+
+        if(SaveScript.staminaAmount != staminaBar.fillAmount)
+        {
+            staminaBar.fillAmount = Mathf.Lerp(staminaBar.fillAmount, SaveScript.staminaAmount, 2 * Time.deltaTime);
+        }
 
         if(playerInfo.IsTag("magic"))
         {

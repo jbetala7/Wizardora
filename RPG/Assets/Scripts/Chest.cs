@@ -15,11 +15,15 @@ public class Chest : MonoBehaviour
     private int goldDisplay;
     public GameObject inventoryCanvas;
     public AudioClip openChestClip;
+    public bool crate = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
+        if(crate == false)
+        {
+            animator = GetComponent<Animator>();
+        }
         canvas.SetActive(false);
         goldDisplay = goldAmount;
     }
@@ -37,28 +41,34 @@ public class Chest : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if(crate == false)
         {
-            if(Inventory.key == true)
+            if (other.CompareTag("Player"))
             {
-                animator.SetTrigger("open");
-                Inventory.gold += goldAmount;
-                goldAmount = 0;
-                inventoryCanvas.GetComponent<AudioSource>().clip = openChestClip;
-                inventoryCanvas.GetComponent<AudioSource>().Play();
+                if (Inventory.key == true)
+                {
+                    animator.SetTrigger("open");
+                    Inventory.gold += goldAmount;
+                    goldAmount = 0;
+                    inventoryCanvas.GetComponent<AudioSource>().clip = openChestClip;
+                    inventoryCanvas.GetComponent<AudioSource>().Play();
+                }
             }
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if(crate == false)
         {
-            if (Inventory.key == true)
+            if (other.CompareTag("Player"))
             {
-                animator.SetTrigger("close");
+                if (Inventory.key == true)
+                {
+                    animator.SetTrigger("close");
+                }
             }
-        }
+        } 
     }
 
     public void DestoryGold()
@@ -70,5 +80,12 @@ public class Chest : MonoBehaviour
     {
         Instantiate(particleEffect, particlesPoint.transform.position, particlesPoint.transform.rotation);
         canvas.SetActive(true);
+        if(crate == true)
+        {
+            Inventory.gold += goldAmount;
+            goldAmount = 0;
+            inventoryCanvas.GetComponent<AudioSource>().clip = openChestClip;
+            inventoryCanvas.GetComponent<AudioSource>().Play();
+        }
     }
 }

@@ -10,6 +10,7 @@ public class SaveScript : MonoBehaviour
     public static GameObject enemyTarget;
     public static float manaAmount = 1.0f;
     public static bool invisible = false;
+    public static float staminaAmount = 1.0f;
     public static float strengthPowerAmount = 0.1f;
     public static float manaPowerAmount = 0.1f;
     public static float staminaPowerAmount = 0.1f;
@@ -40,6 +41,14 @@ public class SaveScript : MonoBehaviour
         if(manaAmount < 0.02)
         {
             invisible = false;
+        }
+        if (staminaAmount < 1.0)
+        {
+            staminaAmount += 0.05f * Time.deltaTime;
+        }
+        if (staminaAmount <= 0)
+        {
+            staminaAmount = 0;
         }
     }
 }
