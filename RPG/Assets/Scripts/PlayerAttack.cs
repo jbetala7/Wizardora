@@ -33,7 +33,22 @@ public class PlayerAttack : MonoBehaviour
         if(other.CompareTag("Enemy") && canDamage == true)
         {
             canDamage = false;
-            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= damageAmount + SaveScript.weaponIncrease + SaveScript.strengthIncrease;
+            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= damageAmount 
+                + SaveScript.weaponIncrease + SaveScript.strengthIncrease;
+            StartCoroutine(ResetDamage());
+        }
+        if (other.CompareTag("Spider") && canDamage == true)
+        {
+            canDamage = false;
+            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= (damageAmount / 8)
+                + SaveScript.weaponIncrease + SaveScript.strengthIncrease;
+            StartCoroutine(ResetDamage());
+        }
+        if (other.CompareTag("Dragon") && canDamage == true)
+        {
+            canDamage = false;
+            other.transform.gameObject.GetComponent<Dragon>().enemyHealth -= (damageAmount / 8)
+                + SaveScript.weaponIncrease + SaveScript.strengthIncrease;
             StartCoroutine(ResetDamage());
         }
     }

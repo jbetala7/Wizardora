@@ -12,6 +12,8 @@ public class Pickups : MonoBehaviour
     public bool redFlower = false;
     public bool key = false;
     public bool coins = false;
+    public bool isSpider = false;
+    public bool isDragon = false;
 
     [HideInInspector]
     public GameObject inventoryObject;
@@ -88,8 +90,21 @@ public class Pickups : MonoBehaviour
             }
             else if (coins == true)
             {
-                Inventory.gold += Random.Range(30, 200);
-                Destroy(gameObject);
+                if (isSpider == true)
+                {
+                    Inventory.gold += 300;
+                    Destroy(gameObject);
+                }
+                else if (isDragon == true)
+                {
+                    Inventory.gold += 500;
+                    Destroy(gameObject);
+                }
+                else
+                {
+                    Inventory.gold += Random.Range(30, 200);
+                    Destroy(gameObject);
+                }
             }
             else
             {

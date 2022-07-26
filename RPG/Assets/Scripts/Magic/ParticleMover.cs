@@ -84,9 +84,14 @@ public class ParticleMover : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Enemy") && other.transform.gameObject != lastObject)
+        if (other.CompareTag("Enemy") || other.CompareTag("Spider") && other.transform.gameObject != lastObject)
         {
             other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= damageAmount;
+            lastObject = other.transform.gameObject;
+        }
+        if (other.CompareTag("Enemy") || other.CompareTag("Dragon") && other.transform.gameObject != lastObject)
+        {
+            other.transform.gameObject.GetComponent<Dragon>().enemyHealth -= damageAmount;
             lastObject = other.transform.gameObject;
         }
     }

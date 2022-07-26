@@ -30,26 +30,31 @@ public class AudioManager : MonoBehaviour
             if (musicState == 1)
             {
                 audioSource.clip = mainLoop;
+                audioSource.volume = 0.7f;
                 audioSource.Play();
             }
             if (musicState == 2)
             {
                 audioSource.clip = tavernLoop;
+                audioSource.volume = 0.4f;
                 audioSource.Play();
             }
             if (musicState == 3)
             {
                 audioSource.clip = battleLoop;
+                audioSource.volume = 0.3f;
                 audioSource.Play();
             }
             if (musicState == 4)
             {
                 audioSource.clip = wizardLoop;
+                audioSource.volume = 0.4f;
                 audioSource.Play();
             }
             if (musicState == 5)
             {
                 audioSource.clip = blacksmithLoop;
+                audioSource.volume = 0.4f;
                 audioSource.Play();
             }
         }

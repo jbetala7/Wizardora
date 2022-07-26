@@ -184,6 +184,10 @@ public class Inventory : MonoBehaviour
                         {
                             UISlot[i].sprite = emptyIcon;
                         }
+                        if (magicAttack[i] >=6 && magicAttack[i] <= 12 && SaveScript.manaAmount > 0.1)
+                        {
+                            UISlot[i].sprite = emptyIcon;
+                        }
                     }
                 }
             }
@@ -208,6 +212,18 @@ public class Inventory : MonoBehaviour
             {
                 changeWeight = false;
             }
+        }
+        if(bread == 0)
+        {
+            RemoveIcon(14);
+        }
+        if (cheese == 0)
+        {
+            RemoveIcon(15);
+        }
+        if (meat == 0)
+        {
+            RemoveIcon(16);
         }
     }
 

@@ -90,6 +90,21 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
                     }
 
                 }
+                if(objectType == 14)
+                {
+                    SaveScript.playerHealth += 0.05f;
+                    Inventory.bread--;
+                }
+                if (objectType == 15)
+                {
+                    SaveScript.playerHealth += 0.08f;
+                    Inventory.cheese--;
+                }
+                if (objectType == 16)
+                {
+                    SaveScript.playerHealth += 0.1f;
+                    Inventory.meat--;
+                }
             }
         }
         if (Input.GetMouseButtonUp(0))

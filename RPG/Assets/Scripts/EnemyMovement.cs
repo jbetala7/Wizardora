@@ -26,8 +26,11 @@ public class EnemyMovement : MonoBehaviour
     public Image healthBar;
     private float fillHealth;
     public GameObject mainCamera;
-    private float rotateSpeed = 50.0f;
+    public float rotateSpeed = 50.0f;
     public GameObject coins;
+    public GameObject hitEffect;
+    private WaitForSeconds hitOff = new WaitForSeconds(0.5f);
+    private AudioClip audioClip;
 
 
     // Start is called before the first frame update
@@ -40,12 +43,18 @@ public class EnemyMovement : MonoBehaviour
         currentHealth = enemyHealth;
         audioSource = GetComponent<AudioSource>();
         healthBar.enabled = false;
+        hitEffect.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        healthBar.transform.LookAt(mainCamera.transform.position);
+        if(mainCamera == null)
+        {
+            mainCamera = GameObject.Find("Main Camera");
+        }
+
+        healthBar.transform.LookAt(mainCamera.transform);
 
         if(isAlive == true)
         {
@@ -92,7 +101,8 @@ public class EnemyMovement : MonoBehaviour
             if (distance < attackRange || distance > runRange)
             {
                 agent.isStopped = true;
-                if (distance < attackRange && enemyInfo.IsTag("nonAttack"))
+
+                if (distance < attackRange && enemyInfo.IsTag("nonAttack") && !animator.IsInTransition(0))
                 {
                     if (isAttacking == false)
                     {
@@ -111,7 +121,7 @@ public class EnemyMovement : MonoBehaviour
                     }
                 }
             }
-            else
+            else if (distance > attackRange && enemyInfo.IsTag("nonAttack") && !animator.IsInTransition(0))
             {
                 if(SaveScript.invisible == false)
                 {
@@ -121,6 +131,9 @@ public class EnemyMovement : MonoBehaviour
             }
             if(currentHealth > enemyHealth)
             {
+                hitEffect.SetActive(true);
+                currentHealth = enemyHealth;
+                StartCoroutine(HitEffectOff());
                 animator.SetTrigger("hit");
                 currentHealth = enemyHealth;
                 audioSource.Play();
@@ -134,6 +147,7 @@ public class EnemyMovement : MonoBehaviour
             isAlive = false;
             agent.isStopped = true;
             animator.SetTrigger("death");
+            SaveScript.enemiesOnScreen--;
             thisEnemy.GetComponent<Outline>().enabled = false;
             outlineOn = false;
             healthBar.enabled = false;
@@ -148,5 +162,11 @@ public class EnemyMovement : MonoBehaviour
         Instantiate(coins, transform.position, transform.rotation);
         SaveScript.killAmount++;
         Destroy(gameObject, 0.2f);
+    }
+
+    IEnumerator HitEffectOff()
+    {
+        yield return hitOff;
+        hitEffect.SetActive(false);
     }
 }

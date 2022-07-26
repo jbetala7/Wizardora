@@ -43,6 +43,9 @@ public class PlayerMovement : MonoBehaviour
     private GameObject trailObject;
     private WaitForSeconds trailTimeOff = new WaitForSeconds(0.1f);
     public float[] staminaCost;
+    private float currentHealth = 1.0f;
+    public GameObject hitEffect;
+    private WaitForSeconds hitOff = new WaitForSeconds(0.5f);
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +62,7 @@ public class PlayerMovement : MonoBehaviour
         {
             weapons[i].SetActive(false);
         }
+        hitEffect.SetActive(false);
     }
 
     // Update is called once per frame
@@ -114,9 +118,9 @@ public class PlayerMovement : MonoBehaviour
                 //changes 2D position of the mouse to effective 3D posiiton for the character
                 ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-                if (Physics.Raycast(ray, out hit, 300, moveLayer))
+                if (Physics.Raycast(ray, out hit, 500, moveLayer))
                 {
-                    if(hit.transform.gameObject.CompareTag("Enemy"))
+                    if(hit.transform.gameObject.CompareTag("Enemy") || hit.transform.gameObject.CompareTag("Spider") || hit.transform.gameObject.CompareTag("Dragon"))
                     {
                         agent.isStopped = false;
                         SaveScript.enemyTarget = hit.transform.gameObject;
@@ -225,6 +229,13 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene(0);
             SaveScript.playerHealth = 1.0f;
         }
+
+        if(currentHealth > SaveScript.playerHealth)
+        {
+            hitEffect.SetActive(true);
+            currentHealth = SaveScript.playerHealth;
+            StartCoroutine(HitEffectOff());
+        }
     }
 
     public void PlayWeaponSound()
@@ -253,5 +264,11 @@ public class PlayerMovement : MonoBehaviour
         trailObject = GameObject.Find("Trail");
         trailObject.GetComponent<Renderer>().enabled = false;
 
+    }
+
+    IEnumerator HitEffectOff()
+    {
+        yield return hitOff;
+        hitEffect.SetActive(false);
     }
 }

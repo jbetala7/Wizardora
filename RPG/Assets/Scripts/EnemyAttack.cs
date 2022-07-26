@@ -7,6 +7,14 @@ public class EnemyAttack : MonoBehaviour
     public float damageAmount = 0.007f;
     private WaitForSeconds delayTime = new WaitForSeconds(1);
     private bool canAttack = true;
+    private AudioSource audioSource;
+
+
+    // Start is called before the first frame update
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -16,6 +24,7 @@ public class EnemyAttack : MonoBehaviour
             {
                 canAttack = false;
                 SaveScript.playerHealth -= damageAmount - SaveScript.armourValue;
+                audioSource.Play();
                 StartCoroutine(ResetDamage());
             }
         }
