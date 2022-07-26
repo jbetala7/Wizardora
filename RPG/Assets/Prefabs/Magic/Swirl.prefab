@@ -91,9 +91,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8488684488746700129}
     m_Modifications:
+    - target: {fileID: 103704, guid: 10eec583e8e6e6149b51b3a3780ab1dc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 107850, guid: 10eec583e8e6e6149b51b3a3780ab1dc, type: 3}
       propertyPath: m_Name
       value: pf_vfx-inf_psys_demo_loop_hurricane
+      objectReference: {fileID: 0}
+    - target: {fileID: 107850, guid: 10eec583e8e6e6149b51b3a3780ab1dc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 428130, guid: 10eec583e8e6e6149b51b3a3780ab1dc, type: 3}
       propertyPath: m_RootOrder
@@ -218,7 +226,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5905684489150071254}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 28, y: 7, z: 28}
@@ -244,6 +252,9 @@ MonoBehaviour:
   followPlayer: 0
   manaDecreaseRate: 0.07
   invisibility: 0
+  invulnerability: 0
+  healing: 0
+  strength: 0
   damageAmount: 100
   lastObject: {fileID: 0}
 --- !u!4 &5905684489150147838 stripped

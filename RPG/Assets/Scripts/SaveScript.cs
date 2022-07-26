@@ -21,8 +21,12 @@ public class SaveScript : MonoBehaviour
     public static int armour = 0;
     public static bool changeArmour = false;
     public static bool invisible = false;
+    public static bool invulnerable = false;
     private int checkAmount = 1;
     public static int weaponIncrease;
+    public static float playerHealth = 1.0f;
+    public static int strengthIncrease = 0;
+    public static float armourValue = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +48,8 @@ public class SaveScript : MonoBehaviour
         if(manaAmount < 0.02)
         {
             invisible = false;
+            invulnerable = false;
+            strengthIncrease = 0;
         }
         if (staminaAmount < 1.0)
         {
@@ -61,6 +67,15 @@ public class SaveScript : MonoBehaviour
             staminaPowerAmount = playerLevel;
             manaPowerAmount = playerLevel;
             weaponIncrease = System.Convert.ToInt32(strengthPowerAmount * 90);
+        }
+
+        if(armour == 1)
+        {
+            armourValue = 0.002f;
+        }
+        if (armour == 2)
+        {
+            armourValue = 0.004f;
         }
     }
 }

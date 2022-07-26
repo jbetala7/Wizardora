@@ -23,7 +23,7 @@ public class BuyWeapons : MonoBehaviour
 
     public void BuyWeaponButton()
     {
-        if(Inventory.gold >= weaponCost)
+        if(Inventory.gold >= weaponCost && inventoryObject.GetComponent<Inventory>().weapons[weaponNumber] == false)
         {
             Inventory.gold -= weaponCost;
             inventoryObject.GetComponent<Inventory>().weapons[weaponNumber] = true;
@@ -35,7 +35,7 @@ public class BuyWeapons : MonoBehaviour
 
     public void BuyArmourButton()
     {
-        if(Inventory.gold >= weaponCost)
+        if(Inventory.gold >= weaponCost && armourNumber != SaveScript.armour)
         {
             SaveScript.armour = armourNumber;
             SaveScript.changeArmour = true;

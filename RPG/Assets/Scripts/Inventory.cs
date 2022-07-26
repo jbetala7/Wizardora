@@ -81,6 +81,7 @@ public class Inventory : MonoBehaviour
     public AudioClip[] magicSounds;
     public Image manaBar;
     public Image staminaBar;
+    public Image healthBar;
     public bool[] weapons;
 
     // Start is called before the first frame update
@@ -121,6 +122,7 @@ public class Inventory : MonoBehaviour
     {
 
         playerInfo = playerAnimation.GetCurrentAnimatorStateInfo(1);
+        healthBar.fillAmount = SaveScript.playerHealth;
 
         if (iconUpdate == true)
         {

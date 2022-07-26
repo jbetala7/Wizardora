@@ -113,8 +113,11 @@ public class EnemyMovement : MonoBehaviour
             }
             else
             {
-                agent.isStopped = false;
-                agent.destination = player.transform.position;
+                if(SaveScript.invisible == false)
+                {
+                    agent.isStopped = false;
+                    agent.destination = player.transform.position;
+                }
             }
             if(currentHealth > enemyHealth)
             {

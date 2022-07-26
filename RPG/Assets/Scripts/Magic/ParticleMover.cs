@@ -15,6 +15,9 @@ public class ParticleMover : MonoBehaviour
     private GameObject saveTarget;
     public float manaDecreaseRate = 0.07f;
     public bool invisibility = false;
+    public bool invulnerability = false;
+    public bool healing = false;
+    public bool strength = false;
     public int damageAmount = 30;
     public GameObject lastObject;
 
@@ -26,6 +29,14 @@ public class ParticleMover : MonoBehaviour
         if(invisibility == true)
         {
             SaveScript.invisible = true;
+        }
+        if (invulnerability == true)
+        {
+            SaveScript.invulnerable = true;
+        }
+        if (strength == true)
+        {
+            SaveScript.strengthIncrease = 100;
         }
     }
 

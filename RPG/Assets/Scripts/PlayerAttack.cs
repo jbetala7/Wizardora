@@ -33,7 +33,7 @@ public class PlayerAttack : MonoBehaviour
         if(other.CompareTag("Enemy") && canDamage == true)
         {
             canDamage = false;
-            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= damageAmount + SaveScript.weaponIncrease;
+            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= damageAmount + SaveScript.weaponIncrease + SaveScript.strengthIncrease;
             StartCoroutine(ResetDamage());
         }
     }

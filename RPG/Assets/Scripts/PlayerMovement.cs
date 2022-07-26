@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -217,6 +218,12 @@ public class PlayerMovement : MonoBehaviour
             }
             armourLegs[SaveScript.armour].SetActive(true);
             SaveScript.changeArmour = false;
+        }
+
+        if(SaveScript.playerHealth <= 0.0f)
+        {
+            SceneManager.LoadScene(0);
+            SaveScript.playerHealth = 1.0f;
         }
     }
 

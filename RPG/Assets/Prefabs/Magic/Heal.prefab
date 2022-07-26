@@ -151,6 +151,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: c315731710b634ac1907e6aceca06447, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: c315731710b634ac1907e6aceca06447, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800004, guid: c315731710b634ac1907e6aceca06447, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800006, guid: c315731710b634ac1907e6aceca06447, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800008, guid: c315731710b634ac1907e6aceca06447, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800010, guid: c315731710b634ac1907e6aceca06447, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c315731710b634ac1907e6aceca06447, type: 3}
 --- !u!4 &7154695887644540415 stripped
@@ -182,4 +206,10 @@ MonoBehaviour:
   enemySeeker: 0
   notMoving: 0
   followPlayer: 1
-  manaDecreaseRate: 12
+  manaDecreaseRate: 0.2
+  invisibility: 0
+  invulnerability: 0
+  healing: 1
+  strength: 0
+  damageAmount: 30
+  lastObject: {fileID: 0}
