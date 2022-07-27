@@ -11,6 +11,8 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public Color32 messageOff;
     public Color32 messageOn;
     public GameObject[] shopUI;
+    public string shopMessage;
+    public GameObject inventoryObject;
 
     [HideInInspector]
     public int shopNumber = 0;
@@ -35,7 +37,14 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void Message1()
     {
-        bartenderMessage.text = "not much";
+        bartenderMessage.text = shopMessage;
+        if(inventoryObject != null)
+        {
+            if(shopMessage != "not much" && shopMessage != "oolala")
+            {
+                inventoryObject.GetComponent<Inventory>().UpdateMessages(shopMessage);
+            }
+        }
     }
 
     public void Message2()
@@ -55,6 +64,7 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         {
             if (shopUI != null)
             {
+                bartenderMessage.text = "oi " + SaveScript.pName + " you looking for something";
                 shopUI[shopNumber].SetActive(false);
             }
         }

@@ -24,7 +24,7 @@ public class SaveScript : MonoBehaviour
     public static bool invulnerable = false;
     private int checkAmount = 7;
     public static int weaponIncrease;
-    public static float playerHealth = 0.1f;
+    public static float playerHealth = 1.0f;
     public static int strengthIncrease = 0;
     public static float armourValue = 0;
     public static int enemiesOnScreen;

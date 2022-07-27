@@ -11,6 +11,7 @@ public class Inventory : MonoBehaviour
     public GameObject potionBook;
     public GameObject inventoryScreen;
     public GameObject statsScreen;
+    public GameObject deedsScreen;
     public GameObject characterDisplay;
     private AudioSource audioSource;
     public AudioClip bookOpenSound;
@@ -83,6 +84,8 @@ public class Inventory : MonoBehaviour
     public Image staminaBar;
     public Image healthBar;
     public bool[] weapons;
+    public Text[] messages;
+    private int maxFour;
 
     // Start is called before the first frame update
     void Start()
@@ -91,9 +94,11 @@ public class Inventory : MonoBehaviour
         openBook.SetActive(false);
         closedBook.SetActive(true);
         potionBook.SetActive(false);
+        deedsScreen.SetActive(false);
         max = emptySlots.Length;
         maxTwo = items.Length;
         maxThree = emptySlots.Length;
+        maxFour = messages.Length;
         audioSource = GetComponent<AudioSource>();
         playerObject = GameObject.FindGameObjectWithTag("Player");
         playerAnimation = playerObject.GetComponent<Animator>();
@@ -261,6 +266,19 @@ public class Inventory : MonoBehaviour
         maxThree = emptySlots.Length;
     }
 
+    public void UpdateMessages(string _message)
+    {
+        for(int i = 0; i < maxFour; i++)
+        {
+            if (messages[i].text == "empty")
+            {
+                maxFour = i;
+                messages[i].text = _message;
+            }
+        }
+        maxFour = messages.Length;
+    }
+
     public void OpenMenu()
     {
         messageBox.SetActive(false);
@@ -287,6 +305,7 @@ public class Inventory : MonoBehaviour
 
     public void OpenInventoryScreen()
     {
+        deedsScreen.SetActive(false);
         statsScreen.SetActive(false);
         characterDisplay.SetActive(false);
         inventoryScreen.SetActive(true);
@@ -294,12 +313,22 @@ public class Inventory : MonoBehaviour
 
     public void OpenStatsScreen()
     {
+        deedsScreen.SetActive(false);
         inventoryScreen.SetActive(false);
         statsScreen.SetActive(true);
         characterDisplay.SetActive(true);
         characterDisplay.GetComponent<CharacterDisplay>().ChangeArmourDisplay();
         statsScreen.GetComponent<UpdateStats>().updateWeapons = true;
     }
+    public void OpenDeedsScreen()
+    {
+        inventoryScreen.SetActive(false);
+        statsScreen.SetActive(false);
+        characterDisplay.SetActive(false);
+        deedsScreen.SetActive(true);
+        deedsScreen.GetComponent<Deeds>().canUpdate = true;
+    }
+
     public void OpenPotionBook()
     {
         potionBook.SetActive(true);
