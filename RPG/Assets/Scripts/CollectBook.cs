@@ -6,10 +6,14 @@ public class CollectBook : MonoBehaviour
 {
     public GameObject magicUI;
     public GameObject spellsUI;
-    private bool magicCollected = false;
-    private bool spellsCollected = false;
+    public static bool magicCollected = false;
+    public static bool spellsCollected = false;
     public bool magicBook = false;
     public bool spellsBook = false;
+    public GameObject magicBookMessage;
+    public GameObject spellBookMessage;
+    public GameObject inventoryObject;
+    public AudioClip openBook;
 
     // Start is called before the first frame update
     void Start()
@@ -17,10 +21,12 @@ public class CollectBook : MonoBehaviour
         if(magicBook == true)
         {
             magicUI.SetActive(false);
+            magicBookMessage.SetActive(false);
         }
         if (spellsBook == true)
         {
             spellsUI.SetActive(false);
+            spellBookMessage.SetActive(false);
         }
     }
 
@@ -34,8 +40,7 @@ public class CollectBook : MonoBehaviour
                 {
                     magicUI.SetActive(true);
                     magicCollected = true;
-                    Destroy(gameObject);
-
+                    StartCoroutine(DisplayMessage());
                 }
             }
             if (spellsBook == true)
@@ -44,10 +49,34 @@ public class CollectBook : MonoBehaviour
                 {
                     spellsUI.SetActive(true);
                     spellsCollected = true;
-                    Destroy(gameObject);
-
+                    StartCoroutine(DisplayMessage());
                 }
             }
         }
+    }
+
+    IEnumerator DisplayMessage()
+    {
+        yield return new WaitForSeconds(0.5f);
+        inventoryObject.GetComponent<AudioSource>().clip = openBook;
+        inventoryObject.GetComponent<AudioSource>().Play();
+        if(magicBook == true)
+        {
+            magicBookMessage.SetActive(true);
+        }
+        if (spellsBook == true)
+        {
+            spellBookMessage.SetActive(true);
+        }
+        yield return new WaitForSeconds(3);
+        if (magicBook == true)
+        {
+            magicBookMessage.SetActive(false);
+        }
+        if (spellsBook == true)
+        {
+            spellBookMessage.SetActive(false);
+        }
+        Destroy(gameObject);
     }
 }

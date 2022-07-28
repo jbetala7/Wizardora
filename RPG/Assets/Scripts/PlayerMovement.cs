@@ -224,12 +224,6 @@ public class PlayerMovement : MonoBehaviour
             SaveScript.changeArmour = false;
         }
 
-        if(SaveScript.playerHealth <= 0.0f)
-        {
-            SceneManager.LoadScene(0);
-            SaveScript.playerHealth = 1.0f;
-        }
-
         if(currentHealth > SaveScript.playerHealth)
         {
             hitEffect.SetActive(true);

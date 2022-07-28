@@ -11,6 +11,7 @@ public class PlayerStartPosition : MonoBehaviour
     void Start()
     {
         Instantiate(characters[SaveScript.pCharacter], spawnPoint.position, spawnPoint.rotation);
+        PlayerMovement.canMove = true;
     }
 
 }

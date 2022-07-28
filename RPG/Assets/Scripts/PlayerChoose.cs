@@ -39,6 +39,6 @@ public class PlayerChoose : MonoBehaviour
     {
         SaveScript.pCharacter = player;
         SaveScript.pName = playerName.text;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }
