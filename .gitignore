@@ -3,15 +3,16 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 **/[Ll]ibrary/
-!/[Ll]ibrary/*.asset
 **/[Tt]emp/
 **/[Oo]bj/
 **/[Bb]uild/
 **/[Bb]uilds/
 **/[Ll]ogs/
 **/[Uu]ser[Ss]ettings/
-ArtifactDB
 
+ArtifactDB
+.DS_Store
+!/[Ll]ibrary/*.asset
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
