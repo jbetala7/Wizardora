@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2101348010}
   m_Layer: 0
   m_Name: WoodenCrate
-  m_TagString: Untagged
+  m_TagString: Crate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,7 +71,7 @@ MonoBehaviour:
   goldAmountText: {fileID: 1514909704}
   speed: 1
   mainCamera: {fileID: 0}
-  inventoryCanvas: {fileID: 0}
+  inventoryObject: {fileID: 0}
   openChestClip: {fileID: 8300000, guid: c0cabce778ad54792bba3a0ca6765417, type: 3}
   crate: 1
 --- !u!1 &177772
@@ -169,8 +169,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.3493042, y: 1.2744448, z: 1.2978721}
-  m_Center: {x: 0.048797607, y: -0.0061581735, z: 0.64894265}
+  m_Size: {x: 1.3493042, y: 1.2744448, z: 1.9086313}
+  m_Center: {x: 0.048797607, y: -0.0061581735, z: 0.9543254}
 --- !u!1 &232488868
 GameObject:
   m_ObjectHideFlags: 0

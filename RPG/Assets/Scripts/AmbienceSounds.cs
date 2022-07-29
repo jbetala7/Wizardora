@@ -5,19 +5,54 @@ using UnityEngine;
 public class AmbienceSounds : MonoBehaviour
 {
     private AudioSource audioSource;
-    public WaitForSeconds waitTime = new WaitForSeconds(3);
+    public AudioClip[] birdClips;
+    public AudioClip[] insectClips;
+    public bool birds = false;
+    public bool insects = false;
 
     // Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        StartCoroutine(AnimalSounds());
+        if(birds == true)
+        {
+            StartCoroutine(BirdsDelay());
+        }
+        
+        if(insects == true)
+        {
+            StartCoroutine(InsectsDelay());
+        }
     }
 
-    IEnumerator AnimalSounds()
+    void BirdSounds()
     {
-        yield return waitTime;
+        if (birds == true)
+        {
+            audioSource.clip = birdClips[Random.Range(0, birdClips.Length)];
+        }
+    }
+
+    void InsectSounds()
+    {
+        if (insects == true)
+        {
+            audioSource.clip = insectClips[Random.Range(0, insectClips.Length)];
+        }
+    }
+
+    IEnumerator BirdsDelay()
+    {
+        yield return new WaitForSeconds(7);
+        BirdSounds();
         audioSource.Play();
-        StartCoroutine(AnimalSounds()); //looping the sound
+        StartCoroutine(BirdsDelay());
+    }
+    IEnumerator InsectsDelay()
+    {
+        yield return new WaitForSeconds(3);
+        InsectSounds();
+        audioSource.Play();
+        StartCoroutine(InsectsDelay());
     }
 }

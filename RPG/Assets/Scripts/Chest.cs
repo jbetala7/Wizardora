@@ -13,14 +13,21 @@ public class Chest : MonoBehaviour
     public float speed = 1.0f;
     public GameObject mainCamera;
     private int goldDisplay;
-    public GameObject inventoryCanvas;
+    public GameObject inventoryObject;
     public AudioClip openChestClip;
     public bool crate = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        if(crate == false)
+        inventoryObject = GameObject.Find("InventoryCanvas");
+
+        if (mainCamera == null)
+        {
+            mainCamera = GameObject.Find("Main Camera");
+        }
+
+        if (crate == false)
         {
             animator = GetComponent<Animator>();
         }
@@ -50,8 +57,8 @@ public class Chest : MonoBehaviour
                     animator.SetTrigger("open");
                     Inventory.gold += goldAmount;
                     goldAmount = 0;
-                    inventoryCanvas.GetComponent<AudioSource>().clip = openChestClip;
-                    inventoryCanvas.GetComponent<AudioSource>().Play();
+                    inventoryObject.GetComponent<AudioSource>().clip = openChestClip;
+                    inventoryObject.GetComponent<AudioSource>().Play();
                 }
             }
         }
@@ -84,8 +91,8 @@ public class Chest : MonoBehaviour
         {
             Inventory.gold += goldAmount;
             goldAmount = 0;
-            inventoryCanvas.GetComponent<AudioSource>().clip = openChestClip;
-            inventoryCanvas.GetComponent<AudioSource>().Play();
+            inventoryObject.GetComponent<AudioSource>().clip = openChestClip;
+            inventoryObject.GetComponent<AudioSource>().Play();
         }
     }
 }

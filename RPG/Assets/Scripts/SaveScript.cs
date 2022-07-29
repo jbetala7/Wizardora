@@ -76,6 +76,8 @@ public class SaveScript : MonoBehaviour
     public static bool newGame = false;
     public static int instance = 0;
 
+    public static bool notSavedYet = true;
+
     private void Awake()
     {
         instance++;
@@ -183,6 +185,7 @@ public class SaveScript : MonoBehaviour
         if(saving == true)
         {
             saving = false;
+            notSavedYet = false;
             if(inventoryObject == null)
             {
 ;                inventoryObject = GameObject.Find("InventoryCanvas");

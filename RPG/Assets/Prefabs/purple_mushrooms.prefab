@@ -9,6 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 417102}
+  - component: {fileID: 393494459}
+  - component: {fileID: 393494458}
+  - component: {fileID: 393494457}
   m_Layer: 0
   m_Name: purple_mushrooms
   m_TagString: Untagged
@@ -25,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 146700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.9820862, y: 1.9820862, z: 1.9820862}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 449164}
@@ -34,6 +37,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &393494459
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146700}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &393494458
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &393494457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 063a12402a0536a4fa83ab5f24d50a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 2
+  redMushroom: 0
+  purpleMushroom: 1
+  brownMushroom: 0
+  bluePlants: 0
+  redFlower: 0
+  key: 0
+  coins: 0
+  isSpider: 0
+  isDragon: 0
+  inventoryObject: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &156572
 GameObject:
   m_ObjectHideFlags: 0

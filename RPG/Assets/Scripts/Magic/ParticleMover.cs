@@ -20,6 +20,7 @@ public class ParticleMover : MonoBehaviour
     public bool strength = false;
     public int damageAmount = 30;
     public GameObject lastObject;
+    private bool replenish= false;
 
     // Start is called before the first frame update
     private void Start()
@@ -36,7 +37,7 @@ public class ParticleMover : MonoBehaviour
         }
         if (healing == true)
         {
-            SaveScript.playerHealth = 100;
+            replenish = true;
         }
         if (strength == true)
         {
@@ -47,13 +48,28 @@ public class ParticleMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(target != null)
+        Debug.Log("Attacking");
+
+        if (replenish == true)
+        {
+            if (SaveScript.playerHealth < 1.0f)
+            {
+                SaveScript.playerHealth += 0.1f * Time.deltaTime;
+            }
+            if (SaveScript.playerHealth >= 1.0f)
+            {
+                SaveScript.playerHealth = 1.0f;
+                replenish = false;
+            }
+        }
+
+        if (target != null)
         {
             transform.position = Vector3.LerpUnclamped(transform.position, target.transform.position, speed * Time.deltaTime);
         }
         if(enemySeeker == true)
         {
-            if(saveTarget != null)
+            if (saveTarget != null)
             {
                 transform.position = Vector3.LerpUnclamped(transform.position, saveTarget.transform.position, speed * Time.deltaTime);
             }
