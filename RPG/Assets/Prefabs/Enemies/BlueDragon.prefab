@@ -77,8 +77,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 11.534876, y: 5.171758, z: 7.666543}
-  m_Center: {x: -3.217093, y: 2.0858786, z: 0.20391771}
+  m_Size: {x: 11.534876, y: 5.171758, z: 10.647376}
+  m_Center: {x: -3.217093, y: 2.0858786, z: -0.14229573}
 --- !u!54 &1548894789
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -252,7 +252,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4734111534488015561
 Transform:
   m_ObjectHideFlags: 0
@@ -261,8 +261,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2967748081187118350}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 5.82, z: -0.42}
+  m_LocalScale: {x: 2.4938, y: 2.4938, z: 2.4938}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8320989868797405772}
@@ -722,7 +722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  outlineColor: {r: 0.38039216, g: 0.39607844, b: 0.5137255, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -743,7 +743,6 @@ MonoBehaviour:
   player: {fileID: 0}
   closeRange: 7
   farRange: 14
-  runRange: 14
   enemyHealth: 100
   healthBar: {fileID: 7440629218860110917}
   mainCamera: {fileID: 0}

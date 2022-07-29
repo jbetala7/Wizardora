@@ -186,7 +186,7 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 0.11372549, b: 0, a: 0.5882353}
+      minColor: {r: 0, g: 0.58431375, b: 1, a: 0.5882353}
       maxColor: {r: 0, g: 0.58431375, b: 1, a: 0.5882353}
       maxGradient:
         serializedVersion: 2
@@ -4954,7 +4954,7 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 0.18431373, b: 0, a: 0.5882353}
+      minColor: {r: 0, g: 0.58431375, b: 1, a: 0.5882353}
       maxColor: {r: 0, g: 0.58431375, b: 1, a: 0.5882353}
       maxGradient:
         serializedVersion: 2
@@ -14158,6 +14158,9 @@ MonoBehaviour:
   followPlayer: 0
   manaDecreaseRate: 0.07
   invisibility: 0
+  invulnerability: 0
+  healing: 0
+  strength: 0
   damageAmount: 30
   lastObject: {fileID: 0}
 --- !u!54 &6770515289234411467

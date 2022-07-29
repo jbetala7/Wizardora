@@ -282,8 +282,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fb9bf7503b4c3d54e969d86b21e3d486, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: b34ffaf3e7801e44daf8385634d271d1, type: 3}
+  m_Color: {r: 0.78823537, g: 0.5764706, b: 0.54901963, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1298,7 +1298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 1, g: 0, b: 0, a: 1}
+  outlineColor: {r: 0.38039216, g: 0.39607844, b: 0.5137255, a: 1}
   outlineWidth: 5
   precomputeOutline: 0
   bakeKeys: []
@@ -1318,7 +1318,6 @@ MonoBehaviour:
   thisEnemy: {fileID: 7461424848551065350}
   player: {fileID: 0}
   attackRange: 2
-  runRange: 14
   enemyHealth: 100
   healthBar: {fileID: 2162261797232886559}
   mainCamera: {fileID: 0}
@@ -1336,8 +1335,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.8625219, y: 2.6955605, z: 1}
-  m_Center: {x: 0.055528313, y: 0.8477802, z: -3.727635e-10}
+  m_Size: {x: 1.8625219, y: 2.6955605, z: 1.0993812}
+  m_Center: {x: 0.055528283, y: 0.8477802, z: 0.049690634}
 --- !u!82 &5394298251729218664
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2661,8 +2660,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 4.0402236, y: 3.920159, z: 3.500613}
-  m_Center: {x: -0.017410368, y: -1.4600408, z: -0.11362234}
+  m_Size: {x: 4.0402236, y: 4.0644946, z: 4.5852394}
+  m_Center: {x: -0.01741031, y: -1.3878727, z: -0.18887816}
 --- !u!54 &5515555809518706931
 Rigidbody:
   m_ObjectHideFlags: 0

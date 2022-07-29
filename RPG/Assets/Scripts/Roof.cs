@@ -24,6 +24,7 @@ public class Roof : MonoBehaviour
         {
             roof.SetActive(false);
             props.SetActive(true);
+            SaveScript.internalHouse = true;
             if(bar == true)
             {
                 myCamera.GetComponent<AudioManager>().musicState = 2;
@@ -48,6 +49,7 @@ public class Roof : MonoBehaviour
         {
             roof.SetActive(true);
             props.SetActive(false);
+            SaveScript.internalHouse = false;
             myCamera.GetComponent<AudioManager>().musicState = 1;
             myCamera.GetComponent<AudioManager>().canPlay = true;
         }

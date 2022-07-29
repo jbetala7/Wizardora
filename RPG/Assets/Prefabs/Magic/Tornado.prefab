@@ -151,6 +151,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 19892480, guid: 90393fb9e43e4614399458a973650b70, type: 3}
+      propertyPath: simulationSpeed
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 19892480, guid: 90393fb9e43e4614399458a973650b70, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19892480, guid: 90393fb9e43e4614399458a973650b70, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.18060637
+      objectReference: {fileID: 0}
+    - target: {fileID: 19892480, guid: 90393fb9e43e4614399458a973650b70, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19892480, guid: 90393fb9e43e4614399458a973650b70, type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19892480, guid: 90393fb9e43e4614399458a973650b70, type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19892480, guid: 90393fb9e43e4614399458a973650b70, type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 0.7928543
+      objectReference: {fileID: 0}
     - target: {fileID: 19986650, guid: 90393fb9e43e4614399458a973650b70, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -170,42 +198,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 107050, guid: 90393fb9e43e4614399458a973650b70, type: 3}
   m_PrefabInstance: {fileID: 134957498960706205}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7980718915049045895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134957498960599223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc237d4dcd5885a40bdced618df912af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  obj: {fileID: 1537897716562923913}
-  speed: 5
-  lifetime: 9
-  enemySeeker: 1
-  notMoving: 0
-  followPlayer: 0
-  manaDecreaseRate: 0.07
-  invisibility: 0
-  damageAmount: 30
-  lastObject: {fileID: 0}
---- !u!65 &7270455055544060382
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134957498960599223}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.207951, y: 1.9459842, z: 2.0189877}
-  m_Center: {x: -0.06747872, y: -0.045064565, z: -0.036327668}
 --- !u!54 &2963575502351527579
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -222,6 +214,45 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7270455055544060382
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134957498960599223}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.207951, y: 1.9459842, z: 2.0189877}
+  m_Center: {x: -0.06747872, y: -0.045064565, z: -0.036327668}
+--- !u!114 &7980718915049045895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134957498960599223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc237d4dcd5885a40bdced618df912af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  obj: {fileID: 1537897716562923913}
+  speed: 5
+  lifetime: 3
+  enemySeeker: 1
+  notMoving: 0
+  followPlayer: 0
+  manaDecreaseRate: 0.07
+  invisibility: 0
+  invulnerability: 0
+  healing: 0
+  strength: 0
+  damageAmount: 30
+  lastObject: {fileID: 0}
 --- !u!4 &134957498960829691 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 403046, guid: 90393fb9e43e4614399458a973650b70, type: 3}

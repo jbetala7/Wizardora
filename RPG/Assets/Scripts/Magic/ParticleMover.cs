@@ -34,6 +34,10 @@ public class ParticleMover : MonoBehaviour
         {
             SaveScript.invulnerable = true;
         }
+        if (healing == true)
+        {
+            SaveScript.playerHealth = 100;
+        }
         if (strength == true)
         {
             SaveScript.strengthIncrease = 100;

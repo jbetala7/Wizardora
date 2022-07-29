@@ -51,7 +51,7 @@ public class Inventory : MonoBehaviour
 
 
     public static int newIcon = 0;
-    public static int gold = 300;
+    public static int gold = 5000;
     public static bool iconUpdate = false;
     private int max;
     public GameObject canvas;
@@ -304,12 +304,16 @@ public class Inventory : MonoBehaviour
         if(optionsOpen == false)
         {
             optionsScreen.SetActive(true);
+            audioSource.clip = selectSound;
+            audioSource.Play();
             Time.timeScale = 0;
             optionsOpen = true;
         }
         else if (optionsOpen == true)
         {
             optionsScreen.SetActive(false);
+            audioSource.clip = selectSound; 
+            audioSource.Play();
             Time.timeScale = 1;
             optionsOpen = false;
         }

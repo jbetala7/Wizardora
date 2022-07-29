@@ -30,6 +30,7 @@ public class SaveScript : MonoBehaviour
     public static int strengthIncrease = 0;
     public static float armourValue = 0;
     public static int enemiesOnScreen;
+    public static bool internalHouse = false;
 
     public static bool saving = false;
     public static bool continueData = false;

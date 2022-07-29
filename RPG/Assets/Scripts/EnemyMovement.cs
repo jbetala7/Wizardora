@@ -18,7 +18,7 @@ public class EnemyMovement : MonoBehaviour
     private float distance;
     private bool isAttacking = false;
     public float attackRange = 3.0f;
-    public float runRange = 14.0f;
+    private float runRange = 49.0f;
     public int enemyHealth = 100;
     private int currentHealth;
     private bool isAlive = true;
@@ -39,7 +39,14 @@ public class EnemyMovement : MonoBehaviour
         thisEnemy.GetComponent<Outline>().enabled = false;
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-        agent.avoidancePriority = Random.Range(5, 75);
+        if(agent.CompareTag("Spider"))
+        {
+            agent.avoidancePriority = 1;
+        }
+        else
+        {
+            agent.avoidancePriority = Random.Range(5, 75);
+        }
         currentHealth = enemyHealth;
         audioSource = GetComponent<AudioSource>();
         healthBar.enabled = false;
@@ -56,7 +63,7 @@ public class EnemyMovement : MonoBehaviour
 
         healthBar.transform.LookAt(mainCamera.transform);
 
-        if(isAlive == true)
+        if(isAlive == true && SaveScript.internalHouse == false)
         {
             if (outlineOn == false)
             {
@@ -101,6 +108,12 @@ public class EnemyMovement : MonoBehaviour
             if (distance < attackRange || distance > runRange)
             {
                 agent.isStopped = true;
+
+                if(distance > runRange)
+                {
+                    SaveScript.enemiesOnScreen--;
+                    Destroy(gameObject);
+                }
 
                 if (distance < attackRange && enemyInfo.IsTag("nonAttack") && !animator.IsInTransition(0))
                 {
@@ -153,6 +166,13 @@ public class EnemyMovement : MonoBehaviour
             healthBar.enabled = false;
             agent.avoidancePriority = 1;
             StartCoroutine(IsDead());
+        }
+
+        if(SaveScript.internalHouse == true)
+        {
+            agent.isStopped = true;
+            animator.SetBool("running", false);
+            isAttacking = false;
         }
     }
 

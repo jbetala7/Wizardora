@@ -14,9 +14,9 @@ public class Dragon : MonoBehaviour
     public GameObject player;
     private float distance;
     private bool isAttacking = false;
-    public float closeRange = 3.0f;
-    public float farRange = 14f;
-    public float runRange = 14.0f;
+    public float closeRange = 7.0f;
+    public float farRange = 21f;
+    private float runRange = 49.0f;
     public int enemyHealth = 100;
     private int currentHealth;
     private bool isAlive = true;

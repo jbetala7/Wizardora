@@ -8,11 +8,15 @@ public class MainMenu : MonoBehaviour
     public GameObject continueButton;
     public GameObject loadingScreen;
     public GameObject saveObject;
+    private AudioSource audioSource;
+    public AudioClip selectSound;
 
     // Start is called before the first frame update
     void Start()
     {
-        if(Application.persistentDataPath + "/save.dat" != null)
+        audioSource = GetComponent<AudioSource>();
+
+        if (Application.persistentDataPath + "/save.dat" != null)
         {
             continueButton.SetActive(true);
         }
@@ -30,6 +34,8 @@ public class MainMenu : MonoBehaviour
         saveObject.SetActive(true);
         SaveScript.continueData = true;
         StartCoroutine(WaitToLoad());
+        audioSource.clip = selectSound;
+        audioSource.Play();
     }
 
     public void NewGame()
@@ -37,11 +43,15 @@ public class MainMenu : MonoBehaviour
         SaveScript.playerHealth = 1.0f;
         SaveScript.newGame = true; 
         SceneManager.LoadScene(1);
+        audioSource.clip = selectSound;
+        audioSource.Play();
     }
 
     public void QuitGame()
     {
         Application.Quit();
+        audioSource.clip = selectSound;
+        audioSource.Play();
     }
 
     IEnumerator WaitToLoad()

@@ -9,16 +9,20 @@ public class PlayerChoose : MonoBehaviour
     public GameObject[] characters;
     private int player = 0;
     public Text playerName;
+    private AudioSource audioSource;
+    public AudioClip selectSound;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
     public void Next()
     {
         if (player < characters.Length - 1)
         {
+            audioSource.clip = selectSound;
+            audioSource.Play();
             characters[player].SetActive(false);
             player++;
             characters[player].SetActive(true);
@@ -29,6 +33,8 @@ public class PlayerChoose : MonoBehaviour
     {
         if (player > 0)
         {
+            audioSource.clip = selectSound;
+            audioSource.Play();
             characters[player].SetActive(false);
             player--;
             characters[player].SetActive(true);
@@ -37,6 +43,8 @@ public class PlayerChoose : MonoBehaviour
 
     public void Accept()
     {
+        audioSource.clip = selectSound;
+        audioSource.Play();
         SaveScript.pCharacter = player;
         SaveScript.pName = playerName.text;
         SceneManager.LoadScene(2);
