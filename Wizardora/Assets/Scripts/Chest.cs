@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Chest : MonoBehaviour
 {
     private Animator animator;
-    public int goldAmount = 50;
+    private int goldAmount;
     public GameObject particleEffect;
     public GameObject particlesPoint;
     public GameObject canvas;
@@ -32,23 +32,31 @@ public class Chest : MonoBehaviour
             animator = GetComponent<Animator>();
         }
         canvas.SetActive(false);
+        if (crate == true)
+        {
+            goldAmount = Random.Range(20, 100);
+        }
+        else
+        {
+            goldAmount = Random.Range(100, 500);
+        }
         goldDisplay = goldAmount;
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if(canvas.activeSelf == true)
+        if (canvas.activeSelf == true)
         {
             canvas.transform.Translate(Vector3.up * speed * Time.deltaTime);
             goldAmountText.text = goldDisplay.ToString();
-            canvas.transform.LookAt(mainCamera.transform.position);
+            canvas.transform.LookAt(mainCamera.transform);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(crate == false)
+        if (crate == false)
         {
             if (other.CompareTag("Player"))
             {
@@ -66,7 +74,7 @@ public class Chest : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if(crate == false)
+        if (crate == false)
         {
             if (other.CompareTag("Player"))
             {
@@ -75,7 +83,7 @@ public class Chest : MonoBehaviour
                     animator.SetTrigger("close");
                 }
             }
-        } 
+        }
     }
 
     public void DestoryGold()
@@ -87,7 +95,7 @@ public class Chest : MonoBehaviour
     {
         Instantiate(particleEffect, particlesPoint.transform.position, particlesPoint.transform.rotation);
         canvas.SetActive(true);
-        if(crate == true)
+        if (crate == true)
         {
             Inventory.gold += goldAmount;
             goldAmount = 0;

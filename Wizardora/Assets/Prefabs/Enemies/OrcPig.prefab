@@ -1216,7 +1216,7 @@ GameObject:
   - component: {fileID: 5394298251729218664}
   m_Layer: 0
   m_Name: OrcPig
-  m_TagString: Enemy
+  m_TagString: OrcPigs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1322,7 +1322,7 @@ MonoBehaviour:
   healthBar: {fileID: 2162261797232886559}
   mainCamera: {fileID: 0}
   rotateSpeed: 50
-  coins: {fileID: 5978301046003462296, guid: c586207256832b6499fc006524454f24, type: 3}
+  coins: {fileID: 5978301046003462296, guid: 714fe6f3351cd00488bf5937c90b6cb9, type: 3}
   hitEffect: {fileID: 3331077223770869647}
 --- !u!65 &2122098879
 BoxCollider:
@@ -2690,7 +2690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4858d6b0d4f4e6245aafb74e227647ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 0.005
+  damageAmount: 0.0075
 --- !u!82 &9071642986550093169
 AudioSource:
   m_ObjectHideFlags: 0

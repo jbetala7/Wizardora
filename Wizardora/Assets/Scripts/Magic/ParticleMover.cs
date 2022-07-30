@@ -84,10 +84,6 @@ public class ParticleMover : MonoBehaviour
             {
                 transform.position = saveTarget.transform.position;
             }
-            else
-            {
-                Destroy(obj);
-            }
         }
         if(followPlayer == true)
         {
@@ -104,7 +100,7 @@ public class ParticleMover : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Enemy") || other.CompareTag("Spider") && other.transform.gameObject != lastObject)
+        if (other.CompareTag("SmallSkeletons") || other.CompareTag("OrcPigs") || other.CompareTag("Skeletons") || other.CompareTag("WolfRiders") || other.CompareTag("Spider") && other.transform.gameObject != lastObject)
         {
             other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= damageAmount;
             lastObject = other.transform.gameObject;

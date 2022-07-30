@@ -175,11 +175,11 @@ public class SaveScript : MonoBehaviour
 
         if(armour == 1)
         {
-            armourValue = 0.002f;
+            armourValue = 0.003f;
         }
         if (armour == 2)
         {
-            armourValue = 0.004f;
+            armourValue = 0.007f;
         }
 
         if(saving == true)

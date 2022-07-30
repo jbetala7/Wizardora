@@ -14,6 +14,10 @@ public class Pickups : MonoBehaviour
     public bool coins = false;
     public bool isSpider = false;
     public bool isDragon = false;
+    public bool isWolfRider = false;
+    public bool isSkeleton = false;
+    public bool isOrcPig = false;
+    public bool isSmallSkeleton = false;
 
     [HideInInspector]
     public GameObject inventoryObject;
@@ -92,17 +96,32 @@ public class Pickups : MonoBehaviour
             {
                 if (isSpider == true)
                 {
-                    Inventory.gold += 300;
+                    Inventory.gold += 500;
                     Destroy(gameObject);
                 }
                 else if (isDragon == true)
                 {
-                    Inventory.gold += 500;
+                    Inventory.gold += 1000;
                     Destroy(gameObject);
                 }
-                else
+                else if (isWolfRider == true)
                 {
-                    Inventory.gold += Random.Range(30, 200);
+                    Inventory.gold += Random.Range(100, 200);
+                    Destroy(gameObject);
+                }
+                else if (isSkeleton == true)
+                {
+                    Inventory.gold += Random.Range(50, 150);
+                    Destroy(gameObject);
+                }
+                else if (isOrcPig == true)
+                {
+                    Inventory.gold += Random.Range(30, 70);
+                    Destroy(gameObject);
+                }
+                else if (isSmallSkeleton == true)
+                {
+                    Inventory.gold += Random.Range(10, 50);
                     Destroy(gameObject);
                 }
             }

@@ -120,7 +120,9 @@ public class PlayerMovement : MonoBehaviour
 
                 if (Physics.Raycast(ray, out hit, 500, moveLayer))
                 {
-                    if(hit.transform.gameObject.CompareTag("Enemy") || hit.transform.gameObject.CompareTag("Spider") || hit.transform.gameObject.CompareTag("Dragon"))
+                    if(hit.transform.gameObject.CompareTag("Enemy") || hit.transform.gameObject.CompareTag("SmallSkeletons") || 
+                        hit.transform.gameObject.CompareTag("OrcPigs") || hit.transform.gameObject.CompareTag("Skeletons") || 
+                        hit.transform.gameObject.CompareTag("WolfRiders") || hit.transform.gameObject.CompareTag("Spider") || hit.transform.gameObject.CompareTag("Dragon"))
                     {
                         agent.isStopped = false;
                         SaveScript.enemyTarget = hit.transform.gameObject;

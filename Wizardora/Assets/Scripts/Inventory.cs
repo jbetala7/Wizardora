@@ -51,7 +51,7 @@ public class Inventory : MonoBehaviour
 
 
     public static int newIcon = 0;
-    public static int gold = 5000;
+    public static int gold = 700;
     public static bool iconUpdate = false;
     private int max;
     public GameObject canvas;

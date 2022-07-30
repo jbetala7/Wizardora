@@ -37,10 +37,38 @@ public class PlayerAttack : MonoBehaviour
                 + SaveScript.weaponIncrease + SaveScript.strengthIncrease;
             StartCoroutine(ResetDamage());
         }
+        if (other.CompareTag("SmallSkeletons") && canDamage == true)
+        {
+            canDamage = false;
+            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= (damageAmount * 2)
+                + SaveScript.weaponIncrease + SaveScript.strengthIncrease;
+            StartCoroutine(ResetDamage());
+        }
+        if (other.CompareTag("OrcPigs") && canDamage == true)
+        {
+            canDamage = false;
+            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= (damageAmount)
+                + SaveScript.weaponIncrease + SaveScript.strengthIncrease;
+            StartCoroutine(ResetDamage());
+        }
+        if (other.CompareTag("Skeletons") && canDamage == true)
+        {
+            canDamage = false;
+            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= (damageAmount / 2)
+                + SaveScript.weaponIncrease + SaveScript.strengthIncrease;
+            StartCoroutine(ResetDamage());
+        }
+        if (other.CompareTag("WolfRiders") && canDamage == true)
+        {
+            canDamage = false;
+            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= (damageAmount / 3)
+                + SaveScript.weaponIncrease + SaveScript.strengthIncrease;
+            StartCoroutine(ResetDamage());
+        }
         if (other.CompareTag("Spider") && canDamage == true)
         {
             canDamage = false;
-            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= (damageAmount / 8)
+            other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= (damageAmount / 5)
                 + SaveScript.weaponIncrease + SaveScript.strengthIncrease;
             StartCoroutine(ResetDamage());
         }
