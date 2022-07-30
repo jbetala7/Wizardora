@@ -46,7 +46,14 @@ public class PlayerChoose : MonoBehaviour
         audioSource.clip = selectSound;
         audioSource.Play();
         SaveScript.pCharacter = player;
-        SaveScript.pName = playerName.text;
+        if (playerName.text == "")
+        {
+            playerName.text = SaveScript.pName;
+        }
+        else
+        {
+            SaveScript.pName = playerName.text;
+        }
         SceneManager.LoadScene(2);
     }
 }

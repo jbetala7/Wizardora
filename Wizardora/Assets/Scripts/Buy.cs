@@ -28,6 +28,7 @@ public class Buy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        inventoryObject = GameObject.Find("InventoryCanvas");
         max = itemAmountText.Length;
         currencyText.text = Inventory.gold.ToString();
         audioSource = inventoryObject.GetComponent<AudioSource>();

@@ -43,7 +43,7 @@ public class Speech : MonoBehaviour
             }
             if(haveRead == false)
             {
-                haveRead = true;
+                haveRead = false;
                 question.GetComponent<Message>().shopMessage = answer;
             }
             else if (haveRead == true && shopNumber == 1 || shopNumber == 4 || shopNumber == 5 || shopNumber == 6)
@@ -53,6 +53,14 @@ public class Speech : MonoBehaviour
             else if (haveRead == true && shopNumber == 0 || shopNumber == 3 || shopNumber == 2)
             {
                 question.GetComponent<Message>().shopMessage = "oolala";
+            }
+            if(shopNumber == 0)
+            {
+                question.GetComponent<Message>().buttonText.text = "Hello";
+            }
+            else if (shopNumber == 1)
+            {
+                question.GetComponent<Message>().buttonText.text = "Yo";
             }
         }
     }
