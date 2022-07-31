@@ -16,24 +16,24 @@ public class MainMenu : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
 
+        if(System.IO.File.Exists(Application.persistentDataPath + "/save.dat"))
+        {
+            SaveScript.notSavedYet = false;
+        }
+        else
+        {
+            SaveScript.notSavedYet = true;
+        }
+
         if(SaveScript.notSavedYet == true)
         {
             continueButton.SetActive(false);
         }
         if(SaveScript.notSavedYet == false)
         {
-            if (Application.persistentDataPath + "/save.dat" != null)
-            {
-                continueButton.SetActive(true);
-                Debug.Log(Application.persistentDataPath);
-                Debug.Log("Continue On");
-            }
-            else
-            {
-                continueButton.SetActive(false);
-                Debug.Log("Continue Off");
-            }
+            continueButton.SetActive(true);
         }
+
         Time.timeScale = 1;
         Cursor.visible = true;
     }

@@ -50,7 +50,8 @@ public class Chest : MonoBehaviour
         {
             canvas.transform.Translate(Vector3.up * speed * Time.deltaTime);
             goldAmountText.text = goldDisplay.ToString();
-            canvas.transform.LookAt(mainCamera.transform);
+            canvas.transform.LookAt(mainCamera.transform, Vector3.up);
+            canvas.transform.Rotate(Vector3.up * 180);
         }
     }
 
