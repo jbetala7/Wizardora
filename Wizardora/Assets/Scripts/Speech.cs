@@ -46,21 +46,61 @@ public class Speech : MonoBehaviour
                 haveRead = false;
                 question.GetComponent<Message>().shopMessage = answer;
             }
-            else if (haveRead == true && shopNumber == 1 || shopNumber == 4 || shopNumber == 5 || shopNumber == 6)
+            else if (haveRead == true && shopNumber == 0)
             {
-                question.GetComponent<Message>().shopMessage = "not much";
+                question.GetComponent<Message>().shopMessage = "go hurry. find the blacksmith.";
             }
-            else if (haveRead == true && shopNumber == 0 || shopNumber == 3 || shopNumber == 2)
+            else if (haveRead == true && shopNumber == 1)
             {
-                question.GetComponent<Message>().shopMessage = "oolala";
+                question.GetComponent<Message>().shopMessage = "i'm in lot of pain right now.";
             }
-            if(shopNumber == 0)
+            else if (haveRead == true && shopNumber == 2)
             {
-                question.GetComponent<Message>().buttonText.text = "Hello";
+                question.GetComponent<Message>().shopMessage = "people never come back from the woods.";
+            }
+            else if (haveRead == true && shopNumber == 3)
+            {
+                question.GetComponent<Message>().shopMessage = "bad and evil times.";
+            }
+            else if (haveRead == true && shopNumber == 4)
+            {
+                question.GetComponent<Message>().shopMessage = "a man learns everything with patience.";
+            }
+            else if (haveRead == true && shopNumber == 5)
+            {
+                question.GetComponent<Message>().shopMessage = "let your knowledge explore it's options.";
+            }
+            else if (haveRead == true && shopNumber == 6)
+            {
+                question.GetComponent<Message>().shopMessage = "i like to barter things with gold.";
+            }
+            if (shopNumber == 0)
+            {
+                question.GetComponent<Message>().buttonText.text = "battle ahead, where can i buy weapons?";
             }
             else if (shopNumber == 1)
             {
-                question.GetComponent<Message>().buttonText.text = "Yo";
+                question.GetComponent<Message>().buttonText.text = "pity! i feel sorry for your children.";
+            }
+            else if (shopNumber == 2)
+            {
+                question.GetComponent<Message>().buttonText.text = "my lady, why is this town so quiet? where is everyone?";
+            }
+            else if (shopNumber == 3)
+            {
+                question.GetComponent<Message>().buttonText.text = "good sir, why is this town so dull? what is wrong here?";
+            }
+            else if (shopNumber == 4)
+            {
+                question.GetComponent<Message>().buttonText.text = "how can one defeat this monstrous creature?";
+            }
+            else if (shopNumber == 5)
+            {
+                question.GetComponent<Message>().buttonText.text = "i am keen to know more about wizardry";
+            }
+            else if (shopNumber == 6)
+            {
+                question.GetComponent<Message>().buttonText.text = "oh boy! how do i buy these expensive weapons and armoury?";
             }
         }
     }

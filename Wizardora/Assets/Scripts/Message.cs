@@ -32,15 +32,7 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     // Start is called before the first frame update
     private void Start()
     {
-        if(shopNumber == 0)
-        {
-            bartenderMessage.text = "yo";
-        }
-        else
-        {
-            bartenderMessage.text = "oi " + SaveScript.pName + " you looking for something";
-        }
-        
+        bartenderMessage.text = "oi " + SaveScript.pName + " you looking for something";
     }
 
     public void Message1()
@@ -48,7 +40,10 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         bartenderMessage.text = shopMessage;
         if(inventoryObject != null)
         {
-            if(shopMessage != "not much" && shopMessage != "oolala")
+            if(shopMessage != "go hurry. find the blacksmith." && shopMessage != "i'm in lot of pain right now." 
+                && shopMessage != "people never come back from the woods." && shopMessage != "the monster killed the children of the village."
+                && shopMessage != "bad and evil times." && shopMessage != "a man learns everything with patience."
+                && shopMessage != "let your knowledge explore it's options." && shopMessage != "i like to barter things with gold.")
             {
                 inventoryObject.GetComponent<Inventory>().UpdateMessages(shopMessage);
             }
@@ -72,14 +67,7 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         {
             if (shopUI != null)
             {
-                if (shopNumber == 0)
-                {
-                    bartenderMessage.text = "yo";
-                }
-                else
-                {
-                    bartenderMessage.text = "oi " + SaveScript.pName + " you looking for something";
-                }
+                bartenderMessage.text = "oi " + SaveScript.pName + " you looking for something";
                 shopUI[shopNumber].SetActive(false);
             }
         }

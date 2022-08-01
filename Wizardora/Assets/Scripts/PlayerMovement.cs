@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject staticCamera;
     public GameObject freeCamera;
-    private bool freeCameraActive = true;
+    private bool freeCameraActive = false;
 
     public GameObject firePoint;
     private WaitForSeconds approachEnemy = new WaitForSeconds(0.3f);
@@ -177,17 +177,17 @@ public class PlayerMovement : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.C))
         {
-            if(freeCameraActive == true)
-            {
-                freeCamera.SetActive(false);
-                staticCamera.SetActive(true);
-                freeCameraActive = false;
-            }
-            else if (freeCameraActive == false)
+            if(freeCameraActive == false)
             {
                 freeCamera.SetActive(true);
                 staticCamera.SetActive(false);
                 freeCameraActive = true;
+            }
+            else if (freeCameraActive == true)
+            {
+                freeCamera.SetActive(false);
+                staticCamera.SetActive(true);
+                freeCameraActive = false;
             }
         }
         if (playerObjects[0].activeSelf == true)

@@ -186,7 +186,7 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
         if (objectType == 20)
         {
-            message.text = "explosive fire attack";
+            message.text = "explosive fire attack with 5 fireballs. damage 10% per fireball";
         }
         if (objectType == 21)
         {
@@ -206,31 +206,31 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         }
         if (objectType == 25)
         {
-            message.text = "swirl";
+            message.text = "swirl. damage 70%";
         }
         if (objectType == 30)
         {
-            message.text = "tornado";
+            message.text = "tornado. damage 40%";
         }
         if (objectType == 31)
         { 
-            message.text = "firetwist";
+            message.text = "firetwist. damage 15% per fireball";
         }
         if (objectType == 32)
         {
-            message.text = "nova";
+            message.text = "nova. damage 20%";
         }
         if (objectType == 33)
         {
-            message.text = "fireballs";
+            message.text = "fireballs. damage 10% per fireball";
         }
         if (objectType == 34)
         {
-            message.text = "shockwave";
+            message.text = "shockwave. damage 50%";
         }
         if (objectType == 35)
         {
-            message.text = "blast";
+            message.text = "blast. damage 30%";
         }
     }
 
