@@ -25,7 +25,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if(other.CompareTag("Crate"))
         {
-            other.transform.gameObject.GetComponentInParent<Chest>().GoldAmount();
+            other.transform.gameObject.GetComponentInParent<Crates>().GoldAmount();
             objectToDestory = other.transform.parent.gameObject;
             Destroy(other.transform.gameObject);
             StartCoroutine(WaitForDestory());

@@ -51,7 +51,7 @@ public class MainMenu : MonoBehaviour
     public void NewGame()
     {
         SaveScript.playerHealth = 1.0f;
-        SaveScript.newGame = true; 
+        SaveScript.newGame = true;
         SceneManager.LoadScene(1);
         audioSource.clip = selectSound;
         audioSource.Play();

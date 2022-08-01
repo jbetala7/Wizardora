@@ -61,6 +61,21 @@ public class CreatePotion : MonoBehaviour
         }
     }
 
+    public void ResetPotion()
+    {
+        for (int i = 0; i > max; i--)
+        {
+            if (emptyIcon == emptySlots[i].sprite)
+            {
+                i = max;
+                icons[itemID] = emptySlots[i].sprite;
+                audioSource.clip = inventoryObject.GetComponent<Inventory>().createPotionSound;
+                audioSource.Play();
+            }
+        }
+        max = emptySlots.Length;
+    }
+
     public void Remove(int _index)
     {
         for(int i = 0; i < maxTwo; i++)

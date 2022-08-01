@@ -94,7 +94,16 @@ public class Inventory : MonoBehaviour
     public GameObject magicUI;
     public GameObject spellsUI;
     public GameObject optionsScreen;
+    public GameObject tutorialsScreen;
     private bool optionsOpen = false;
+
+    private void Awake()
+    {
+        if(SaveScript.newGame == true)
+        {
+            tutorialsScreen.SetActive(true);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -105,6 +114,7 @@ public class Inventory : MonoBehaviour
         potionBook.SetActive(false);
         deedsScreen.SetActive(false);
         optionsScreen.SetActive(false);
+        
         max = emptySlots.Length;
         maxTwo = items.Length;
         maxThree = emptySlots.Length;

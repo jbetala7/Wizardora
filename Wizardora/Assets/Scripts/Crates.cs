@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class Chest : MonoBehaviour
+public class Crates : MonoBehaviour
 {
     private Animator animator;
     private int goldAmount;
     public GameObject particleEffect;
     public GameObject particlesPoint;
     public GameObject textCanvas;
-    public GameObject imageCanvas;
     public Text goldAmountText;
     public float speed = 1.0f;
     public GameObject mainCamera;
@@ -26,10 +25,8 @@ public class Chest : MonoBehaviour
         {
             mainCamera = GameObject.Find("Main Camera");
         }
-        animator = GetComponent<Animator>();
+        goldAmount = Random.Range(20, 100);
         textCanvas.SetActive(false);
-        imageCanvas.SetActive(false);
-        goldAmount = Random.Range(100, 500);
         goldDisplay = goldAmount;
     }
 
@@ -45,37 +42,6 @@ public class Chest : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            if (Inventory.key == true)
-            {
-                animator.SetTrigger("open");
-                Inventory.gold += goldAmount;
-                goldAmount = 0;
-                inventoryObject.GetComponent<AudioSource>().clip = openChestClip;
-                inventoryObject.GetComponent<AudioSource>().Play();
-            }
-            if (Inventory.key == false)
-            {
-                imageCanvas.SetActive(true);
-                StartCoroutine(Deactivate());
-            }
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            if (Inventory.key == true)
-            {
-                animator.SetTrigger("close");
-            }
-        }
-    }
-
     public void DestoryGold()
     {
         Destroy(gameObject);
@@ -85,11 +51,9 @@ public class Chest : MonoBehaviour
     {
         Instantiate(particleEffect, particlesPoint.transform.position, particlesPoint.transform.rotation);
         textCanvas.SetActive(true);
-    }
-
-    IEnumerator Deactivate()
-    {
-        yield return new WaitForSeconds(3);
-        imageCanvas.SetActive(false);
+        Inventory.gold += goldAmount;
+        goldAmount = 0;
+        inventoryObject.GetComponent<AudioSource>().clip = openChestClip;
+        inventoryObject.GetComponent<AudioSource>().Play();
     }
 }

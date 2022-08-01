@@ -32,7 +32,15 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     // Start is called before the first frame update
     private void Start()
     {
-        bartenderMessage.text = "oi " + SaveScript.pName + " you looking for something";
+        if(shopNumber == 0)
+        {
+            bartenderMessage.text = "yo";
+        }
+        else
+        {
+            bartenderMessage.text = "oi " + SaveScript.pName + " you looking for something";
+        }
+        
     }
 
     public void Message1()
@@ -64,7 +72,14 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         {
             if (shopUI != null)
             {
-                bartenderMessage.text = "oi " + SaveScript.pName + " you looking for something";
+                if (shopNumber == 0)
+                {
+                    bartenderMessage.text = "yo";
+                }
+                else
+                {
+                    bartenderMessage.text = "oi " + SaveScript.pName + " you looking for something";
+                }
                 shopUI[shopNumber].SetActive(false);
             }
         }

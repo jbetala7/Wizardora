@@ -21,6 +21,7 @@ public class ParticleMover : MonoBehaviour
     public int damageAmount = 30;
     public GameObject lastObject;
     private bool replenish= false;
+    public bool fireball = false;
 
     // Start is called before the first frame update
     private void Start()
@@ -104,11 +105,25 @@ public class ParticleMover : MonoBehaviour
         {
             other.transform.gameObject.GetComponent<EnemyMovement>().enemyHealth -= damageAmount;
             lastObject = other.transform.gameObject;
+            if (fireball == true)
+            {
+                StartCoroutine(Destroy());
+            }
         }
         if (other.CompareTag("Dragon") && other.transform.gameObject != lastObject)
         {
             other.transform.gameObject.GetComponent<Dragon>().enemyHealth -= damageAmount;
             lastObject = other.transform.gameObject;
+            if (fireball == true)
+            {
+                StartCoroutine(Destroy());
+            }
         }
+    }
+
+    IEnumerator Destroy()
+    {
+        yield return new WaitForSeconds(1);
+        Destroy(obj);
     }
 }

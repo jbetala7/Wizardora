@@ -7,11 +7,15 @@ public class SavePedestal : MonoBehaviour
     public GameObject saveScreen;
     public GameObject saveText;
     public GameObject playerObject;
+    public GameObject inventoryObject;
+    public AudioSource audioSource;
     private bool savePause = false;
 
     // Start is called before the first frame update
     void Start()
     {
+        inventoryObject = GameObject.Find("InventoryCanvas");
+        audioSource = inventoryObject.GetComponent<AudioSource>();
         playerObject = GameObject.FindGameObjectWithTag("Player");
         saveScreen.SetActive(false);
         saveText.SetActive(false);
@@ -36,24 +40,33 @@ public class SavePedestal : MonoBehaviour
         }
     }
 
+    public void SavePlayerPosition()
+    {
+        var xPos = playerObject.transform.position.x;
+        var yPos = playerObject.transform.position.y;
+        var zPos = playerObject.transform.position.z + 10f;
+        PlayerPrefs.SetFloat("X", xPos);
+        PlayerPrefs.SetFloat("Y", yPos);
+        PlayerPrefs.SetFloat("Z", zPos);
+        PlayerPrefs.Save();
+    }
+
     public void Yes()
     {
-        //var xPos = playerObject.transform.position.x;
-        //var yPos = playerObject.transform.position.y;
-        //var zPos = playerObject.transform.position.z + 10f;
-        //PlayerPrefs.SetFloat("X", xPos);
-        //PlayerPrefs.SetFloat("Y", yPos);
-        //PlayerPrefs.SetFloat("Z", zPos);
-        //PlayerPrefs.Save();
+        SavePlayerPosition();
         SaveScript.saving = true;
         saveText.SetActive(true);
         Time.timeScale = 1;
         StartCoroutine(Continue());
+        audioSource.clip = inventoryObject.GetComponent<Inventory>().selectSound;
+        audioSource.Play();
     }
     public void No()
     {
         Time.timeScale = 1;
         saveScreen.SetActive(false);
+        audioSource.clip = inventoryObject.GetComponent<Inventory>().selectSound;
+        audioSource.Play();
     }
 
     IEnumerator Continue()
