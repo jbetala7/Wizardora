@@ -157,19 +157,19 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         }
         if (objectType == 10)
         {
-            message.text = Inventory.redPotion.ToString() + " red potion to be used in potions";
+            message.text = Inventory.redPotion.ToString() + " red elixir to be used in potions";
         }
         if (objectType == 11)
         {
-            message.text = Inventory.bluePotion.ToString() + " blue potion to be used in potions";
+            message.text = Inventory.bluePotion.ToString() + " blue elixir to be used in potions";
         }
         if (objectType == 12)
         {
-            message.text = Inventory.greenPotion.ToString() + " green potion to be used in potions";
+            message.text = Inventory.greenPotion.ToString() + " green elixir to be used in potions";
         }
         if (objectType == 13)
         {
-            message.text = Inventory.purplePotion.ToString() + " purple potion to be used in potions";
+            message.text = Inventory.purplePotion.ToString() + " purple elixir to be used in potions";
         }
         if (objectType == 14)
         {
@@ -190,7 +190,7 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         }
         if (objectType == 21)
         {
-            message.text = "replenishes full health";
+            message.text = "replenish health for as long as mana lasts";
         }
         if (objectType == 22)
         {
@@ -206,31 +206,31 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         }
         if (objectType == 25)
         {
-            message.text = "magic attack 1";
+            message.text = "swirl";
         }
         if (objectType == 30)
         {
-            message.text = "magic attack 1";
+            message.text = "tornado";
         }
         if (objectType == 31)
         { 
-            message.text = "magic attack 2";
+            message.text = "firetwist";
         }
         if (objectType == 32)
         {
-            message.text = "magic attack 3";
+            message.text = "nova";
         }
         if (objectType == 33)
         {
-            message.text = "magic attack 4";
+            message.text = "fireballs";
         }
         if (objectType == 34)
         {
-            message.text = "magic attack 5";
+            message.text = "shockwave";
         }
         if (objectType == 35)
         {
-            message.text = "magic attack 6";
+            message.text = "blast";
         }
     }
 
