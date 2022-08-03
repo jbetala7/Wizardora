@@ -63,6 +63,9 @@ public class PlayerMovement : MonoBehaviour
             weapons[i].SetActive(false);
         }
         hitEffect.SetActive(false);
+
+        agent.enabled = false;
+        Invoke("EnableNavMesh", 0.1f);
     }
 
     // Update is called once per frame
@@ -232,6 +235,11 @@ public class PlayerMovement : MonoBehaviour
             currentHealth = SaveScript.playerHealth;
             StartCoroutine(HitEffectOff());
         }
+    }
+
+    void EnableNavMesh()
+    {
+        agent.enabled = true;
     }
 
     public void PlayWeaponSound()
