@@ -86,18 +86,18 @@ public class SaveScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(instance > 1)
+        if (instance > 1)
         {
             Destroy(gameObject);
         }
         else
-        { 
+        {
             DontDestroyOnLoad(this);
         }
 
         DontDestroyOnLoad(this);
 
-        if(newGame == true)
+        if (newGame == true)
         {
             pName = "player";
             manaAmount = 1.0f;
@@ -124,7 +124,7 @@ public class SaveScript : MonoBehaviour
             newGame = false;
         }
 
-        if(continueData == true)
+        if (continueData == true)
         {
             string fileLocation = Application.persistentDataPath + "/save.dat";
             StreamReader reader = new StreamReader(fileLocation);
@@ -141,7 +141,7 @@ public class SaveScript : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if(manaAmount < 1.0)
+        if (manaAmount < 1.0)
         {
             manaAmount += (manaPowerAmount / 10 + 0.05f) * Time.deltaTime;
         }
@@ -149,7 +149,7 @@ public class SaveScript : MonoBehaviour
         {
             manaAmount = 0;
         }
-        if(manaAmount < 0.02)
+        if (manaAmount < 0.02)
         {
             invisible = false;
             invulnerable = false;
@@ -163,7 +163,7 @@ public class SaveScript : MonoBehaviour
         {
             staminaAmount = 0;
         }
-        if(killAmount == checkAmount)
+        if (killAmount == checkAmount)
         {
             playerLevel += 0.1f;
             checkAmount = killAmount + 7;
@@ -173,7 +173,7 @@ public class SaveScript : MonoBehaviour
             weaponIncrease = System.Convert.ToInt32(strengthPowerAmount * 90);
         }
 
-        if(armour == 1)
+        if (armour == 1)
         {
             armourValue = 0.003f;
         }
@@ -182,13 +182,13 @@ public class SaveScript : MonoBehaviour
             armourValue = 0.007f;
         }
 
-        if(saving == true)
+        if (saving == true)
         {
             saving = false;
             notSavedYet = false;
-            if(inventoryObject == null)
+            if (inventoryObject == null)
             {
-;                inventoryObject = GameObject.Find("InventoryCanvas");
+                ; inventoryObject = GameObject.Find("InventoryCanvas");
             }
             pCharacterS = pCharacter;
             pNameS = pName;
@@ -225,7 +225,7 @@ public class SaveScript : MonoBehaviour
             spellsCollectedS = CollectBook.spellsCollected;
             weaponS = inventoryObject.GetComponent<Inventory>().weapons;
 
-            for(int i = 0; i < 16; i++)
+            for (int i = 0; i < 16; i++)
             {
                 objectTypeS[i] = inventoryObject.GetComponent<Inventory>().emptySlots[i].transform.gameObject.GetComponent<HintMessage>().objectType;
             }
@@ -236,16 +236,16 @@ public class SaveScript : MonoBehaviour
             writer.WriteLine(saveData);
             writer.Close();
         }
-        if(checkForLoad == true)
+        if (checkForLoad == true)
         {
             int sceneNumber = SceneManager.GetActiveScene().buildIndex;
-            if(sceneNumber == 2)
+            if (sceneNumber == 2)
             {
-                if(inventoryObject == null)
+                if (inventoryObject == null)
                 {
                     inventoryObject = GameObject.Find("InventoryCanvas");
                 }
-                if(inventoryObject != null)
+                if (inventoryObject != null)
                 {
                     PlayerMovement.canMove = true;
                     pName = pNameS;
@@ -280,7 +280,7 @@ public class SaveScript : MonoBehaviour
                     Inventory.meat = meatS;
                     CollectBook.magicCollected = magicCollectedS;
                     CollectBook.spellsCollected = spellsCollectedS;
-                    if(magicCollectedS == true)
+                    if (magicCollectedS == true)
                     {
                         inventoryObject.GetComponent<Inventory>().magicUI.SetActive(true);
                     }
@@ -289,7 +289,7 @@ public class SaveScript : MonoBehaviour
                         inventoryObject.GetComponent<Inventory>().spellsUI.SetActive(true);
                     }
                     inventoryObject.GetComponent<Inventory>().weapons = weaponS;
-                    if(carryingWeapon == true)
+                    if (carryingWeapon == true)
                     {
                         changeWeapon = true;
                     }

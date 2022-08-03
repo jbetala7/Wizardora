@@ -74,7 +74,7 @@ public class Inventory : MonoBehaviour
     public Image[] UISlot;
     public Sprite[] magicIcons;
     public Sprite[] spellIcons;
-    public KeyCode[] keys; 
+    public KeyCode[] keys;
     public int[] magicAttack;
     public bool set = false;
     public bool setTwo = false;
@@ -99,9 +99,14 @@ public class Inventory : MonoBehaviour
 
     private void Awake()
     {
-        if(SaveScript.newGame == true)
+        if (PlayerPrefs.GetInt("IsFirstPlay") == 0)
         {
             tutorialsScreen.SetActive(true);
+            PlayerPrefs.SetInt("IsFirstPlay", 1);
+        }
+        else
+        {
+            tutorialsScreen.SetActive(false);
         }
     }
 
@@ -114,7 +119,7 @@ public class Inventory : MonoBehaviour
         potionBook.SetActive(false);
         deedsScreen.SetActive(false);
         optionsScreen.SetActive(false);
-        
+
         max = emptySlots.Length;
         maxTwo = items.Length;
         maxThree = emptySlots.Length;
@@ -125,7 +130,7 @@ public class Inventory : MonoBehaviour
         miniMapView = GameObject.FindGameObjectWithTag("MiniMapItem");
         miniMapCompass = GameObject.FindGameObjectWithTag("Compass");
 
-        if(SaveScript.newGame == true)
+        if (SaveScript.newGame == true)
         {
             redMushrooms = 0;
             purpleMushrooms = 0;
@@ -152,7 +157,7 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(SaveScript.newGame == true)
+        if (SaveScript.newGame == true)
         {
             SaveScript.newGame = false;
         }
@@ -205,7 +210,7 @@ public class Inventory : MonoBehaviour
                 {
                     if (UISlot[i].sprite != emptyIcon)
                     {
-                        if(SaveScript.manaAmount > 0.1f)
+                        if (SaveScript.manaAmount > 0.1f)
                         {
                             Instantiate(magicParticles[magicAttack[i]], SaveScript.firePoint.transform.position,
                                 SaveScript.firePoint.transform.rotation);
@@ -219,7 +224,7 @@ public class Inventory : MonoBehaviour
                         {
                             UISlot[i].sprite = emptyIcon;
                         }
-                        if (magicAttack[i] >=6 && magicAttack[i] <= 12 && SaveScript.manaAmount > 0.1)
+                        if (magicAttack[i] >= 6 && magicAttack[i] <= 12 && SaveScript.manaAmount > 0.1)
                         {
                             UISlot[i].sprite = emptyIcon;
                         }
@@ -229,26 +234,26 @@ public class Inventory : MonoBehaviour
         }
         manaBar.fillAmount = SaveScript.manaAmount;
 
-        if(SaveScript.staminaAmount != staminaBar.fillAmount)
+        if (SaveScript.staminaAmount != staminaBar.fillAmount)
         {
             staminaBar.fillAmount = Mathf.Lerp(staminaBar.fillAmount, SaveScript.staminaAmount, 2 * Time.deltaTime);
         }
 
-        if(playerInfo.IsTag("magic"))
+        if (playerInfo.IsTag("magic"))
         {
             changeWeight = true;
         }
 
-        if(changeWeight == true)
+        if (changeWeight == true)
         {
             weightAmount -= 0.3f * Time.deltaTime;
             playerAnimation.SetLayerWeight(1, weightAmount);
-            if(weightAmount <= 0)
+            if (weightAmount <= 0)
             {
                 changeWeight = false;
             }
         }
-        if(bread == 0)
+        if (bread == 0)
         {
             RemoveIcon(14);
         }
@@ -264,16 +269,16 @@ public class Inventory : MonoBehaviour
 
     public void CheckStats()
     {
-        for(int i = 0; i < maxTwo; i++)
+        for (int i = 0; i < maxTwo; i++)
         {
-            if(i == currentID)
+            if (i == currentID)
             {
                 maxTwo = i;
                 entry = items[i];
                 checkAmount = System.Convert.ToInt32(typeof(Inventory).GetField(entry).GetValue(null));
                 checkAmount--;
                 typeof(Inventory).GetField(entry).SetValue(null, checkAmount);
-                if(checkAmount == 0)
+                if (checkAmount == 0)
                 {
                     RemoveIcon(i);
                 }
@@ -284,7 +289,7 @@ public class Inventory : MonoBehaviour
 
     public void RemoveIcon(int _iconType)
     {
-        for(int i = 0; i < maxThree; i++)
+        for (int i = 0; i < maxThree; i++)
         {
             if (emptySlots[i].sprite == icons[_iconType])
             {
@@ -298,7 +303,7 @@ public class Inventory : MonoBehaviour
 
     public void UpdateMessages(string _message)
     {
-        for(int i = 0; i < maxFour; i++)
+        for (int i = 0; i < maxFour; i++)
         {
             if (messages[i].text == "empty")
             {
@@ -311,7 +316,7 @@ public class Inventory : MonoBehaviour
 
     public void OpenOptions()
     {
-        if(optionsOpen == false)
+        if (optionsOpen == false)
         {
             optionsScreen.SetActive(true);
             audioSource.clip = selectSound;
@@ -322,7 +327,7 @@ public class Inventory : MonoBehaviour
         else if (optionsOpen == true)
         {
             optionsScreen.SetActive(false);
-            audioSource.clip = selectSound; 
+            audioSource.clip = selectSound;
             audioSource.Play();
             Time.timeScale = 1;
             optionsOpen = false;
@@ -413,6 +418,14 @@ public class Inventory : MonoBehaviour
         canvas.GetComponent<CreatePotion>().value = 0;
         canvas.GetComponent<CreatePotion>().thisValue = 0;
         potionBook.SetActive(false);
+        audioSource.clip = selectSound;
+        audioSource.Play();
+    }
+
+    public void CloseTutorialsMenu()
+    {
+        tutorialsScreen.SetActive(false);
+        PlayerMovement.canMove = true;
         audioSource.clip = selectSound;
         audioSource.Play();
     }

@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Cursors : MonoBehaviour
 {
-
     public GameObject cursorObject;
     public Sprite cursorBasic;
     public Sprite cursorHand;

@@ -25,6 +25,8 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     public bool spells = false;
     public bool left = true;
 
+    private Camera inventoryCamera;
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         overIcon = true;
@@ -35,13 +37,17 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             if(left == true)
             {
                 screenPoint.x = Input.mousePosition.x + Screen.width / 2.5f;
-            }if(left == false)
+                Debug.Log("Screenpoint = " + screenPoint.x);
+            }
+            if(left == false)
             {
                 screenPoint.x = Input.mousePosition.x - Screen.width / 2.5f;
+                Debug.Log("Screenpoint = " + screenPoint.x);
             }
             screenPoint.y = Input.mousePosition.y;
             screenPoint.z = 1f;
-            hintBox.transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
+            //hintBox.transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
+            hintBox.transform.position = inventoryCamera.ScreenToWorldPoint(screenPoint);
             MessageDisplay();
         }
     }
@@ -58,6 +64,7 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     {
         hintBox.SetActive(false);
         audioSource = inventoryObject.GetComponent<AudioSource>();
+        inventoryCamera = GameObject.Find("InventoryCamera").GetComponent<Camera>();
     }
 
     // Update is called once per frame

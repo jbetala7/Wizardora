@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
 
-        if(System.IO.File.Exists(Application.persistentDataPath + "/save.dat"))
+        if (System.IO.File.Exists(Application.persistentDataPath + "/save.dat"))
         {
             SaveScript.notSavedYet = false;
         }
@@ -25,11 +25,11 @@ public class MainMenu : MonoBehaviour
             SaveScript.notSavedYet = true;
         }
 
-        if(SaveScript.notSavedYet == true)
+        if (SaveScript.notSavedYet == true)
         {
             continueButton.SetActive(false);
         }
-        if(SaveScript.notSavedYet == false)
+        if (SaveScript.notSavedYet == false)
         {
             continueButton.SetActive(true);
         }
@@ -50,6 +50,7 @@ public class MainMenu : MonoBehaviour
 
     public void NewGame()
     {
+        PlayerPrefs.SetInt("IsPlayerSaved", 0);
         SaveScript.playerHealth = 1.0f;
         SaveScript.newGame = true;
         SceneManager.LoadScene(1);

@@ -1,34 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SavePedestal : MonoBehaviour
 {
     public GameObject saveScreen;
     public GameObject saveText;
-    public GameObject playerObject;
     public GameObject inventoryObject;
     public AudioSource audioSource;
     private bool savePause = false;
+    public Transform playerPosition;
+    public Button yesButton;
+    public Button noButton;
+
 
     // Start is called before the first frame update
     void Start()
     {
         inventoryObject = GameObject.Find("InventoryCanvas");
         audioSource = inventoryObject.GetComponent<AudioSource>();
-        playerObject = GameObject.FindGameObjectWithTag("Player");
         saveScreen.SetActive(false);
         saveText.SetActive(false);
-        //Vector3 poisiton = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z + 10f);
+        playerPosition.transform.parent = null;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player") && savePause == false)
+        if (other.CompareTag("Player") && savePause == false)
         {
             saveScreen.SetActive(true);
             Time.timeScale = 0;
             savePause = true;
+
+            yesButton.onClick.RemoveAllListeners();
+            noButton.onClick.RemoveAllListeners();
+
+            yesButton.onClick.AddListener(Yes);
+            noButton.onClick.AddListener(No);
         }
     }
 
@@ -42,13 +51,15 @@ public class SavePedestal : MonoBehaviour
 
     public void SavePlayerPosition()
     {
-        var xPos = playerObject.transform.position.x;
-        var yPos = playerObject.transform.position.y;
-        var zPos = playerObject.transform.position.z + 10f;
+        PlayerPrefs.SetInt("IsPlayerSaved", 1);
+
+        var xPos = playerPosition.transform.position.x;
+        var yPos = playerPosition.transform.position.y;
+        var zPos = playerPosition.transform.position.z;
+
         PlayerPrefs.SetFloat("X", xPos);
         PlayerPrefs.SetFloat("Y", yPos);
         PlayerPrefs.SetFloat("Z", zPos);
-        PlayerPrefs.Save();
     }
 
     public void Yes()
