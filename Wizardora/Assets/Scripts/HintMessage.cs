@@ -27,6 +27,8 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     private Camera inventoryCamera;
 
+    private float distanceText;
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         overIcon = true;
@@ -36,16 +38,14 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             hintBox.SetActive(true);
             if(left == true)
             {
-                screenPoint.x = Input.mousePosition.x + Screen.width / 2.5f;
-                Debug.Log("Screenpoint = " + screenPoint.x);
+                screenPoint.x = Input.mousePosition.x + Screen.width / 2.5f - distanceText;
             }
             if(left == false)
             {
-                screenPoint.x = Input.mousePosition.x - Screen.width / 2.5f;
-                Debug.Log("Screenpoint = " + screenPoint.x);
+                screenPoint.x = Input.mousePosition.x - Screen.width / 2.5f + distanceText;
             }
             screenPoint.y = Input.mousePosition.y;
-            screenPoint.z = 1f;
+            screenPoint.z = 1.8f;
             //hintBox.transform.position = Camera.main.ScreenToWorldPoint(screenPoint);
             hintBox.transform.position = inventoryCamera.ScreenToWorldPoint(screenPoint);
             MessageDisplay();
@@ -65,6 +65,23 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         hintBox.SetActive(false);
         audioSource = inventoryObject.GetComponent<AudioSource>();
         inventoryCamera = GameObject.Find("InventoryCamera").GetComponent<Camera>();
+
+        if(Screen.width == 1200)
+        {
+            distanceText = 180;
+        }
+        if (Screen.width == 1920)
+        {
+            distanceText = 360;
+        }
+        if (Screen.width == 2560)
+        {
+            distanceText = 390;
+        }
+        if (Screen.width == 3840)
+        {
+            distanceText = 420;
+        }
     }
 
     // Update is called once per frame

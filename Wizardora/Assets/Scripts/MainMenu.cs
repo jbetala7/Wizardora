@@ -35,7 +35,6 @@ public class MainMenu : MonoBehaviour
         }
 
         Time.timeScale = 1;
-        Cursor.visible = true;
     }
 
     public void ContinueGame()
