@@ -39,6 +39,7 @@ public class MainMenu : MonoBehaviour
 
     public void ContinueGame()
     {
+        DeleteSavedDeeds();
         loadingScreen.SetActive(true);
         saveObject.SetActive(true);
         SaveScript.continueData = true;
@@ -62,6 +63,25 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         audioSource.clip = selectSound;
         audioSource.Play();
+    }
+
+    public void DeleteSavedDeeds()
+    {
+        PlayerPrefs.DeleteKey("Shop0");
+        PlayerPrefs.DeleteKey("Shop1");
+        PlayerPrefs.DeleteKey("Shop2");
+        PlayerPrefs.DeleteKey("Shop3");
+        PlayerPrefs.DeleteKey("Shop4");
+        PlayerPrefs.DeleteKey("Shop5");
+        PlayerPrefs.DeleteKey("Shop5");
+        PlayerPrefs.DeleteKey("Shop6");
+        PlayerPrefs.DeleteKey("ShopTemporary0");
+        PlayerPrefs.DeleteKey("ShopTemporary1");
+        PlayerPrefs.DeleteKey("ShopTemporary2");
+        PlayerPrefs.DeleteKey("ShopTemporary3");
+        PlayerPrefs.DeleteKey("ShopTemporary4");
+        PlayerPrefs.DeleteKey("ShopTemporary5");
+        PlayerPrefs.DeleteKey("ShopTemporary6");
     }
 
     IEnumerator WaitToLoad()

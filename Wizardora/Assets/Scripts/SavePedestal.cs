@@ -65,6 +65,7 @@ public class SavePedestal : MonoBehaviour
     public void Yes()
     {
         SavePlayerPosition();
+        inventoryObject.GetComponent<Inventory>().SaveDeeds();
         SaveScript.saving = true;
         saveText.SetActive(true);
         Time.timeScale = 1;

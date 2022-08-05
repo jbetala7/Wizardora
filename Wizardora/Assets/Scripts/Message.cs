@@ -46,6 +46,7 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                 && shopMessage != "let your knowledge explore it's options." && shopMessage != "i like to barter things with gold.")
             {
                 inventoryObject.GetComponent<Inventory>().UpdateMessages(shopMessage);
+                SaveDeeds();
             }
         }
     }
@@ -58,6 +59,11 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         {
             shopUI[shopNumber].GetComponent<Buy>().UpdateGold();
         }
+    }
+
+    public void SaveDeeds()
+    {
+        PlayerPrefs.SetString("ShopTemporary" + shopNumber.ToString(), shopMessage);
     }
 
     // Update is called once per frame

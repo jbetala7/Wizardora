@@ -33,7 +33,8 @@ public class Speech : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            messageBox.GetComponentInChildren<Message>().shopNumber = shopNumber;
+            question.GetComponent<Message>().shopNumber = shopNumber;
+            //messageBox.GetComponentInChildren<Message>().shopNumber = shopNumber;
             for(int i = 0; i < inventoryObject.GetComponent<Inventory>().messages.Length; i++)
             {
                 if(answer == inventoryObject.GetComponent<Inventory>().messages[i].text)

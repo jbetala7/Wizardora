@@ -151,7 +151,7 @@ public class Inventory : MonoBehaviour
             newIcon = 0;
             iconUpdate = false;
         }
-
+        CheckDeeds();
     }
 
     // Update is called once per frame
@@ -265,6 +265,28 @@ public class Inventory : MonoBehaviour
         {
             RemoveIcon(16);
         }
+    }
+
+    void CheckDeeds()
+    {
+        if (PlayerPrefs.HasKey("Shop0")) UpdateMessages(PlayerPrefs.GetString("Shop0"));
+        if (PlayerPrefs.HasKey("Shop1")) UpdateMessages(PlayerPrefs.GetString("Shop1"));
+        if (PlayerPrefs.HasKey("Shop2")) UpdateMessages(PlayerPrefs.GetString("Shop2"));
+        if (PlayerPrefs.HasKey("Shop3")) UpdateMessages(PlayerPrefs.GetString("Shop3"));
+        if (PlayerPrefs.HasKey("Shop4")) UpdateMessages(PlayerPrefs.GetString("Shop4"));
+        if (PlayerPrefs.HasKey("Shop5")) UpdateMessages(PlayerPrefs.GetString("Shop5"));
+        if (PlayerPrefs.HasKey("Shop6")) UpdateMessages(PlayerPrefs.GetString("Shop6"));
+    }
+
+    public void SaveDeeds()
+    {
+        if (PlayerPrefs.HasKey("ShopTemporary0")) PlayerPrefs.SetString(("Shop0"), PlayerPrefs.GetString("ShopTemporary0"));
+        if (PlayerPrefs.HasKey("ShopTemporary1")) PlayerPrefs.SetString(("Shop1"), PlayerPrefs.GetString("ShopTemporary1"));
+        if (PlayerPrefs.HasKey("ShopTemporary2")) PlayerPrefs.SetString(("Shop2"), PlayerPrefs.GetString("ShopTemporary2"));
+        if (PlayerPrefs.HasKey("ShopTemporary3")) PlayerPrefs.SetString(("Shop3"), PlayerPrefs.GetString("ShopTemporary3"));
+        if (PlayerPrefs.HasKey("ShopTemporary4")) PlayerPrefs.SetString(("Shop4"), PlayerPrefs.GetString("ShopTemporary4"));
+        if (PlayerPrefs.HasKey("ShopTemporary5")) PlayerPrefs.SetString(("Shop5"), PlayerPrefs.GetString("ShopTemporary5"));
+        if (PlayerPrefs.HasKey("ShopTemporary6")) PlayerPrefs.SetString(("Shop6"), PlayerPrefs.GetString("ShopTemporary6"));
     }
 
     public void CheckStats()
@@ -429,6 +451,7 @@ public class Inventory : MonoBehaviour
         audioSource.clip = selectSound;
         audioSource.Play();
     }
+
 
     IEnumerator Reset()
     {
