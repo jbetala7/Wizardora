@@ -39,7 +39,6 @@ public class MainMenu : MonoBehaviour
 
     public void ContinueGame()
     {
-        DeleteSavedDeeds();
         loadingScreen.SetActive(true);
         saveObject.SetActive(true);
         SaveScript.continueData = true;
@@ -50,6 +49,7 @@ public class MainMenu : MonoBehaviour
 
     public void NewGame()
     {
+        DeleteSavedDeeds();
         PlayerPrefs.SetInt("IsPlayerSaved", 0);
         SaveScript.playerHealth = 1.0f;
         SaveScript.newGame = true;
