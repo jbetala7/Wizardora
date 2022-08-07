@@ -8,6 +8,7 @@ public class Speech : MonoBehaviour
     public int shopNumber = 0;
     public string answer;
     public GameObject question;
+    public GameObject question2;
     private bool haveRead = false;
     private GameObject miniMapView;
     private GameObject miniMapCompass;
@@ -34,8 +35,9 @@ public class Speech : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             question.GetComponent<Message>().shopNumber = shopNumber;
+            question2.GetComponent<Message>().shopNumber = shopNumber;
             //messageBox.GetComponentInChildren<Message>().shopNumber = shopNumber;
-            for(int i = 0; i < inventoryObject.GetComponent<Inventory>().messages.Length; i++)
+            for (int i = 0; i < inventoryObject.GetComponent<Inventory>().messages.Length; i++)
             {
                 if(answer == inventoryObject.GetComponent<Inventory>().messages[i].text)
                 {
