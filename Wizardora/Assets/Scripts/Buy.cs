@@ -18,11 +18,10 @@ public class Buy : MonoBehaviour
     public int[] inventoryItems;
     public Text[] itemAmountText;
 
-
     public Text currencyText;
     private Text compare;
-    public bool tavern = false; 
     private int max = 0;
+    public bool tavern = false;
     private bool canClick = true;
 
     // Start is called before the first frame update

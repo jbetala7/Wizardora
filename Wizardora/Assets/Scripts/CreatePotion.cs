@@ -6,6 +6,12 @@ using UnityEngine.UI;
 public class CreatePotion : MonoBehaviour
 {
     public int[] values;
+    private int max;
+    private int maxTwo;
+    public GameObject inventoryObject;
+    public Image[] emptySlots;
+    public Sprite[] icons;
+    public Sprite emptyIcon;
 
     [HideInInspector]
     public int expectedValue;
@@ -15,20 +21,8 @@ public class CreatePotion : MonoBehaviour
     public int itemID = 0;
     [HideInInspector]
     public int thisValue;
-
-    private int max;
-    private int maxTwo;
-
-    public GameObject inventoryObject;
-
     [HideInInspector]
     public AudioSource audioSource;
-
-    public Image[] emptySlots;
-    public Sprite[] icons;
-    public Sprite emptyIcon;
-
-    
 
     // Start is called before the first frame update
     void Start()
@@ -59,21 +53,6 @@ public class CreatePotion : MonoBehaviour
             }
             max = emptySlots.Length;
         }
-    }
-
-    public void ResetPotion()
-    {
-        for (int i = 0; i > max; i--)
-        {
-            if (emptyIcon == emptySlots[i].sprite)
-            {
-                i = max;
-                icons[itemID] = emptySlots[i].sprite;
-                audioSource.clip = inventoryObject.GetComponent<Inventory>().createPotionSound;
-                audioSource.Play();
-            }
-        }
-        max = emptySlots.Length;
     }
 
     public void Remove(int _index)

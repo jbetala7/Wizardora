@@ -10,7 +10,6 @@ public class CursorOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         if(Time.timeScale == 1)
         {
             PlayerMovement.canMove = false;
-
         }
     }
 

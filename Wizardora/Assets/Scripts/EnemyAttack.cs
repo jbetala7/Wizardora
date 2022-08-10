@@ -5,10 +5,9 @@ using UnityEngine;
 public class EnemyAttack : MonoBehaviour
 {
     public float damageAmount = 0.007f;
-    private WaitForSeconds delayTime = new WaitForSeconds(1);
     private bool canAttack = true;
     private AudioSource audioSource;
-
+    private WaitForSeconds delayTime = new WaitForSeconds(1);
 
     // Start is called before the first frame update
     private void Start()

@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class Deeds : MonoBehaviour
 {
+    public bool canUpdate = false;
     public GameObject inventoryObject;
     public Text[] deeds;
-    public bool canUpdate = false;
 
     // Update is called once per frame
     void Update()

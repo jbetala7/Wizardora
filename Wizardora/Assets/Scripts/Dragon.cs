@@ -6,33 +6,33 @@ using UnityEngine.UI;
 
 public class Dragon : MonoBehaviour
 {
-    public GameObject thisEnemy;
-    private bool outlineOn = false;
-    private NavMeshAgent agent;
-    private Animator animator;
-    private AnimatorStateInfo enemyInfo;
-    public GameObject player;
-    private float distance;
-    private bool isAttacking = false;
-    public float closeRange = 7.0f;
-    public float farRange = 21f;
-    private float runRange = 49.0f;
     public int enemyHealth = 100;
     private int currentHealth;
-    private bool isAlive = true;
-    private AudioSource audioSource;
-    public Image healthBar;
-    private float fillHealth;
-    public GameObject mainCamera;
+    public float closeRange = 7.0f;
+    public float farRange = 21f;
     public float rotateSpeed = 50.0f;
+    private float runRange = 49.0f;
+    private float distance;
+    private float fillHealth;
+    private bool outlineOn = false;
+    private bool isAttacking = false;
+    private bool canBreathFire = true;
+    private bool isAlive = true;
+    public GameObject player;
+    public GameObject thisEnemy;
+    public GameObject mainCamera;
+    public GameObject fireball;
     public GameObject coins;
     public GameObject hitEffect;
-    private WaitForSeconds hitOff = new WaitForSeconds(0.5f);
+    private AnimatorStateInfo enemyInfo;
+    private Animator animator;
+    private NavMeshAgent agent;
+    private AudioSource audioSource;
     private AudioClip audioClip;
-    public GameObject fireball;
+    public Image healthBar;
     public Transform fireSpawnPoint;
-    private bool canBreathFire = true;
     private WaitForSeconds firePause = new WaitForSeconds(2);
+    private WaitForSeconds hitOff = new WaitForSeconds(0.5f);
 
 
     // Start is called before the first frame update

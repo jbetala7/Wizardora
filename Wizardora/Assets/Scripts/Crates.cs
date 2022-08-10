@@ -4,17 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Crates : MonoBehaviour
 {
-    private Animator animator;
     private int goldAmount;
+    private int goldDisplay;
+    public float speed = 1.0f;
     public GameObject particleEffect;
     public GameObject particlesPoint;
     public GameObject textCanvas;
-    public Text goldAmountText;
-    public float speed = 1.0f;
     public GameObject mainCamera;
-    private int goldDisplay;
     public GameObject inventoryObject;
+    public Text goldAmountText;
+    private Animator animator;
     public AudioClip openChestClip;
+
 
     // Start is called before the first frame update
     void Start()
