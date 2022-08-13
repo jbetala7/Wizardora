@@ -18,6 +18,7 @@ public class Dragon : MonoBehaviour
     private bool isAttacking = false;
     private bool canBreathFire = true;
     private bool isAlive = true;
+    public bool isPlayerDead;
     public GameObject player;
     public GameObject thisEnemy;
     public GameObject mainCamera;
@@ -86,12 +87,22 @@ public class Dragon : MonoBehaviour
             enemyInfo = animator.GetCurrentAnimatorStateInfo(0);
             distance = Vector3.Distance(transform.position, player.transform.position);
 
+            if (SaveScript.playerHealth <= 0)
+            {
+                isPlayerDead = true;
+            }
+
             if (distance < farRange || distance > runRange)
             {
                 agent.isStopped = true;
 
                 if (distance < closeRange && enemyInfo.IsTag("nonAttack") && !animator.IsInTransition(0))
                 {
+                    if (isPlayerDead)
+                    {
+                        return;
+                    }
+
                     if (isAttacking == false)
                     {
                         isAttacking = true;
@@ -103,6 +114,11 @@ public class Dragon : MonoBehaviour
                 }
                 if (distance < farRange && distance > closeRange && enemyInfo.IsTag("nonAttack") && !animator.IsInTransition(0))
                 {
+                    if (isPlayerDead)
+                    {
+                        return;
+                    }
+
                     if (isAttacking == false && canBreathFire == true)
                     {
                         isAttacking = true;
@@ -137,6 +153,7 @@ public class Dragon : MonoBehaviour
         }
         if(enemyHealth <= 1 && isAlive == true)
         {
+            WinGame.Instance.isWinGame = true;
             isAlive = false;
             agent.isStopped = true;
             animator.SetTrigger("death");

@@ -24,6 +24,8 @@ public class DragonParticle : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            other.GetComponent<Animator>().SetTrigger("hurt");
+            other.GetComponent<PlayerMovement>().agent.isStopped = true;
             SaveScript.playerHealth -= damageAmount;
             Destroy(parentObject.gameObject);
         }

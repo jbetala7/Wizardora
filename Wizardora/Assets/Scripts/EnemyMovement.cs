@@ -31,6 +31,7 @@ public class EnemyMovement : MonoBehaviour
     public GameObject hitEffect;
     private WaitForSeconds hitOff = new WaitForSeconds(0.5f);
     private AudioClip audioClip;
+    public bool isPlayerDead;
 
 
     // Start is called before the first frame update
@@ -105,6 +106,11 @@ public class EnemyMovement : MonoBehaviour
             enemyInfo = animator.GetCurrentAnimatorStateInfo(0);
             distance = Vector3.Distance(transform.position, player.transform.position);
 
+            if(SaveScript.playerHealth <= 0)
+            {
+                isPlayerDead = true;
+            }
+
             if (distance < attackRange || distance > runRange)
             {
                 agent.isStopped = true;
@@ -117,6 +123,10 @@ public class EnemyMovement : MonoBehaviour
 
                 if (distance < attackRange && enemyInfo.IsTag("nonAttack") && !animator.IsInTransition(0))
                 {
+                    if(isPlayerDead)
+                    {
+                        return; 
+                    }
                     if (isAttacking == false)
                     {
                         isAttacking = true;

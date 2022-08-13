@@ -9,6 +9,17 @@ public class EnemySpawn : MonoBehaviour
     public GameObject mainCamera;
     private bool canSpawn = true;
     public bool reSpawn = true;
+    bool isEndGame;
+    public List<GameObject> endGameList;
+    bool areEnemiesSpawn;
+
+    void Start()
+    {
+        if (gameObject.name == "SpawnObjectBlueDragon")
+        {
+            isEndGame = true;
+        }
+    }
 
     // Update is called once per frame
     void Update()
@@ -30,6 +41,10 @@ public class EnemySpawn : MonoBehaviour
                 }
             }
         }
+        if (endGameList.Count <= 0 && areEnemiesSpawn)
+        {
+            WinGame.Instance.isWinGame = true;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -41,6 +56,17 @@ public class EnemySpawn : MonoBehaviour
                 canSpawn = false;
                 for(int i = 0; i < enemies.Length; i++)
                 {
+                    if (isEndGame)
+                    {
+                        areEnemiesSpawn = true;
+                        Instantiate(enemies[i], spawnPoints[i].position, spawnPoints[i].rotation);
+                        Instantiate(enemies[i], spawnPoints[i].position, spawnPoints[i].rotation);
+                        endGameList.Add(enemies[i]);
+                    }
+                    else
+                    {
+                        Instantiate(enemies[i], spawnPoints[i].position, spawnPoints[i].rotation);
+                    }
                     Instantiate(enemies[i], spawnPoints[i].position, spawnPoints[i].rotation);
                     SaveScript.enemiesOnScreen++;
                     mainCamera.GetComponent<AudioManager>().musicState = 3;

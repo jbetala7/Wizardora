@@ -466,7 +466,6 @@ public class Inventory : MonoBehaviour
         audioSource.Play();
     }
 
-
     IEnumerator Reset()
     {
         yield return new WaitForSeconds(0.1f);

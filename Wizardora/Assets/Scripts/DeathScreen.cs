@@ -7,15 +7,27 @@ public class DeathScreen : MonoBehaviour
 {
     public Animator animator;
     private GameObject saveObject;
+    public GameObject player;
 
     // Update is called once per frame
     void Update()
     {
         if(SaveScript.playerHealth <= 0)
         {
-            animator.SetTrigger("death");
-            StartCoroutine(WaitToReload());
+            if(player == null)
+            {
+                player = GameObject.FindWithTag("Player");
+            }
+            Invoke("StartDeathScreen", 2f);
+            player.GetComponent<PlayerMovement>().enabled = true;
+            player.GetComponent<Animator>().SetTrigger("die");
         }
+    }
+
+    void StartDeathScreen()
+    {
+        animator.SetTrigger("death");
+        StartCoroutine(WaitToReload());
     }
 
     IEnumerator WaitToReload()
@@ -24,7 +36,15 @@ public class DeathScreen : MonoBehaviour
         SaveScript.playerHealth = 1.0f;
         SaveScript.instance = 0;
         saveObject = GameObject.Find("SaveObject");
-        Destroy(saveObject);
-        SceneManager.LoadScene(0);
+    }
+
+    public void No()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void Yes()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
