@@ -19,7 +19,7 @@ public class DeathScreen : MonoBehaviour
                 player = GameObject.FindWithTag("Player");
             }
             Invoke("StartDeathScreen", 2f);
-            player.GetComponent<PlayerMovement>().enabled = true;
+            player.GetComponent<PlayerMovement>().enabled = false;
             player.GetComponent<Animator>().SetTrigger("die");
         }
     }

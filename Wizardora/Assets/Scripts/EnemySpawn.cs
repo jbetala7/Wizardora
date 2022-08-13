@@ -60,14 +60,12 @@ public class EnemySpawn : MonoBehaviour
                     {
                         areEnemiesSpawn = true;
                         Instantiate(enemies[i], spawnPoints[i].position, spawnPoints[i].rotation);
-                        Instantiate(enemies[i], spawnPoints[i].position, spawnPoints[i].rotation);
                         endGameList.Add(enemies[i]);
                     }
                     else
                     {
                         Instantiate(enemies[i], spawnPoints[i].position, spawnPoints[i].rotation);
                     }
-                    Instantiate(enemies[i], spawnPoints[i].position, spawnPoints[i].rotation);
                     SaveScript.enemiesOnScreen++;
                     mainCamera.GetComponent<AudioManager>().musicState = 3;
                     mainCamera.GetComponent<AudioManager>().canPlay = true;

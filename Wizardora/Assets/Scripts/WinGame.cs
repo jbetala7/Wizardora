@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class WinGame : MonoBehaviour
 {
-    public static WinGame Instance { get; set;}
+    public static WinGame Instance {get;set;}
 
     public bool isWinGame = false;
     public Animator animator;
 
-    private void Awake()
+    void Awake()
     {
         Instance = this;
         animator = GetComponent<Animator>();    
