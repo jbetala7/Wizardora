@@ -10,6 +10,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip battleLoop;
     public AudioClip wizardLoop;
     public AudioClip blacksmithLoop;
+    public AudioClip deathLoop;
+    public AudioClip winLoop;
     public int musicState = 1;
 
     [HideInInspector]
@@ -55,6 +57,18 @@ public class AudioManager : MonoBehaviour
             {
                 audioSource.clip = blacksmithLoop;
                 audioSource.volume = 0.4f;
+                audioSource.Play();
+            }
+            if (musicState == 6)
+            {
+                audioSource.clip = deathLoop;
+                audioSource.volume = 0.7f;
+                audioSource.Play();
+            }
+            if (musicState == 7)
+            {
+                audioSource.clip = winLoop;
+                audioSource.volume = 0.7f;
                 audioSource.Play();
             }
         }

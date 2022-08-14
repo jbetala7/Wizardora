@@ -8,6 +8,12 @@ public class DeathScreen : MonoBehaviour
     public Animator animator;
     private GameObject saveObject;
     public GameObject player;
+    public GameObject myCamera;
+
+    private void Start()
+    {
+        myCamera = GameObject.Find("Main Camera");
+    }
 
     // Update is called once per frame
     void Update()
@@ -18,6 +24,8 @@ public class DeathScreen : MonoBehaviour
             {
                 player = GameObject.FindWithTag("Player");
             }
+            myCamera.GetComponent<AudioManager>().musicState = 6;
+            myCamera.GetComponent<AudioManager>().canPlay = true;
             Invoke("StartDeathScreen", 2f);
             player.GetComponent<PlayerMovement>().enabled = false;
             player.GetComponent<Animator>().SetTrigger("die");
