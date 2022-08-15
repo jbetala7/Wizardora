@@ -21,7 +21,7 @@ Three-dimensional role-playing video game Wizardora is created in unity. It cons
 - The game has been tested and evaluated on Windows 10, Windows 11, and various versions of macOS.
 - PC Requirements:
 
-![PC Requirements Image](https://github.com/jbetala7/Warriorz/blob/main/Images/open-start_menu.png)
+![PC Requirements Image](https://github.com/jbetala7/Wizardora/blob/complete-project/Images/PCRequirements.png)
 
 ### **Setup to run or edit game in the Unity engine**
 
@@ -30,11 +30,11 @@ Three-dimensional role-playing video game Wizardora is created in unity. It cons
 - Open the cloned folder from inside Unity Hub.
 - The warnings in the image below are from the original downloaded assets that were in the sprites folder and don't affect our main project after these sprites were edited to remove them If you notice any problems like this, just click the clear button and they will go away.
 
-![Warnings Image](https://github.com/jbetala7/Warriorz/blob/main/Images/open-start_menu.png)
+![Warnings Image](https://github.com/jbetala7/Wizardora/blob/complete-project/Images/Warnings.png)
 
 - Navigate to Assets -> Scenes from the Project tab in your Unity Application.
 
-![Project Tab Image](https://github.com/jbetala7/Warriorz/blob/main/Images/play-game.png)
+![Project Tab Image](https://github.com/jbetala7/Wizardora/blob/complete-project/Images/ProjectTab.png)
 
 - Double click the MainMenu which opens the first scene of the game.
 - Hierarchy displays all the game objects present in the current scene and Inspector shows the parameters, scripts, components, etc that have been assigned to that item. Edits done on the Scene tab can be previewed in Game tab.
@@ -42,27 +42,27 @@ Three-dimensional role-playing video game Wizardora is created in unity. It cons
 - The Game tab should be selected first, and the display resolution should be adjusted to 1920 x 1080 for the optimal gaming experience (for macOS it’s recommended to set it Free Aspect). The scale slider must be having the minimum value on the left, and the option Play Maximized must be chosen from the drop-down menu.
 - Click the Play button at the top.
 
-![Play Game Image](https://github.com/jbetala7/Warriorz/blob/main/Images/play-game.png)
+![Play Game Image](https://github.com/jbetala7/Wizardora/blob/complete-project/Images/PlayGame.png)
 
 - **ENJOY!**
 
 ### **Instructions to run the game application**
 
 - Depending on the operating system you are using, choose one of the zip files from the links below and download it.
-    1. Windows OS - [Link] (<https://drive.google.com/file/d/1MDJxTXUQfcSKIZap7AZxYFN65i4vcdIL/view?usp=sharing>)
-    2. macOS - [Link](https://drive.google.com/file/d/178ofrTgAeMj5Jc0fAvltZlIuze3YuSWl/view?usp=sharing>)
+    1. Windows OS - [Link](https://github.com/jbetala7/Wizardora/blob/complete-project/Images/ProjectTab.png)
+    2. macOS - [Link](https://drive.google.com/file/d/1MDJxTXUQfcSKIZap7AZxYFN65i4vcdIL/view?usp=sharing)
 - Extract the file after once the download is complete.
 - Double click the Wizardora application inside the root folder (use control + click to open the application in macOS it shows any warning of some kind)
 
-![Game Application Image](https://github.com/jbetala7/Warriorz/blob/main/Images/play-game.png)
+![Game Application Image](https://github.com/jbetala7/Wizardora/blob/complete-project/Images/Application.png)
 
 - If there is a warning received when opening the application in Windows do as following:
 
-![Windows Warning Image](https://github.com/jbetala7/Warriorz/blob/main/Images/play-game.png)
+![Windows Warning Image](https://github.com/jbetala7/Wizardora/blob/complete-project/Images/WindowsWarning.png)
 
 - Press control key and click open to launch the application in macOS it shows any warning of some kind
 
-![macOs Warning Image](https://github.com/jbetala7/Warriorz/blob/main/Images/play-game.png)
+![macOs Warning Image](https://github.com/jbetala7/Wizardora/blob/complete-project/Images/macOSWarning.png)
 
 - **HAVE FUN!**
 
