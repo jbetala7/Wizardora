@@ -9,8 +9,11 @@ public class PlayerStartPosition : MonoBehaviour
     public GameObject[] characters;
     public Transform spawnPoint;
 
+    [HideInInspector]
     public float xPos;
+    [HideInInspector]
     public float yPos;
+    [HideInInspector]
     public float zPos;
 
     bool canChangePosition = true;

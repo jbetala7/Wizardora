@@ -6,6 +6,19 @@ using UnityEngine.UI;
 
 public class Dragon : MonoBehaviour
 {
+    public GameObject player;
+    public GameObject thisEnemy;
+    public GameObject mainCamera;
+    public GameObject fireball;
+    public GameObject coins;
+    public GameObject hitEffect;
+    public Image healthBar;
+    public Transform fireSpawnPoint;
+    private Animator animator;
+    private NavMeshAgent agent;
+    private AudioSource audioSource;
+    private AudioClip audioClip;
+    public bool isPlayerDead;
     public int enemyHealth = 100;
     private int currentHealth;
     public float closeRange = 7.0f;
@@ -18,20 +31,7 @@ public class Dragon : MonoBehaviour
     private bool isAttacking = false;
     private bool canBreathFire = true;
     private bool isAlive = true;
-    public bool isPlayerDead;
-    public GameObject player;
-    public GameObject thisEnemy;
-    public GameObject mainCamera;
-    public GameObject fireball;
-    public GameObject coins;
-    public GameObject hitEffect;
     private AnimatorStateInfo enemyInfo;
-    private Animator animator;
-    private NavMeshAgent agent;
-    private AudioSource audioSource;
-    private AudioClip audioClip;
-    public Image healthBar;
-    public Transform fireSpawnPoint;
     private WaitForSeconds firePause = new WaitForSeconds(2);
     private WaitForSeconds hitOff = new WaitForSeconds(0.5f);
 

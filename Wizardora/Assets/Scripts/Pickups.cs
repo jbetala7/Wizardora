@@ -21,6 +21,7 @@ public class Pickups : MonoBehaviour
 
     [HideInInspector]
     public GameObject inventoryObject;
+    [HideInInspector]
     public AudioSource audioSource;
 
     // Start is called before the first frame update

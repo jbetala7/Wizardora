@@ -7,7 +7,9 @@ public class SavePedestal : MonoBehaviour
 {
     public GameObject saveScreen;
     public GameObject saveText;
+    [HideInInspector]
     public GameObject inventoryObject;
+    [HideInInspector]
     public AudioSource audioSource;
     private bool savePause = false;
     public Transform playerPosition;

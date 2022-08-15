@@ -5,21 +5,19 @@ using UnityEngine.UI;
 
 public class PotionBook : MonoBehaviour
 {
-    public Image magicIcon;
-    public Text magicName;
-    public Text magicDescription;
-
-    [HideInInspector]
-    public AudioSource audioSource;
-    public GameObject inventoryObject;
-
     public Sprite[] magicSprites;
     public string[] names;
     public string[] descriptions;
     public GameObject[] iconSets;
-    private int currentIcon = 0;
     public GameObject canvas;
-
+    public GameObject inventoryObject;
+    public Image magicIcon;
+    public Text magicName;
+    public Text magicDescription;
+    [HideInInspector]
+    public AudioSource audioSource;
+    private int currentIcon = 0;
+    
     // Start is called before the first frame update
     void Start()
     {

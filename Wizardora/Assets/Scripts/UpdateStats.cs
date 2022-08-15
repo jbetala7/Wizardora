@@ -5,16 +5,17 @@ using UnityEngine.UI;
 
 public class UpdateStats : MonoBehaviour
 {
+    public GameObject[] items;
+    public GameObject[] weaponButtons;
+    public GameObject inventoryObject;
     public Text nameText;
     public Text currencyText;
     public Text killAmountText;
     public Image strengthBar;
     public Image manaBar;
     public Image staminaBar;
-    public GameObject[] weaponButtons;
-    public GameObject inventoryObject;
     public bool updateWeapons = true;
-    public GameObject[] items;
+    
 
     // Start is called before the first frame update
     void Start()

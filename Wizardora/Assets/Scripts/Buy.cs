@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class Buy : MonoBehaviour
 {
     public GameObject shopUI;
-    public GameObject inventoryObject;
 
+    [HideInInspector]
+    public GameObject inventoryObject;
     [HideInInspector]
     public AudioSource audioSource;
 

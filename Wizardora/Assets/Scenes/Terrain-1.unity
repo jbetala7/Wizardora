@@ -1149,11 +1149,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c9855ac0f988c47bc70ff7f4a6cb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  question: {fileID: 2127386706}
+  question2: {fileID: 319523985}
   messageBox: {fileID: 118511978}
   shopNumber: 4
   answer: find the magic book to learn wizardary.
-  question: {fileID: 2127386706}
-  question2: {fileID: 319523985}
 --- !u!54 &11008710
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2074,7 +2074,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-378992
+  m_Name: pb_Mesh-2410036
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2853,14 +2853,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -7326,7 +7326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdddec5e0b8b2b408ef10b86cbe27a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
   particleEffect: {fileID: 1500378020736912, guid: 2547a66872ebe45408ace228820a79e1, type: 3}
   particlesPoint: {fileID: 1980613393}
   textCanvas: {fileID: 977066220}
@@ -7335,6 +7334,7 @@ MonoBehaviour:
   inventoryObject: {fileID: 0}
   goldAmountText: {fileID: 570923848}
   openChestClip: {fileID: 8300000, guid: c0cabce778ad54792bba3a0ca6765417, type: 3}
+  speed: 1
 --- !u!95 &82451569
 Animator:
   serializedVersion: 4
@@ -9343,7 +9343,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-353444
+  m_Name: pb_Mesh-2384488
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13247,7 +13247,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-379020
+  m_Name: pb_Mesh-2410064
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14121,7 +14121,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-397520
+  m_Name: pb_Mesh-2428564
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17939,6 +17939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 6
   thisImage: {fileID: 0}
   initialColour:
@@ -17947,7 +17948,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &171067694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19520,14 +19520,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 31
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 31
   magic: 0
   spells: 1
   left: 0
@@ -19847,14 +19847,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 1
   spells: 0
   left: 1
@@ -20214,14 +20214,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -20662,7 +20662,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-353520
+  m_Name: pb_Mesh-2384564
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20988,6 +20988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 3
   thisImage: {fileID: 0}
   initialColour:
@@ -20996,7 +20997,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &194119296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21121,7 +21121,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-383640
+  m_Name: pb_Mesh-2414684
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22254,6 +22254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 13
   thisImage: {fileID: 0}
   initialColour:
@@ -22262,7 +22263,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &204631311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22614,14 +22614,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -23657,6 +23657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 7
   thisImage: {fileID: 0}
   initialColour:
@@ -23665,7 +23666,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1 &234392986
 GameObject:
   m_ObjectHideFlags: 0
@@ -24758,8 +24758,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244534998}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -29.1, y: 68.92255, z: -182.3}
-  m_LocalScale: {x: 122.179375, y: 14.532, z: 1}
+  m_LocalPosition: {x: -29.1, y: 68.92255, z: -189}
+  m_LocalScale: {x: 109.68748, y: 14.532, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1662112936}
@@ -24804,7 +24804,7 @@ MonoBehaviour:
   - {fileID: 715059546}
   - {fileID: 1976950710}
   mainCamera: {fileID: 0}
-  reSpawn: 1
+  reSpawn: 0
   endGameList: []
 --- !u!65 &244535001
 BoxCollider:
@@ -27547,14 +27547,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -28388,14 +28388,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 32
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 32
   magic: 0
   spells: 1
   left: 0
@@ -32158,7 +32158,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-353432
+  m_Name: pb_Mesh-2384476
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33715,6 +33715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 6
   thisImage: {fileID: 0}
   initialColour:
@@ -33723,7 +33724,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &332510664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35173,14 +35173,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -35754,7 +35754,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-382968
+  m_Name: pb_Mesh-2414012
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -36895,11 +36895,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c9855ac0f988c47bc70ff7f4a6cb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  question: {fileID: 2127386706}
+  question2: {fileID: 319523985}
   messageBox: {fileID: 118511978}
   shopNumber: 0
   answer: find the blacksmith.
-  question: {fileID: 2127386706}
-  question2: {fileID: 319523985}
 --- !u!54 &374982757
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -38159,6 +38159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 4
   thisImage: {fileID: 0}
   initialColour:
@@ -38167,7 +38168,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1 &389871334
 GameObject:
   m_ObjectHideFlags: 0
@@ -38451,6 +38451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 4
   thisImage: {fileID: 0}
   initialColour:
@@ -38459,7 +38460,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1 &390626819
 GameObject:
   m_ObjectHideFlags: 0
@@ -39410,12 +39410,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c643e3380d32a847905ca622ff64a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponNumber: 0
-  armourNumber: 0
-  weaponCost: 150
   currencyText: {fileID: 729948966}
   inventoryObject: {fileID: 0}
   audioSource: {fileID: 0}
+  weaponNumber: 0
+  armourNumber: 0
+  weaponCost: 150
 --- !u!114 &408474891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43082,7 +43082,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-353456
+  m_Name: pb_Mesh-2384500
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -43589,7 +43589,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-378384
+  m_Name: pb_Mesh-2409428
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -44393,6 +44393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 3
   thisImage: {fileID: 0}
   initialColour:
@@ -44401,7 +44402,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1 &453842103
 GameObject:
   m_ObjectHideFlags: 0
@@ -45186,7 +45186,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-352848
+  m_Name: pb_Mesh-2383892
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -48805,6 +48805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 11
   thisImage: {fileID: 0}
   initialColour:
@@ -48813,7 +48814,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &485310866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50430,6 +50430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 9
   thisImage: {fileID: 0}
   initialColour:
@@ -50438,7 +50439,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1 &494564820
 GameObject:
   m_ObjectHideFlags: 0
@@ -51740,7 +51740,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-418240
+  m_Name: pb_Mesh-2449284
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -53374,7 +53374,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-397508
+  m_Name: pb_Mesh-2428552
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -59843,6 +59843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 6
   thisImage: {fileID: 0}
   initialColour:
@@ -59851,7 +59852,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1 &562674365
 GameObject:
   m_ObjectHideFlags: 0
@@ -60362,12 +60362,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   magicUI: {fileID: 1608643810}
   spellsUI: {fileID: 1966171562}
-  magicBook: 0
-  spellsBook: 1
   magicBookMessage: {fileID: 291463225}
   spellBookMessage: {fileID: 1357457601}
   inventoryObject: {fileID: 1254140525}
   openBook: {fileID: 8300000, guid: aa348f776c7354f36917fef10c6b48d1, type: 3}
+  magicBook: 0
+  spellsBook: 1
 --- !u!1 &566242032
 GameObject:
   m_ObjectHideFlags: 0
@@ -60501,11 +60501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61ad7b51b9f34384cb5966f4a15adcd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magicIcon: {fileID: 560119275}
-  magicName: {fileID: 1145060728}
-  magicDescription: {fileID: 715365}
-  audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
   magicSprites:
   - {fileID: 21300000, guid: a0c2461c58596fb439870f353ca3f5cf, type: 3}
   - {fileID: 21300000, guid: 551e931c24a892640aef85a6a1bddf42, type: 3}
@@ -60535,6 +60530,11 @@ MonoBehaviour:
   - {fileID: 2109786819}
   - {fileID: 718383810}
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
+  magicIcon: {fileID: 560119275}
+  magicName: {fileID: 1145060728}
+  magicDescription: {fileID: 715365}
+  audioSource: {fileID: 0}
 --- !u!114 &566674163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60548,7 +60548,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   values: 1f0000002500000025000000300000002300000053000000
-  inventoryObject: {fileID: 1254140525}
   emptySlots:
   - {fileID: 183224859}
   - {fileID: 2133881967}
@@ -60564,6 +60563,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ab0a6295fe882b747a52674e9e2ba4c0, type: 3}
   - {fileID: 21300000, guid: 73f7f6a6c502244449220e7de5a3b097, type: 3}
   emptyIcon: {fileID: 21300000, guid: ec965f7c053f6d34eb94e932a624102e, type: 3}
+  inventoryObject: {fileID: 1254140525}
   expectedValue: 0
   value: 0
   itemID: 0
@@ -65031,11 +65031,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c9855ac0f988c47bc70ff7f4a6cb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  question: {fileID: 2127386706}
+  question2: {fileID: 319523985}
   messageBox: {fileID: 118511978}
   shopNumber: 2
   answer: there is something going on in the woods.
-  question: {fileID: 2127386706}
-  question2: {fileID: 319523985}
 --- !u!54 &616754441
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -68249,14 +68249,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -68431,12 +68431,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   magicUI: {fileID: 1608643810}
   spellsUI: {fileID: 1966171562}
-  magicBook: 1
-  spellsBook: 0
   magicBookMessage: {fileID: 291463225}
   spellBookMessage: {fileID: 1357457601}
   inventoryObject: {fileID: 1254140525}
   openBook: {fileID: 8300000, guid: 2f07c3b7706a64f489133201c2342886, type: 3}
+  magicBook: 1
+  spellsBook: 0
 --- !u!1001 &659787112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69132,7 +69132,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-353508
+  m_Name: pb_Mesh-2384552
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -70330,7 +70330,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-353468
+  m_Name: pb_Mesh-2384512
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -70982,7 +70982,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-399240
+  m_Name: pb_Mesh-2430284
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -72202,6 +72202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 11
   thisImage: {fileID: 0}
   initialColour:
@@ -72210,7 +72211,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &698939640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72283,7 +72283,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-383552
+  m_Name: pb_Mesh-2414596
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -72966,7 +72966,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-353496
+  m_Name: pb_Mesh-2384540
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -74159,6 +74159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 1
   thisImage: {fileID: 0}
   initialColour:
@@ -74167,7 +74168,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1 &719477491
 GameObject:
   m_ObjectHideFlags: 0
@@ -75066,7 +75066,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-383628
+  m_Name: pb_Mesh-2414672
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -76118,14 +76118,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -79087,7 +79087,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-363544
+  m_Name: pb_Mesh-2394588
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -83273,6 +83273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 1
   thisImage: {fileID: 0}
   initialColour:
@@ -83281,7 +83282,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &793844450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85143,6 +85143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 2
   thisImage: {fileID: 0}
   initialColour:
@@ -85151,7 +85152,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1 &818354171
 GameObject:
   m_ObjectHideFlags: 0
@@ -86721,6 +86721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 12
   thisImage: {fileID: 0}
   initialColour:
@@ -86729,7 +86730,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &841323707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86774,7 +86774,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-397432
+  m_Name: pb_Mesh-2428476
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -90214,7 +90214,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-379032
+  m_Name: pb_Mesh-2410076
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -95269,14 +95269,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -95752,14 +95752,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -96570,8 +96570,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922281292}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -78.7, y: 68.92255, z: -170.6}
-  m_LocalScale: {x: 96.84478, y: 14.532, z: 1}
+  m_LocalPosition: {x: -78.7, y: 68.92255, z: -177.6}
+  m_LocalScale: {x: 87.81262, y: 14.532, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2133144432}
@@ -98292,7 +98292,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-382638
+  m_Name: pb_Mesh-2413682
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -99428,11 +99428,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c9855ac0f988c47bc70ff7f4a6cb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  question: {fileID: 2127386706}
+  question2: {fileID: 319523985}
   messageBox: {fileID: 118511978}
   shopNumber: 5
   answer: learn how to cast spells, find the spell book.
-  question: {fileID: 2127386706}
-  question2: {fileID: 319523985}
 --- !u!54 &952900402
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -100744,7 +100744,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-383604
+  m_Name: pb_Mesh-2414648
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -102381,7 +102381,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-417924
+  m_Name: pb_Mesh-2448968
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -103189,7 +103189,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-353484
+  m_Name: pb_Mesh-2384528
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -103728,7 +103728,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-379044
+  m_Name: pb_Mesh-2410088
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -105196,6 +105196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 6
   thisImage: {fileID: 0}
   initialColour:
@@ -105204,7 +105205,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &1007801544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -107850,14 +107850,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -109476,7 +109476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdddec5e0b8b2b408ef10b86cbe27a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
   particleEffect: {fileID: 1500378020736912, guid: 2547a66872ebe45408ace228820a79e1, type: 3}
   particlesPoint: {fileID: 1457417947}
   textCanvas: {fileID: 850800475}
@@ -109485,6 +109484,7 @@ MonoBehaviour:
   inventoryObject: {fileID: 0}
   goldAmountText: {fileID: 500118777}
   openChestClip: {fileID: 8300000, guid: c0cabce778ad54792bba3a0ca6765417, type: 3}
+  speed: 1
 --- !u!65 &1058223133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -111556,14 +111556,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 1
   spells: 0
   left: 0
@@ -114911,6 +114911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 12
   thisImage: {fileID: 0}
   initialColour:
@@ -114919,7 +114920,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &1107269106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116494,14 +116494,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 30
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 30
   magic: 0
   spells: 1
   left: 0
@@ -117923,12 +117923,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c643e3380d32a847905ca622ff64a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponNumber: 0
-  armourNumber: 2
-  weaponCost: 750
   currencyText: {fileID: 729948966}
   inventoryObject: {fileID: 0}
   audioSource: {fileID: 0}
+  weaponNumber: 0
+  armourNumber: 2
+  weaponCost: 750
 --- !u!114 &1132335171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121659,6 +121659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 9
   thisImage: {fileID: 0}
   initialColour:
@@ -121667,7 +121668,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &1163999332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124601,6 +124601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 3
   thisImage: {fileID: 0}
   initialColour:
@@ -124609,7 +124610,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &1175818769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -128323,6 +128323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 2
   thisImage: {fileID: 0}
   initialColour:
@@ -128331,7 +128332,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1 &1205135911
 GameObject:
   m_ObjectHideFlags: 0
@@ -129178,7 +129178,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-378968
+  m_Name: pb_Mesh-2410012
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -129656,7 +129656,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-397484
+  m_Name: pb_Mesh-2428528
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -132001,6 +132001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 5
   thisImage: {fileID: 0}
   initialColour:
@@ -132009,7 +132010,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &1244140915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -132894,98 +132894,17 @@ MonoBehaviour:
   statsScreen: {fileID: 1389987869}
   deedsScreen: {fileID: 879952870}
   characterDisplay: {fileID: 511669588}
+  mapScreen: {fileID: 1862960580}
+  mapCamera: {fileID: 1738003854}
+  magicUI: {fileID: 1608643810}
+  spellsUI: {fileID: 1966171562}
+  optionsScreen: {fileID: 389871334}
+  tutorialsScreen: {fileID: 35817892}
   bookOpenSound: {fileID: 8300000, guid: 914a4a2a124d040df96bf13308aadc2e, type: 3}
   selectSound: {fileID: 8300000, guid: 33b6cd7837c7642958dac012307e9086, type: 3}
   buySound: {fileID: 8300000, guid: a6b96b8ff0a354589a034b674322e457, type: 3}
   createPotionSound: {fileID: 8300000, guid: 61e73f3e692c640eb9f9c7ee724ac862, type: 3}
   pickupSound: {fileID: 8300000, guid: ca056d4afe5e74498a0798f16e0e866d, type: 3}
-  messageBox: {fileID: 118511978}
-  emptySlots:
-  - {fileID: 1041073922}
-  - {fileID: 1729903253}
-  - {fileID: 1485271494}
-  - {fileID: 188421767}
-  - {fileID: 1556128027}
-  - {fileID: 348486693}
-  - {fileID: 1684463937}
-  - {fileID: 917250054}
-  - {fileID: 744260130}
-  - {fileID: 1522877124}
-  - {fileID: 1486968627}
-  - {fileID: 268520820}
-  - {fileID: 214914080}
-  - {fileID: 912691217}
-  - {fileID: 657324197}
-  - {fileID: 29598257}
-  icons:
-  - {fileID: 21300000, guid: ec965f7c053f6d34eb94e932a624102e, type: 3}
-  - {fileID: 21300000, guid: 5e177665bd4388d4da657c9a247a6c84, type: 3}
-  - {fileID: 21300000, guid: 06356f26740f8d148a9d57a978d61c92, type: 3}
-  - {fileID: 21300000, guid: 2d5120ca8c57a904d9da8ef48cc9d1de, type: 3}
-  - {fileID: 21300000, guid: f82a56df6c2e8e24ba77dc599e060368, type: 3}
-  - {fileID: 21300000, guid: 6b8d848fdbc086b41bafaefdb75520f2, type: 3}
-  - {fileID: 21300000, guid: fd7668072598aeb43ac0967f25a8ae40, type: 3}
-  - {fileID: 21300000, guid: 75b4ee3f5124f71489fece9cc2b41a44, type: 3}
-  - {fileID: 21300000, guid: 5f1c6520e9240fa46bf91bd520dcdd04, type: 3}
-  - {fileID: 21300000, guid: ca74c63de63229d4db9595360ac5650a, type: 3}
-  - {fileID: 21300000, guid: 20627cc2f0e85064fa9501481e26ba14, type: 3}
-  - {fileID: 21300000, guid: f11b8a77cf6408e478fe166826d1dbbc, type: 3}
-  - {fileID: 21300000, guid: 326f8155351930749891de34b4a99072, type: 3}
-  - {fileID: 21300000, guid: 3bc04ada4c40b844daa2b01c5723baa0, type: 3}
-  - {fileID: 21300000, guid: 4f08f7c151a583a45964dcb5248e4c92, type: 3}
-  - {fileID: 21300000, guid: 131b4bf5807ccda4dbdf2a59a8f50345, type: 3}
-  - {fileID: 21300000, guid: 4a45eaaad54fb994fa0e68a8f6d0d018, type: 3}
-  emptyIcon: {fileID: 21300000, guid: ec965f7c053f6d34eb94e932a624102e, type: 3}
-  canvas: {fileID: 566674158}
-  entry: 
-  items:
-  - 
-  - redMushrooms
-  - purpleMushrooms
-  - brownMushrooms
-  - bluePlants
-  - redFlowers
-  - roots
-  - leafDew
-  - key
-  - dragonEgg
-  - redPotion
-  - bluePotion
-  - greenPotion
-  - purplePotion
-  - bread
-  - cheese
-  - meat
-  currentID: 0
-  checkAmount: 0
-  selected: 0
-  UISlot:
-  - {fileID: 1350741040}
-  - {fileID: 1061681537}
-  - {fileID: 1888194195}
-  - {fileID: 1967062755}
-  - {fileID: 749232211}
-  - {fileID: 1972851335}
-  - {fileID: 92276251}
-  - {fileID: 1059904627}
-  magicIcons:
-  - {fileID: 21300000, guid: a0c2461c58596fb439870f353ca3f5cf, type: 3}
-  - {fileID: 21300000, guid: 551e931c24a892640aef85a6a1bddf42, type: 3}
-  - {fileID: 21300000, guid: 0a861f23ebc55fe4f89f892b30cbf645, type: 3}
-  - {fileID: 21300000, guid: 9af2fac7e79244542860421e3c741389, type: 3}
-  - {fileID: 21300000, guid: ab0a6295fe882b747a52674e9e2ba4c0, type: 3}
-  - {fileID: 21300000, guid: 73f7f6a6c502244449220e7de5a3b097, type: 3}
-  spellIcons:
-  - {fileID: 21300000, guid: 686d05dde76389448abbb469b664bef0, type: 3}
-  - {fileID: 21300000, guid: 12325bf2ea2b9cc439a6a9ea8cb4f98b, type: 3}
-  - {fileID: 21300000, guid: cfa9d657db891ff4893c29609f421b7b, type: 3}
-  - {fileID: 21300000, guid: 42296c262cf002a4fa69b56a3dcafb7b, type: 3}
-  - {fileID: 21300000, guid: b5511ead458e7034287d8eb4084a6ea9, type: 3}
-  - {fileID: 21300000, guid: 7a230c6f02afbb7438272b7c55c12238, type: 3}
-  keys: 3100000032000000330000003400000035000000360000003700000038000000
-  magicAttack: 0000000000000000000000000000000000000000000000000000000000000000
-  set: 0
-  setTwo: 0
   magicParticles:
   - {fileID: 5086780353599930656, guid: f44dfdf888b8cf743b3cd9d190f47343, type: 3}
   - {fileID: 7154695888820093293, guid: fea7e17eb9ebed24f8e6de3713cdd2ea, type: 3}
@@ -133023,12 +132942,93 @@ MonoBehaviour:
   - {fileID: 1145307849}
   - {fileID: 146901267}
   - {fileID: 1641761883}
-  mapScreen: {fileID: 1862960580}
-  mapCamera: {fileID: 1738003854}
-  magicUI: {fileID: 1608643810}
-  spellsUI: {fileID: 1966171562}
-  optionsScreen: {fileID: 389871334}
-  tutorialsScreen: {fileID: 35817892}
+  messageBox: {fileID: 118511978}
+  emptySlots:
+  - {fileID: 1041073922}
+  - {fileID: 1729903253}
+  - {fileID: 1485271494}
+  - {fileID: 188421767}
+  - {fileID: 1556128027}
+  - {fileID: 348486693}
+  - {fileID: 1684463937}
+  - {fileID: 917250054}
+  - {fileID: 744260130}
+  - {fileID: 1522877124}
+  - {fileID: 1486968627}
+  - {fileID: 268520820}
+  - {fileID: 214914080}
+  - {fileID: 912691217}
+  - {fileID: 657324197}
+  - {fileID: 29598257}
+  icons:
+  - {fileID: 21300000, guid: ec965f7c053f6d34eb94e932a624102e, type: 3}
+  - {fileID: 21300000, guid: 5e177665bd4388d4da657c9a247a6c84, type: 3}
+  - {fileID: 21300000, guid: 06356f26740f8d148a9d57a978d61c92, type: 3}
+  - {fileID: 21300000, guid: 2d5120ca8c57a904d9da8ef48cc9d1de, type: 3}
+  - {fileID: 21300000, guid: f82a56df6c2e8e24ba77dc599e060368, type: 3}
+  - {fileID: 21300000, guid: 6b8d848fdbc086b41bafaefdb75520f2, type: 3}
+  - {fileID: 21300000, guid: fd7668072598aeb43ac0967f25a8ae40, type: 3}
+  - {fileID: 21300000, guid: 75b4ee3f5124f71489fece9cc2b41a44, type: 3}
+  - {fileID: 21300000, guid: 5f1c6520e9240fa46bf91bd520dcdd04, type: 3}
+  - {fileID: 21300000, guid: ca74c63de63229d4db9595360ac5650a, type: 3}
+  - {fileID: 21300000, guid: 20627cc2f0e85064fa9501481e26ba14, type: 3}
+  - {fileID: 21300000, guid: f11b8a77cf6408e478fe166826d1dbbc, type: 3}
+  - {fileID: 21300000, guid: 326f8155351930749891de34b4a99072, type: 3}
+  - {fileID: 21300000, guid: 3bc04ada4c40b844daa2b01c5723baa0, type: 3}
+  - {fileID: 21300000, guid: 4f08f7c151a583a45964dcb5248e4c92, type: 3}
+  - {fileID: 21300000, guid: 131b4bf5807ccda4dbdf2a59a8f50345, type: 3}
+  - {fileID: 21300000, guid: 4a45eaaad54fb994fa0e68a8f6d0d018, type: 3}
+  emptyIcon: {fileID: 21300000, guid: ec965f7c053f6d34eb94e932a624102e, type: 3}
+  UISlot:
+  - {fileID: 1350741040}
+  - {fileID: 1061681537}
+  - {fileID: 1888194195}
+  - {fileID: 1967062755}
+  - {fileID: 749232211}
+  - {fileID: 1972851335}
+  - {fileID: 92276251}
+  - {fileID: 1059904627}
+  magicIcons:
+  - {fileID: 21300000, guid: a0c2461c58596fb439870f353ca3f5cf, type: 3}
+  - {fileID: 21300000, guid: 551e931c24a892640aef85a6a1bddf42, type: 3}
+  - {fileID: 21300000, guid: 0a861f23ebc55fe4f89f892b30cbf645, type: 3}
+  - {fileID: 21300000, guid: 9af2fac7e79244542860421e3c741389, type: 3}
+  - {fileID: 21300000, guid: ab0a6295fe882b747a52674e9e2ba4c0, type: 3}
+  - {fileID: 21300000, guid: 73f7f6a6c502244449220e7de5a3b097, type: 3}
+  spellIcons:
+  - {fileID: 21300000, guid: 686d05dde76389448abbb469b664bef0, type: 3}
+  - {fileID: 21300000, guid: 12325bf2ea2b9cc439a6a9ea8cb4f98b, type: 3}
+  - {fileID: 21300000, guid: cfa9d657db891ff4893c29609f421b7b, type: 3}
+  - {fileID: 21300000, guid: 42296c262cf002a4fa69b56a3dcafb7b, type: 3}
+  - {fileID: 21300000, guid: b5511ead458e7034287d8eb4084a6ea9, type: 3}
+  - {fileID: 21300000, guid: 7a230c6f02afbb7438272b7c55c12238, type: 3}
+  keys: 3100000032000000330000003400000035000000360000003700000038000000
+  magicAttack: 0000000000000000000000000000000000000000000000000000000000000000
+  set: 0
+  setTwo: 0
+  selected: 0
+  canvas: {fileID: 566674158}
+  entry: 
+  items:
+  - 
+  - redMushrooms
+  - purpleMushrooms
+  - brownMushrooms
+  - bluePlants
+  - redFlowers
+  - roots
+  - leafDew
+  - key
+  - dragonEgg
+  - redPotion
+  - bluePotion
+  - greenPotion
+  - purplePotion
+  - bread
+  - cheese
+  - meat
+  currentID: 0
+  checkAmount: 0
 --- !u!82 &1254140531
 AudioSource:
   m_ObjectHideFlags: 0
@@ -133825,6 +133825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 10
   thisImage: {fileID: 0}
   initialColour:
@@ -133833,7 +133834,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &1259720531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -135118,14 +135118,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 1
   spells: 0
   left: 0
@@ -140733,6 +140733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 5
   thisImage: {fileID: 0}
   initialColour:
@@ -140741,7 +140742,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &1320794653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -142496,12 +142496,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c643e3380d32a847905ca622ff64a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponNumber: 0
-  armourNumber: 1
-  weaponCost: 400
   currencyText: {fileID: 729948966}
   inventoryObject: {fileID: 0}
   audioSource: {fileID: 0}
+  weaponNumber: 0
+  armourNumber: 1
+  weaponCost: 400
 --- !u!114 &1341782654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145507,7 +145507,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-397468
+  m_Name: pb_Mesh-2428512
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -145866,7 +145866,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-399514
+  m_Name: pb_Mesh-2430558
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -147041,12 +147041,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ffefcf11a4360b46bb4e4730b4c7b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 1720110995}
-  currencyText: {fileID: 43247649}
-  killAmountText: {fileID: 1097943643}
-  strengthBar: {fileID: 1946466037}
-  manaBar: {fileID: 1793497140}
-  staminaBar: {fileID: 467272960}
+  items:
+  - {fileID: 1173188391}
+  - {fileID: 1720612412}
   weaponButtons:
   - {fileID: 1873233117}
   - {fileID: 1482631423}
@@ -147055,10 +147052,13 @@ MonoBehaviour:
   - {fileID: 1255125009}
   - {fileID: 191511738}
   inventoryObject: {fileID: 1254140525}
+  nameText: {fileID: 1720110995}
+  currencyText: {fileID: 43247649}
+  killAmountText: {fileID: 1097943643}
+  strengthBar: {fileID: 1946466037}
+  manaBar: {fileID: 1793497140}
+  staminaBar: {fileID: 467272960}
   updateWeapons: 1
-  items:
-  - {fileID: 1173188391}
-  - {fileID: 1720612412}
 --- !u!1001 &1390760361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -147263,7 +147263,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-396848
+  m_Name: pb_Mesh-2427892
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -147427,7 +147427,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-383616
+  m_Name: pb_Mesh-2414660
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -149287,6 +149287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 5
   thisImage: {fileID: 0}
   initialColour:
@@ -149295,7 +149296,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &1411603156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149638,7 +149638,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-379004
+  m_Name: pb_Mesh-2410048
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -150448,12 +150448,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c643e3380d32a847905ca622ff64a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponNumber: 3
-  armourNumber: 0
-  weaponCost: 275
   currencyText: {fileID: 729948966}
   inventoryObject: {fileID: 0}
   audioSource: {fileID: 0}
+  weaponNumber: 3
+  armourNumber: 0
+  weaponCost: 275
 --- !u!114 &1422894544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150613,12 +150613,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c643e3380d32a847905ca622ff64a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponNumber: 2
-  armourNumber: 0
-  weaponCost: 220
   currencyText: {fileID: 729948966}
   inventoryObject: {fileID: 0}
   audioSource: {fileID: 0}
+  weaponNumber: 2
+  armourNumber: 0
+  weaponCost: 220
 --- !u!114 &1424338697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151373,7 +151373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdddec5e0b8b2b408ef10b86cbe27a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
   particleEffect: {fileID: 1500378020736912, guid: 2547a66872ebe45408ace228820a79e1, type: 3}
   particlesPoint: {fileID: 1462087363}
   textCanvas: {fileID: 461879923}
@@ -151382,6 +151381,7 @@ MonoBehaviour:
   inventoryObject: {fileID: 0}
   goldAmountText: {fileID: 846170658}
   openChestClip: {fileID: 8300000, guid: c0cabce778ad54792bba3a0ca6765417, type: 3}
+  speed: 1
 --- !u!95 &1432560047
 Animator:
   serializedVersion: 4
@@ -152077,14 +152077,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 34
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 34
   magic: 0
   spells: 1
   left: 0
@@ -152588,14 +152588,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 35
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 35
   magic: 0
   spells: 1
   left: 0
@@ -155418,11 +155418,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c9855ac0f988c47bc70ff7f4a6cb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  question: {fileID: 2127386706}
+  question2: {fileID: 319523985}
   messageBox: {fileID: 118511978}
   shopNumber: 6
   answer: collect chest and crate treasures.
-  question: {fileID: 2127386706}
-  question2: {fileID: 319523985}
 --- !u!54 &1465621281
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -157813,14 +157813,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -158098,14 +158098,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -160845,6 +160845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 10
   thisImage: {fileID: 0}
   initialColour:
@@ -160853,7 +160854,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &1520723919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161062,14 +161062,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -161685,6 +161685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 6
   thisImage: {fileID: 0}
   initialColour:
@@ -161693,7 +161694,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &1532265805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -161976,14 +161976,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 1
   spells: 0
   left: 1
@@ -164556,6 +164556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 5
   thisImage: {fileID: 0}
   initialColour:
@@ -164564,7 +164565,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &1552908183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -164917,14 +164917,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -165879,11 +165879,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c9855ac0f988c47bc70ff7f4a6cb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  question: {fileID: 2127386706}
+  question2: {fileID: 319523985}
   messageBox: {fileID: 118511978}
   shopNumber: 3
   answer: the monster killed the children of the village.
-  question: {fileID: 2127386706}
-  question2: {fileID: 319523985}
 --- !u!54 &1567345849
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -169899,7 +169899,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-397444
+  m_Name: pb_Mesh-2428488
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -170935,7 +170935,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdddec5e0b8b2b408ef10b86cbe27a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
   particleEffect: {fileID: 1500378020736912, guid: 2547a66872ebe45408ace228820a79e1, type: 3}
   particlesPoint: {fileID: 1743179134}
   textCanvas: {fileID: 1091875597}
@@ -170944,6 +170943,7 @@ MonoBehaviour:
   inventoryObject: {fileID: 0}
   goldAmountText: {fileID: 258213453}
   openChestClip: {fileID: 8300000, guid: c0cabce778ad54792bba3a0ca6765417, type: 3}
+  speed: 1
 --- !u!95 &1611072477
 Animator:
   serializedVersion: 4
@@ -172118,7 +172118,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-362528
+  m_Name: pb_Mesh-2393572
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -173714,7 +173714,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-396518
+  m_Name: pb_Mesh-2427562
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -174117,12 +174117,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c643e3380d32a847905ca622ff64a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponNumber: 1
-  armourNumber: 0
-  weaponCost: 195
   currencyText: {fileID: 729948966}
   inventoryObject: {fileID: 0}
   audioSource: {fileID: 0}
+  weaponNumber: 1
+  armourNumber: 0
+  weaponCost: 195
 --- !u!114 &1649855316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174710,14 +174710,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 1
   spells: 0
   left: 1
@@ -177696,14 +177696,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -177821,6 +177821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 10
   thisImage: {fileID: 0}
   initialColour:
@@ -177829,7 +177830,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &1685354537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179095,6 +179095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 13
   thisImage: {fileID: 0}
   initialColour:
@@ -179103,7 +179104,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &1698331171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179369,6 +179369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 7
   thisImage: {fileID: 0}
   initialColour:
@@ -179377,7 +179378,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &1699115486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179516,6 +179516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 5
   thisImage: {fileID: 0}
   initialColour:
@@ -179524,7 +179525,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &1699626323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -179681,7 +179681,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-397496
+  m_Name: pb_Mesh-2428540
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -180803,6 +180803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 13
   thisImage: {fileID: 0}
   initialColour:
@@ -180811,7 +180812,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &1713321356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181290,14 +181290,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 33
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 33
   magic: 0
   spells: 1
   left: 0
@@ -181313,10 +181313,10 @@ GameObject:
   - component: {fileID: 1715846642}
   - component: {fileID: 1715846648}
   - component: {fileID: 1715846641}
-  - component: {fileID: 1715846647}
   - component: {fileID: 1715846645}
   - component: {fileID: 1715846644}
   - component: {fileID: 1715846646}
+  - component: {fileID: 1715846647}
   - component: {fileID: 1715846649}
   m_Layer: 9
   m_Name: Main Camera
@@ -182928,14 +182928,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 0
   spells: 0
   left: 1
@@ -184064,12 +184064,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c643e3380d32a847905ca622ff64a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponNumber: 4
-  armourNumber: 0
-  weaponCost: 325
   currencyText: {fileID: 729948966}
   inventoryObject: {fileID: 0}
   audioSource: {fileID: 0}
+  weaponNumber: 4
+  armourNumber: 0
+  weaponCost: 325
 --- !u!114 &1736683247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184420,6 +184420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 1
   thisImage: {fileID: 0}
   initialColour:
@@ -184428,7 +184429,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &1742448680 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7306927151969918217, guid: a209537fb73172f408d67fc2525630cd, type: 3}
@@ -185122,7 +185122,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-383576
+  m_Name: pb_Mesh-2414620
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -188753,7 +188753,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-400530
+  m_Name: pb_Mesh-2431574
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -189825,6 +189825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 4
   thisImage: {fileID: 0}
   initialColour:
@@ -189833,7 +189834,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &1781093477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -190152,7 +190152,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-379056
+  m_Name: pb_Mesh-2410100
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -192320,7 +192320,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-383588
+  m_Name: pb_Mesh-2414632
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -194304,6 +194304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 2
   thisImage: {fileID: 0}
   initialColour:
@@ -194312,7 +194313,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &1826057507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -194937,6 +194937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 6
   thisImage: {fileID: 0}
   initialColour:
@@ -194945,7 +194946,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &1838179290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -205683,7 +205683,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-378980
+  m_Name: pb_Mesh-2410024
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -208843,12 +208843,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c643e3380d32a847905ca622ff64a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponNumber: 5
-  armourNumber: 0
-  weaponCost: 300
   currencyText: {fileID: 729948966}
   inventoryObject: {fileID: 0}
   audioSource: {fileID: 0}
+  weaponNumber: 5
+  armourNumber: 0
+  weaponCost: 300
 --- !u!114 &1977121702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209601,7 +209601,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-352518
+  m_Name: pb_Mesh-2383562
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -210110,11 +210110,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c9855ac0f988c47bc70ff7f4a6cb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  question: {fileID: 2127386706}
+  question2: {fileID: 319523985}
   messageBox: {fileID: 118511978}
   shopNumber: 1
   answer: the beast in the mountains took their lives.
-  question: {fileID: 2127386706}
-  question2: {fileID: 319523985}
 --- !u!54 &1986402599
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -210811,7 +210811,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-362254
+  m_Name: pb_Mesh-2393298
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -213497,7 +213497,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-417958
+  m_Name: pb_Mesh-2449002
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -213707,6 +213707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 12
   thisImage: {fileID: 0}
   initialColour:
@@ -213715,7 +213716,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &2022480501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215437,6 +215437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 10
   thisImage: {fileID: 0}
   initialColour:
@@ -215445,7 +215446,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!4 &2049725182 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 930084419129322381, guid: f5cc3d0859e1cea4eb98548110ffe910, type: 3}
@@ -215523,7 +215523,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-378054
+  m_Name: pb_Mesh-2409098
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -217756,6 +217756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 9
   thisImage: {fileID: 0}
   initialColour:
@@ -217764,7 +217765,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!114 &2069408351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218293,7 +218293,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-397456
+  m_Name: pb_Mesh-2428500
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -220767,6 +220767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 566674158}
+  inventory: {fileID: 1254140525}
   objectID: 2
   thisImage: {fileID: 0}
   initialColour:
@@ -220775,7 +220776,6 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4294967295
-  inventory: {fileID: 1254140525}
 --- !u!1001 &2109845388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -221416,7 +221416,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-383564
+  m_Name: pb_Mesh-2414608
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -223383,14 +223383,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintBox: {fileID: 602616377}
-  message: {fileID: 736239370}
-  objectType: 0
   canvas: {fileID: 566674158}
+  inventoryObject: {fileID: 1254140525}
   cursorBasic: {fileID: 21300000, guid: 51cb6ee928f89b64691ef4dfd57c03e9, type: 3}
   cursorHand: {fileID: 21300000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
   cursorImage: {fileID: 1675399299}
   audioSource: {fileID: 0}
-  inventoryObject: {fileID: 1254140525}
+  message: {fileID: 736239370}
+  objectType: 0
   magic: 1
   spells: 0
   left: 0
@@ -227359,7 +227359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdddec5e0b8b2b408ef10b86cbe27a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
   particleEffect: {fileID: 1500378020736912, guid: 2547a66872ebe45408ace228820a79e1, type: 3}
   particlesPoint: {fileID: 261798430}
   textCanvas: {fileID: 1190221494}
@@ -227368,6 +227367,7 @@ MonoBehaviour:
   inventoryObject: {fileID: 0}
   goldAmountText: {fileID: 652058224}
   openChestClip: {fileID: 8300000, guid: c0cabce778ad54792bba3a0ca6765417, type: 3}
+  speed: 1
 --- !u!54 &3475690212481634564
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -227611,7 +227611,7 @@ MonoBehaviour:
   - {fileID: 3964360301908496587}
   - {fileID: 3964360302335012671}
   mainCamera: {fileID: 0}
-  reSpawn: 1
+  reSpawn: 0
   endGameList: []
 --- !u!1 &3964360301704981766
 GameObject:

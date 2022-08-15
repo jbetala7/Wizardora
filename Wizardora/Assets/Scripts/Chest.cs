@@ -4,19 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Chest : MonoBehaviour
 {
-    private int goldAmount;
-    private int goldDisplay;
-    public float speed = 1.0f;
     public GameObject particleEffect;
     public GameObject particlesPoint;
     public GameObject textCanvas;
     public GameObject imageCanvas;
     public GameObject mainCamera;
+    [HideInInspector]
     public GameObject inventoryObject;
     public Text goldAmountText;
     private Animator animator;
     public AudioClip openChestClip;
-
+    private int goldAmount;
+    private int goldDisplay;
+    public float speed = 1.0f;
 
     // Start is called before the first frame update
     void Start()

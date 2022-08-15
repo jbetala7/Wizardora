@@ -6,6 +6,7 @@ public class EnemySpawn : MonoBehaviour
 {
     public GameObject[] enemies;
     public Transform[] spawnPoints;
+    [HideInInspector]
     public GameObject mainCamera;
     private bool canSpawn = true;
     public bool reSpawn = true;
@@ -33,12 +34,9 @@ public class EnemySpawn : MonoBehaviour
         {
             if(canSpawn == false)
             {
-                if(reSpawn == true)
-                {
-                    canSpawn = true;
-                    mainCamera.GetComponent<AudioManager>().musicState = 1;
-                    mainCamera.GetComponent<AudioManager>().canPlay = true;
-                }
+                canSpawn = true;
+                mainCamera.GetComponent<AudioManager>().musicState = 1;
+                mainCamera.GetComponent<AudioManager>().canPlay = true;
             }
         }
         if (endGameList.Count <= 0 && areEnemiesSpawn)

@@ -6,8 +6,11 @@ using UnityEngine.SceneManagement;
 public class WinGame : MonoBehaviour
 {
     public static WinGame Instance {get;set;}
+    [HideInInspector]
     public GameObject myCamera;
+    [HideInInspector]
     public bool isWinGame = false;
+    [HideInInspector]
     public Animator animator;
 
     void Awake()

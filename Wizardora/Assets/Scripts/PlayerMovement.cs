@@ -7,45 +7,40 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject[] playerObjects;
+    public GameObject[] weapons;
+    public GameObject[] armourTorso;
+    public GameObject[] armourLegs;
+    public GameObject firePoint;
     public NavMeshAgent agent;
+    public GameObject staticCamera;
+    public GameObject freeCamera;
+    public GameObject hitEffect;
     private Animator animator;
+    public AudioSource audioSource;
+    public AudioClip[] weaponSounds;
     private Ray ray;
     private RaycastHit hit;
-
     private float x;
     private float z;
     private float velocitySpeed;
-
+    private bool freeCameraActive = false;
+    private AnimatorStateInfo playerInfo;
+    private GameObject trailObject;
+    private float currentHealth = 1.0f;
+    private WaitForSeconds approachEnemy = new WaitForSeconds(0.3f);
+    private WaitForSeconds trailTimeOff = new WaitForSeconds(0.1f);
+    private WaitForSeconds hitOff = new WaitForSeconds(0.5f);
     CinemachineTransposer transposer;
     CinemachineOrbitalTransposer transposer1;
     private Vector3 position;
     private Vector3 currentPosition;
     private string axisNamed = "Mouse X";
-
+    public float[] staminaCost;
     public static bool canMove = true;
     public static bool isMoving = false;
     public LayerMask moveLayer;
-
-    public GameObject staticCamera;
-    public GameObject freeCamera;
-    private bool freeCameraActive = false;
-
-    public GameObject firePoint;
-    private WaitForSeconds approachEnemy = new WaitForSeconds(0.3f);
-    public GameObject[] playerObjects;
-    public GameObject[] weapons;
-    public GameObject[] armourTorso;
-    public GameObject[] armourLegs;
     public string[] attacks;
-    private AnimatorStateInfo playerInfo;
-    public AudioSource audioSource;
-    public AudioClip[] weaponSounds;
-    private GameObject trailObject;
-    private WaitForSeconds trailTimeOff = new WaitForSeconds(0.1f);
-    public float[] staminaCost;
-    private float currentHealth = 1.0f;
-    public GameObject hitEffect;
-    private WaitForSeconds hitOff = new WaitForSeconds(0.5f);
 
     // Start is called before the first frame update
     void Start()
@@ -202,6 +197,10 @@ public class PlayerMovement : MonoBehaviour
                 {
                     playerObjects[i].SetActive(false);
                 }
+                if(SaveScript.carryingWeapon == true)
+                {
+                    weapons[SaveScript.weaponChoice].SetActive(false);
+                }
             }
         }
         if (SaveScript.manaAmount <= 0.1)
@@ -212,6 +211,10 @@ public class PlayerMovement : MonoBehaviour
                 {
                     playerObjects[i].SetActive(true);
                     SaveScript.changeArmour = true;
+                }
+                if (SaveScript.carryingWeapon == true)
+                {
+                    weapons[SaveScript.weaponChoice].SetActive(true);
                 }
             }
         }

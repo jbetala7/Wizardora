@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class SaveScript : MonoBehaviour
 {
-    public static int pCharacter = 0;
-    public static string pName = "player";
     public static GameObject firePoint;
     public static GameObject enemyTarget;
+    public static int pCharacter = 0;
+    public static string pName = "player";
     public static float manaAmount = 1.0f;
     public static float staminaAmount = 1.0f;
     public static float strengthPowerAmount = 0.1f;
@@ -34,7 +34,7 @@ public class SaveScript : MonoBehaviour
 
     public static bool saving = false;
     public static bool continueData = false;
-    private bool checkForLoad = false;
+    public static bool checkForLoad = false;
     private GameObject inventoryObject;
 
     //public save data

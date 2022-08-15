@@ -6,14 +6,14 @@ public class CollectBook : MonoBehaviour
 {
     public GameObject magicUI;
     public GameObject spellsUI;
-    public static bool magicCollected = false;
-    public static bool spellsCollected = false;
-    public bool magicBook = false;
-    public bool spellsBook = false;
     public GameObject magicBookMessage;
     public GameObject spellBookMessage;
     public GameObject inventoryObject;
     public AudioClip openBook;
+    public static bool magicCollected = false;
+    public static bool spellsCollected = false;
+    public bool magicBook = false;
+    public bool spellsBook = false;
 
     // Start is called before the first frame update
     void Start()

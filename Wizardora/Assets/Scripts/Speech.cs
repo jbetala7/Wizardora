@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Speech : MonoBehaviour
 {
-    public GameObject messageBox;
-    public int shopNumber = 0;
-    public string answer;
     public GameObject question;
     public GameObject question2;
-    private bool haveRead = false;
+    public GameObject messageBox;
     private GameObject miniMapView;
     private GameObject miniMapCompass;
     private GameObject inventoryObject;
+    private bool haveRead = false;
+    public int shopNumber = 0;
+    public string answer;
 
     private void Start()
     {

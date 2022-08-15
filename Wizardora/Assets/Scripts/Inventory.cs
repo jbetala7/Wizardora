@@ -13,25 +13,38 @@ public class Inventory : MonoBehaviour
     public GameObject statsScreen;
     public GameObject deedsScreen;
     public GameObject characterDisplay;
-    private AudioSource audioSource;
+    public GameObject mapScreen;
+    public GameObject mapCamera;
+    public GameObject magicUI;
+    public GameObject spellsUI;
+    public GameObject optionsScreen;
+    public GameObject tutorialsScreen;
     public AudioClip bookOpenSound;
     public AudioClip selectSound;
     public AudioClip buySound;
     public AudioClip createPotionSound;
     public AudioClip pickupSound;
-
+    public GameObject[] magicParticles;
+    public AudioClip[] magicSounds;
+    public Image manaBar;
+    public Image staminaBar;
+    public Image healthBar;
+    public bool[] weapons;
+    public Text[] messages;
+    private AudioSource audioSource;
+    private int maxFour;
+    private GameObject miniMapView;
+    private GameObject miniMapCompass;
+    private bool optionsOpen = false;
     private GameObject playerObject;
     private Animator playerAnimation;
     private float weightAmount = 1.0f;
     private bool changeWeight = false;
     private AnimatorStateInfo playerInfo;
-
     public GameObject messageBox;
-
     public Image[] emptySlots;
     public Sprite[] icons;
     public Sprite emptyIcon;
-
     public static int redMushrooms = 0;
     public static int purpleMushrooms = 0;
     public static int brownMushrooms = 0;
@@ -48,29 +61,9 @@ public class Inventory : MonoBehaviour
     public static int bread = 0;
     public static int cheese = 0;
     public static int meat = 0;
-
-
     public static int newIcon = 0;
-    public static int gold = 7000;
+    public static int gold = 700;
     public static bool iconUpdate = false;
-    private int max;
-    public GameObject canvas;
-
-    [HideInInspector]
-    public string entry;
-
-    public string[] items;
-
-    [HideInInspector]
-    public int currentID = 0;
-    [HideInInspector]
-    public int checkAmount = 0;
-    [HideInInspector]
-    public int selected = 0;
-
-    private int maxTwo;
-    private int maxThree;
-
     public Image[] UISlot;
     public Sprite[] magicIcons;
     public Sprite[] spellIcons;
@@ -78,24 +71,20 @@ public class Inventory : MonoBehaviour
     public int[] magicAttack;
     public bool set = false;
     public bool setTwo = false;
-
-    public GameObject[] magicParticles;
-    public AudioClip[] magicSounds;
-    public Image manaBar;
-    public Image staminaBar;
-    public Image healthBar;
-    public bool[] weapons;
-    public Text[] messages;
-    private int maxFour;
-    private GameObject miniMapView;
-    private GameObject miniMapCompass;
-    public GameObject mapScreen;
-    public GameObject mapCamera;
-    public GameObject magicUI;
-    public GameObject spellsUI;
-    public GameObject optionsScreen;
-    public GameObject tutorialsScreen;
-    private bool optionsOpen = false;
+    public int selected = 0;
+    public GameObject canvas;
+    [HideInInspector]
+    public string entry;
+    public string[] items;
+    [HideInInspector]
+    public int currentID = 0;
+    [HideInInspector]
+    public int checkAmount = 0;
+    [HideInInspector]
+    private int max;
+    private int maxTwo;
+    private int maxThree;
+    
 
     private void Awake()
     {

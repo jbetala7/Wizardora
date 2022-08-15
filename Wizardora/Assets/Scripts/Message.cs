@@ -13,7 +13,6 @@ public class Message : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public GameObject[] shopUI;
     public string shopMessage;
     public GameObject inventoryObject;
-
     [HideInInspector]
     public int shopNumber = 0;
 

@@ -5,14 +5,13 @@ using UnityEngine.UI;
 
 public class BuyWeapons : MonoBehaviour
 {
+    public Text currencyText;
+    public GameObject inventoryObject;
+    [HideInInspector]
+    public AudioSource audioSource;
     public int weaponNumber;
     public int armourNumber;
     public int weaponCost;
-    public Text currencyText;
-    public GameObject inventoryObject;
-
-    [HideInInspector]
-    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()

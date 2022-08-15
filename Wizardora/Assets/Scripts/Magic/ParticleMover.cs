@@ -6,22 +6,22 @@ public class ParticleMover : MonoBehaviour
 {
     public GameObject target;
     public GameObject obj;
+    public GameObject lastObject;
+    private GameObject playerObject;
+    private GameObject saveTarget;
     public float speed = 4f;
     public float lifetime = 2f;
     public bool enemySeeker = false;
     public bool notMoving = false;
     public bool followPlayer = false;
-    private GameObject playerObject;
-    private GameObject saveTarget;
     public float manaDecreaseRate = 0.07f;
     public bool invisibility = false;
     public bool invulnerability = false;
     public bool healing = false;
     public bool strength = false;
     public int damageAmount = 30;
-    public GameObject lastObject;
-    private bool replenish= false;
     public bool fireball = false;
+    private bool replenish = false;
 
     // Start is called before the first frame update
     private void Start()

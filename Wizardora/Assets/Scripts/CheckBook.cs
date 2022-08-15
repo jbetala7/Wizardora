@@ -6,7 +6,6 @@ public class CheckBook : MonoBehaviour
 {
     public GameObject magicBook;
     public GameObject spellBook;
-
     void Start()
     {
         if(GameObject.Find("SaveObject").GetComponent<SaveScript>().magicCollectedS == true && magicBook != null)

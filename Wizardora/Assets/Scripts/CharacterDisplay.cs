@@ -6,7 +6,6 @@ public class CharacterDisplay : MonoBehaviour
 {
     public GameObject[] charactersDisplay;
 
-
     // Start is called before the first frame update
     void Start()
     {

@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class CreatePotion : MonoBehaviour
 {
-    public int[] values;
     private int max;
     private int maxTwo;
-    public GameObject inventoryObject;
+    public int[] values;
     public Image[] emptySlots;
     public Sprite[] icons;
     public Sprite emptyIcon;
+    public GameObject inventoryObject;
 
     [HideInInspector]
     public int expectedValue;

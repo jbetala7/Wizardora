@@ -42,8 +42,9 @@ public class DeathScreen : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         SaveScript.playerHealth = 1.0f;
-        SaveScript.instance = 0;
-        saveObject = GameObject.Find("SaveObject");
+        SaveScript.checkForLoad = true;
+        //SaveScript.instance = 0;
+        //saveObject = GameObject.Find("SaveObject");
     }
 
     public void No()

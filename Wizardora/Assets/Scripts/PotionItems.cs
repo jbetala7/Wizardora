@@ -6,16 +6,14 @@ using UnityEngine.UI;
 public class PotionItems : MonoBehaviour
 {
     public GameObject canvas;
+    public GameObject inventory;
     public int objectID;
-
     [HideInInspector]
     public Image thisImage;
     [HideInInspector]
     public Color32 initialColour = new Color32(255, 255, 255, 120);
     [HideInInspector]
     public Color32 endColour = new Color32(255, 255, 255, 255);
-
-    public GameObject inventory;
     private bool check = true;
 
     // Start is called before the first frame update

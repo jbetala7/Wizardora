@@ -8,26 +8,23 @@ public class HintMessage : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 {
 
     public GameObject hintBox;
-    public Text message;
-    private bool displaying = true;
-    private bool overIcon = false;
-    public int objectType = 0;
-
-    private Vector3 screenPoint;
     public GameObject canvas;
+    public GameObject inventoryObject;
     public Sprite cursorBasic;
     public Sprite cursorHand;
     public Image cursorImage;
+    [HideInInspector]
     public AudioSource audioSource;
-
-    public GameObject inventoryObject;
+    public Text message;
+    private Camera inventoryCamera;
+    private Vector3 screenPoint;
+    private float distanceText;
+    private bool displaying = true;
+    private bool overIcon = false;
+    public int objectType = 0;
     public bool magic = false;
     public bool spells = false;
     public bool left = true;
-
-    private Camera inventoryCamera;
-
-    private float distanceText;
 
     public void OnPointerEnter(PointerEventData eventData)
     {

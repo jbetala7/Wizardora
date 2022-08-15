@@ -21,8 +21,8 @@ public class EnemyAttack : MonoBehaviour
         {
             if(canAttack == true && SaveScript.invulnerable == false)
             {
-                other.GetComponent<Animator>().SetTrigger("hurt");
-                other.GetComponent<PlayerMovement>().agent.isStopped = true;
+                //other.GetComponent<Animator>().SetTrigger("hurt");
+                //other.GetComponent<PlayerMovement>().agent.isStopped = true;
                 canAttack = false;
                 SaveScript.playerHealth -= damageAmount - SaveScript.armourValue;
                 audioSource.Play();
