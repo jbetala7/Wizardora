@@ -34,7 +34,10 @@ public class EnemySpawn : MonoBehaviour
         {
             if(canSpawn == false)
             {
-                canSpawn = true;
+                if(reSpawn == true)
+                {
+                    canSpawn = true;
+                }
                 mainCamera.GetComponent<AudioManager>().musicState = 1;
                 mainCamera.GetComponent<AudioManager>().canPlay = true;
             }
